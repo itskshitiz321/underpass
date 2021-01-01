@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['mainpage_72',['mainpage',['../index.html',1,'']]],
+  ['mainpage_72',['Mainpage',['../index.html',1,'']]],
   ['makelinestring_73',['makeLinestring',['../classosmobjects_1_1OsmWay.html#ab73aec4f06cbbfe5adfaf6f67c4057a5',1,'osmobjects::OsmWay']]],
   ['max_5flat_74',['max_lat',['../classchangeset_1_1ChangeSet.html#ab9054b0088fa004b7c9b7e050bf6155b',1,'changeset::ChangeSet']]],
   ['max_5flon_75',['max_lon',['../classchangeset_1_1ChangeSet.html#aed352df72acda9294c30e1174f05f557',1,'changeset::ChangeSet']]],
