@@ -1,0 +1,27 @@
+<map id="data/geoutil.hh" name="data/geoutil.hh">
+<area shape="rect" id="node1" title="This file parses a data file containing country boundaries." alt="" coords="1267,5,1374,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="681,311,736,338"/>
+<area shape="rect" id="node3" title=" " alt="" coords="598,311,657,338"/>
+<area shape="rect" id="node4" title=" " alt="" coords="497,229,547,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="572,229,640,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="761,311,833,338"/>
+<area shape="rect" id="node7" title=" " alt="" coords="1281,155,1360,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="1187,311,1326,338"/>
+<area shape="rect" id="node9" title=" " alt="" coords="857,304,1006,345"/>
+<area shape="rect" id="node10" title=" " alt="" coords="2161,311,2296,338"/>
+<area shape="rect" id="node11" title=" " alt="" coords="1553,304,1731,345"/>
+<area shape="rect" id="node12" title=" " alt="" coords="1350,304,1529,345"/>
+<area shape="rect" id="node13" title=" " alt="" coords="1958,304,2137,345"/>
+<area shape="rect" id="node14" title=" " alt="" coords="1755,304,1934,345"/>
+<area shape="rect" id="node15" title=" " alt="" coords="2034,80,2133,107"/>
+<area shape="rect" id="node16" title=" " alt="" coords="390,229,473,256"/>
+<area shape="rect" id="node17" href="$osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="865,80,1016,107"/>
+<area shape="rect" id="node25" title=" " alt="" coords="1384,155,1452,181"/>
+<area shape="rect" id="node18" title=" " alt="" coords="1131,155,1206,181"/>
+<area shape="rect" id="node19" href="$changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="274,155,431,181"/>
+<area shape="rect" id="node22" href="$osmchange_8hh.html" title="This file parses a change file in the OsmChange format." alt="" coords="919,155,1083,181"/>
+<area shape="rect" id="node20" title=" " alt="" coords="53,229,100,256"/>
+<area shape="rect" id="node21" title=" " alt="" coords="124,229,163,256"/>
+<area shape="rect" id="node23" title=" " alt="" coords="1031,311,1163,338"/>
+<area shape="rect" id="node24" href="$osmobjects_8hh.html" title="Data structures for OSM objects." alt="" coords="1172,229,1307,256"/>
+</map>
