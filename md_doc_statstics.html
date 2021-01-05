@@ -95,9 +95,40 @@ OSM Stats</h1>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">road_km_added  </td><td class="markdownTableBodyNone">This value is updated by counting the length of roads added or deleted by the user in the change file   </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">road_km_modified  </td><td class="markdownTableBodyNone">This value is updated by counting the length of   </td></tr>
+<td class="markdownTableBodyNone">road_km_modified  </td><td class="markdownTableBodyNone">This value is updated by counting the length of existing roads modified by the user in the change file   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">waterway_km_added  </td><td class="markdownTableBodyNone">This value is updated by counting the length of waterways added or deleted by the user in the change file   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">waterway_km_modified  </td><td class="markdownTableBodyNone">This value is updated by counting the length of existing waterways modified by the user in the change file   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">roads_added  </td><td class="markdownTableBodyNone">This value is updated by counting the roads added or deleted by the user in the change file   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">roads_modified  </td><td class="markdownTableBodyNone">This value is updated by counting the existing roads modified by the user in the change file   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">waterways_added  </td><td class="markdownTableBodyNone">This value is updated by counting the roads added or deleted by the user in the change file   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">waterways_modified  </td><td class="markdownTableBodyNone">This value is updated by counting the existing waterways modified by the user in the change file   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">buildings_added  </td><td class="markdownTableBodyNone">This value is updated by counting the buildings added by the user in the change file   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">buildings_modified  </td><td class="markdownTableBodyNone">This value is updated by counting the existing buildings modified by the user in the change file   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">pois_added  </td><td class="markdownTableBodyNone">This value is updated by counting the POIs added by the user in the change file   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">pois_modified  </td><td class="markdownTableBodyNone">This value is updated by counting the existing POIs modified by the user in the change file   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">editor  </td><td class="markdownTableBodyNone">The editor used, and comes from the changeset   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">user_id  </td><td class="markdownTableBodyNone">The user ID, comes from the changeset   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">created_at  </td><td class="markdownTableBodyNone">The timestamp this changeset was created, comes from the changeset   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">closed_at  </td><td class="markdownTableBodyNone">The timestamp this changeset was closed, comes from the changeset   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">verified  </td><td class="markdownTableBodyNone">Whether this data has been validated   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">updated_at  </td><td class="markdownTableBodyNone">The timestamp this change was applied to the database   </td></tr>
 </table>
-<p>existing roads modified by the user in the change file waterway_km_added| This value is updated by counting the length of waterways added or deleted by the user in the change file waterway_km_modified| This value is updated by counting the length of existing waterways modified by the user in the change file roads_added| This value is updated by counting the roads added or deleted by the user in the change file roads_modified| This value is updated by counting the existing roads modified by the user in the change file waterways_added| This value is updated by counting the roads added or deleted by the user in the change file waterways_modified| This value is updated by counting the existing waterways modified by the user in the change file buildings_added| This value is updated by counting the buildings added by the user in the change file buildings_modified| This value is updated by counting the existing buildings modified by the user in the change file pois_added| This value is updated by counting the POIs added by the user in the change file pois_modified| This value is updated by counting the existing POIs modified by the user in the change file editor| The editor used, and comes from the changeset user_id| The user ID, comes from the changeset created_at| The timestamp this changeset was created, comes from the changeset closed_at| The timestamp this changeset was closed, comes from the changeset verified| Whether this data has been validated updated_at| The timestamp this change was applied to the database</p>
 <h1><a class="anchor" id="autotoc_md32"></a>
 Data Available For Statistics</h1>
 <p>This is a list of the available raw data sources for generating statistics. These can be filtered by a timestamp or range, or limited to a specific area using a polygon.</p>
@@ -127,17 +158,19 @@ OsmChange File</h1>
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Keyword  </th><th class="markdownTableHeadNone">Description   </th></tr>
 <tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Action  </td><td class="markdownTableBodyNone">Create, delete, or modify   </td></tr>
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Version of the change  </td><td class="markdownTableBodyNone">Incremented on each upload   </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Timestamp of the change  </td><td class="markdownTableBodyNone">When this change was made   </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Location of the change  </td><td class="markdownTableBodyNone">GPS coordinates of this change   </td></tr>
+<td class="markdownTableBodyNone">Timestamp of the change  </td><td class="markdownTableBodyNone">When this change was made   </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Change tags  </td><td class="markdownTableBodyNone">Any changed tags for an OSM element   </td></tr>
+<td class="markdownTableBodyNone">Location of the change  </td><td class="markdownTableBodyNone">GPS coordinates of this change   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Change tags  </td><td class="markdownTableBodyNone">Any changed tags for an OSM object   </td></tr>
 </table>
 <h2><a class="anchor" id="autotoc_md35"></a>
-What is in an OSM Element ?</h2>
-<p>An OSM element is the actual map data . Because of the large variety of metadata tags, many statistics can be generated by analyzing the tags.</p>
+What is in an OSM Object ?</h2>
+<p>An OSM object is the actual map data . Because of the large variety of metadata tags, many statistics can be generated by analyzing the tags.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Keyword  </th><th class="markdownTableHeadNone">Description   </th></tr>
@@ -164,7 +197,12 @@ What is in an OSM Element ?</h2>
 </table>
 <h2><a class="anchor" id="autotoc_md36"></a>
 OSM Tags</h2>
-<p>Currently use building, waterway, and highway tags </p>
+<p>All OSM objects have a <a href="https://wiki.openstreetmap.org/wiki/Map_features">keyword/value tagging scheme</a> that is used for metadata. While the tagging can often be inconsistent, for most humanitarian purposes, the tags are standardized.</p>
+<ul>
+<li>Buildings, usually tagged as <em>building=yes</em>. There can be additional tags like name or function and <a href="https://wiki.openstreetmap.org/wiki/Buildings">other tags</a> that describe the building in more detail. For statistc collection, most of the tags are ignored as what's counted is the building itself.</li>
+<li>Waterway, There can be additional tags like name or function and <a href="https://wiki.openstreetmap.org/wiki/Waterways">other tags</a> that describe the waterway in more detail. For statistc collection, most of the tags are ignored as what's counted is the waterway itself.</li>
+<li>Highway, There can be additional tags like name or function and <a href="https://wiki.openstreetmap.org/wiki/Highways">other tags</a> that describe the highway in more detail. For statistc collection, most of the tags are ignored as what's counted is the highway itself. Highways are counted whether they are a foot trail, jeep track, or major highway. </li>
+</ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->
