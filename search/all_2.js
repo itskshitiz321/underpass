@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['change_5fid_17',['change_id',['../classosmobjects_1_1OsmObject.html#ae6588cfb45d56bfcc9626d677055131e',1,'osmobjects::OsmObject']]],
+  ['change_5fid_17',['change_id',['../classosmchange_1_1ChangeStats.html#a527eae8fa27cbbf093a1d2065b3f0b30',1,'osmchange::ChangeStats::change_id()'],['../classosmobjects_1_1OsmObject.html#ae6588cfb45d56bfcc9626d677055131e',1,'osmobjects::OsmObject::change_id()']]],
   ['changes_18',['changes',['../classchangeset_1_1ChangeSetFile.html#a9612811a765bfc0d1c10eb6fd670fecf',1,'changeset::ChangeSetFile::changes()'],['../classosmchange_1_1OsmChangeFile.html#ac1d63b820976da67e4605890cfeddd2b',1,'osmchange::OsmChangeFile::changes()']]],
   ['changeset_19',['ChangeSet',['../classchangeset_1_1ChangeSet.html',1,'changeset']]],
   ['changeset_2ehh_20',['changeset.hh',['../changeset_8hh.html',1,'']]],
@@ -9,7 +9,7 @@ var searchData=
   ['checkpoi_23',['checkPOI',['../classvalidate_1_1Validate.html#a70f0bf35bc63c1cbb2551ac017ba12cf',1,'validate::Validate']]],
   ['checkway_24',['checkWay',['../classvalidate_1_1Validate.html#a4c74935ae4d0d83a963ab5ce60a03b65',1,'validate::Validate']]],
   ['closed_5fat_25',['closed_at',['../classchangeset_1_1ChangeSet.html#aff8d2330dc6e5d112298e327557860b1',1,'changeset::ChangeSet::closed_at()'],['../classosmstats_1_1RawChangeset.html#a9b90f02dd3fefebba354c2a347909419',1,'osmstats::RawChangeset::closed_at()']]],
-  ['collectstats_26',['collectStats',['../classosmchange_1_1OsmChangeFile.html#aa77916779ffca1ddbc7e801c441ee8b9',1,'osmchange::OsmChangeFile']]],
+  ['collectstats_26',['collectStats',['../classosmchange_1_1OsmChangeFile.html#a4a6035b16ec815be6e0289b65bcbaaad',1,'osmchange::OsmChangeFile']]],
   ['comment_27',['comment',['../classchangeset_1_1ChangeSet.html#a9242071eb18936a46ff760ff172abea5',1,'changeset::ChangeSet']]],
   ['comments_5fcount_28',['comments_count',['../classchangeset_1_1ChangeSet.html#afcf540e20008ffdb7ce777c9556052b8',1,'changeset::ChangeSet']]],
   ['connect_29',['connect',['../classosmstats_1_1QueryOSMStats.html#aa4397cd197c9b732d998d1b50950d605',1,'osmstats::QueryOSMStats::connect()'],['../classgeoutil_1_1GeoUtil.html#a5b77bbd1bbd8af82e6d14a8055274b95',1,'geoutil::GeoUtil::connect()'],['../classimport_1_1OSMHandler.html#ac7c09a13bbcb8a5d3dbdbb94c12b67ff',1,'import::OSMHandler::connect()'],['../classunderpass_1_1Underpass.html#a3e10de033927cab210f3d109c4d32562',1,'underpass::Underpass::connect()']]],
