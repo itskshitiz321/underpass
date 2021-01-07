@@ -1,7 +1,7 @@
 var searchData=
 [
   ['getaltname_245',['getAltName',['../classgeoutil_1_1GeoCountry.html#a86e4622c623520684be2e101609366cd',1,'geoutil::GeoCountry']]],
-  ['getcountry_246',['getCountry',['../classgeoutil_1_1GeoUtil.html#af4117d6042b6aa2d2bdbf16fa67a3212',1,'geoutil::GeoUtil']]],
+  ['getcountry_246',['getCountry',['../classgeoutil_1_1GeoUtil.html#a2c87981818076f6535647d6487d6a0bb',1,'geoutil::GeoUtil']]],
   ['getcountrydata_247',['getCountryData',['../classosmstats_1_1QueryOSMStats.html#a047f7dee3e154c0d99ed010c54eb8e49',1,'osmstats::QueryOSMStats']]],
   ['getfirststate_248',['getFirstState',['../classunderpass_1_1Underpass.html#ab6b35ed2b93bcc0a9aab69924cc1dcb2',1,'underpass::Underpass']]],
   ['getid_249',['getID',['../classgeoutil_1_1GeoCountry.html#aa995a80684643764106bdf12e811ebc0',1,'geoutil::GeoCountry']]],
