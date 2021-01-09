@@ -78,10 +78,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a99a5dbd743dac45843f72fdeec19406c"><td class="memItemLeft" align="right" valign="top"><a id="a99a5dbd743dac45843f72fdeec19406c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Validate</b> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classosmchange_1_1OsmChange.html">osmchange::OsmChange</a> &gt;&gt; &amp;changes)</td></tr>
 <tr class="separator:a99a5dbd743dac45843f72fdeec19406c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70f0bf35bc63c1cbb2551ac017ba12cf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvalidate_1_1Validate.html#a70f0bf35bc63c1cbb2551ac017ba12cf">checkPOI</a> (<a class="el" href="classosmobjects_1_1OsmNode.html">osmobjects::OsmNode</a> &amp;node)</td></tr>
-<tr class="separator:a70f0bf35bc63c1cbb2551ac017ba12cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c74935ae4d0d83a963ab5ce60a03b65"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvalidate_1_1Validate.html#a4c74935ae4d0d83a963ab5ce60a03b65">checkWay</a> (<a class="el" href="classosmobjects_1_1OsmWay.html">osmobjects::OsmWay</a> &amp;way)</td></tr>
-<tr class="separator:a4c74935ae4d0d83a963ab5ce60a03b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2683db7a66ccb2f68e11baabb0223c3a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvalidate_1_1Validate.html#a2683db7a66ccb2f68e11baabb0223c3a">checkPOI</a> (<a class="el" href="classosmobjects_1_1OsmNode.html">osmobjects::OsmNode</a> *node)</td></tr>
+<tr class="separator:a2683db7a66ccb2f68e11baabb0223c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2ca5055e5b1c69901a2ccba31163f12"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvalidate_1_1Validate.html#ad2ca5055e5b1c69901a2ccba31163f12">checkWay</a> (<a class="el" href="classosmobjects_1_1OsmWay.html">osmobjects::OsmWay</a> *way)</td></tr>
+<tr class="separator:ad2ca5055e5b1c69901a2ccba31163f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf44535ed2b4c0be4d29cdae774b6df4"><td class="memItemLeft" align="right" valign="top"><a id="abf44535ed2b4c0be4d29cdae774b6df4"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>checkTags</b> (std::map&lt; std::string, std::string &gt; tags)</td></tr>
 <tr class="separator:abf44535ed2b4c0be4d29cdae774b6df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -90,8 +90,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>checkTag</b> (const s
 <tr class="separator:abe00e77d4a57ab323bf968c14fe133e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a70f0bf35bc63c1cbb2551ac017ba12cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70f0bf35bc63c1cbb2551ac017ba12cf">&#9670;&nbsp;</a></span>checkPOI()</h2>
+<a id="a2683db7a66ccb2f68e11baabb0223c3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2683db7a66ccb2f68e11baabb0223c3a">&#9670;&nbsp;</a></span>checkPOI()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -99,7 +99,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>checkTag</b> (const s
         <tr>
           <td class="memname">bool validate::Validate::checkPOI </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classosmobjects_1_1OsmNode.html">osmobjects::OsmNode</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classosmobjects_1_1OsmNode.html">osmobjects::OsmNode</a> *&#160;</td>
           <td class="paramname"><em>node</em></td><td>)</td>
           <td></td>
         </tr>
@@ -109,8 +109,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>checkTag</b> (const s
 
 </div>
 </div>
-<a id="a4c74935ae4d0d83a963ab5ce60a03b65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c74935ae4d0d83a963ab5ce60a03b65">&#9670;&nbsp;</a></span>checkWay()</h2>
+<a id="ad2ca5055e5b1c69901a2ccba31163f12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2ca5055e5b1c69901a2ccba31163f12">&#9670;&nbsp;</a></span>checkWay()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -118,7 +118,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>checkTag</b> (const s
         <tr>
           <td class="memname">bool validate::Validate::checkWay </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classosmobjects_1_1OsmWay.html">osmobjects::OsmWay</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classosmobjects_1_1OsmWay.html">osmobjects::OsmWay</a> *&#160;</td>
           <td class="paramname"><em>way</em></td><td>)</td>
           <td></td>
         </tr>
