@@ -1,7 +1,7 @@
 <map id="data/osmobjects.hh" name="data/osmobjects.hh">
-<area shape="rect" id="node1" title="Data structures for OSM objects." alt="" coords="134,5,269,32"/>
-<area shape="rect" id="node2" href="$osmchange_8hh.html" title="This file parses a change file in the OsmChange format." alt="" coords="26,80,190,107"/>
-<area shape="rect" id="node9" href="$validate_8hh.html" title="This class tries to validate the OSM objects." alt="" coords="238,80,351,107"/>
+<area shape="rect" id="node1" title="Data structures for OSM objects." alt="" coords="118,5,253,32"/>
+<area shape="rect" id="node2" href="$osmchange_8hh.html" title="This file parses a change file in the OsmChange format." alt="" coords="31,80,195,107"/>
+<area shape="rect" id="node9" href="$validate_8hh.html" title="This class tries to validate the OSM objects." alt="" coords="207,155,321,181"/>
 <area shape="rect" id="node3" href="$osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="33,155,183,181"/>
 <area shape="rect" id="node4" href="$changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="31,304,188,331"/>
 <area shape="rect" id="node6" href="$threads_8hh.html" title="Threads for monitoring the OSM planet server for replication files." alt="" coords="51,453,162,480"/>

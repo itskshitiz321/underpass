@@ -1,9 +1,10 @@
 <map id="data/geoutil.hh" name="data/geoutil.hh">
-<area shape="rect" id="node1" title="This file parses a data file containing country boundaries." alt="" coords="224,5,331,32"/>
-<area shape="rect" id="node2" href="$changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="327,80,484,107"/>
-<area shape="rect" id="node3" href="$osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="202,155,353,181"/>
-<area shape="rect" id="node6" href="$replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="50,304,206,331"/>
-<area shape="rect" id="node4" href="$osmchange_8hh.html" title="This file parses a change file in the OsmChange format." alt="" coords="195,229,359,256"/>
-<area shape="rect" id="node5" href="$threads_8hh.html" title="Threads for monitoring the OSM planet server for replication files." alt="" coords="61,229,171,256"/>
-<area shape="rect" id="node7" href="$underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="5,379,133,405"/>
+<area shape="rect" id="node1" title="This file parses a data file containing country boundaries." alt="" coords="159,5,265,32"/>
+<area shape="rect" id="node2" href="$changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="5,80,163,107"/>
+<area shape="rect" id="node3" href="$osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="137,155,287,181"/>
+<area shape="rect" id="node7" href="$replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="18,304,174,331"/>
+<area shape="rect" id="node4" href="$osmchange_8hh.html" title="This file parses a change file in the OsmChange format." alt="" coords="250,229,414,256"/>
+<area shape="rect" id="node6" href="$threads_8hh.html" title="Threads for monitoring the OSM planet server for replication files." alt="" coords="63,229,174,256"/>
+<area shape="rect" id="node8" href="$underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="89,379,217,405"/>
+<area shape="rect" id="node5" href="$validate_8hh.html" title="This class tries to validate the OSM objects." alt="" coords="275,304,389,331"/>
 </map>
