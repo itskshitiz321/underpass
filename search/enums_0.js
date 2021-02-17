@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['action_5ft_366',['action_t',['../osmobjects_8hh.html#a9e48dedbb35af6140e0df984b6286ee4',1,'osmobjects']]]
+  ['osmtype_5ft_364',['osmtype_t',['../osmchange_8hh.html#af02e73fa92b123e0fc4095f07546bae6',1,'osmchange']]]
 ];
