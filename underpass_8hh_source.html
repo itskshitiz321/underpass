@@ -155,7 +155,7 @@ $(function() {
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <a class="code" href="classunderpass_1_1Underpass.html">Underpass</a>(<span class="keyword">const</span> std::string &amp;dbname);</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    ~<a class="code" href="classunderpass_1_1Underpass.html">Underpass</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">bool</span> connect(<span class="keyword">const</span> std::string &amp;database);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">bool</span> connect();</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">void</span> dump(<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
@@ -176,15 +176,14 @@ $(function() {
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="comment">// protected:</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    std::shared_ptr&lt;pqxx::connection&gt; sdb;</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    std::map&lt;replication::frequency_t, std::string&gt; frequency_tags;</div>
-<div class="line"><a name="l00124"></a><span class="lineno"><a class="line" href="classunderpass_1_1Underpass.html#aaa6bd8428a577eae558253364ace3ee9">  124</a></span>&#160;    std::string database = <span class="stringliteral">&quot;underpass&quot;</span>; </div>
-<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="classunderpass_1_1Underpass.html#a00fb77046e68927577f163221d098be6">  125</a></span>&#160;    std::string dbserver = <span class="stringliteral">&quot;localhost&quot;</span>; </div>
-<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="classunderpass_1_1Underpass.html#a5cfece0ab550071b2a436efb4ee05ee7">  126</a></span>&#160;    <span class="keywordtype">int</span> port = 443;             </div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;};</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    </div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;} <span class="comment">// EOF underpass namespace</span></div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// EOF __UNDERPASS_HH__</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordtype">char</span>* db_url;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;};</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    </div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;} <span class="comment">// EOF underpass namespace</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// EOF __UNDERPASS_HH__</span></div>
 <div class="ttc" id="aclassreplication_1_1StateFile_html"><div class="ttname"><a href="classreplication_1_1StateFile.html">replication::StateFile</a></div><div class="ttdoc">Data structure for state.text files.</div><div class="ttdef"><b>Definition:</b> replication.hh:111</div></div>
 <div class="ttc" id="aclassunderpass_1_1Underpass_html"><div class="ttname"><a href="classunderpass_1_1Underpass.html">underpass::Underpass</a></div><div class="ttdef"><b>Definition:</b> underpass.hh:88</div></div>
 <div class="ttc" id="aosmstats_8hh_html"><div class="ttname"><a href="osmstats_8hh.html">osmstats.hh</a></div><div class="ttdoc">This file is used to work with the OSM Stats database.</div></div>

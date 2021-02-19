@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['filename_316',['filename',['../classchangeset_1_1ChangeSetFile.html#a83094b6098735aebabd132c06cb0cda1',1,'changeset::ChangeSetFile']]],
-  ['frequency_317',['frequency',['../classreplication_1_1StateFile.html#ae25490419512421285a55694e10585e1',1,'replication::StateFile']]]
+  ['hashtags_314',['hashtags',['../classchangeset_1_1ChangeSet.html#aac6a5fd918a7ad7ef5e0b2daaf712f0a',1,'changeset::ChangeSet']]]
 ];

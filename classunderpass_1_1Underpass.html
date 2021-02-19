@@ -83,10 +83,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f6cf42712dc4258e5c9c28ca671bb74"><td class="memItemLeft" align="right" valign="top"><a id="a0f6cf42712dc4258e5c9c28ca671bb74"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Underpass</b> (const std::string &amp;dbname)</td></tr>
 <tr class="separator:a0f6cf42712dc4258e5c9c28ca671bb74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e10de033927cab210f3d109c4d32562"><td class="memItemLeft" align="right" valign="top"><a id="a3e10de033927cab210f3d109c4d32562"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classunderpass_1_1Underpass.html#a3e10de033927cab210f3d109c4d32562">connect</a> (const std::string &amp;<a class="el" href="classunderpass_1_1Underpass.html#aaa6bd8428a577eae558253364ace3ee9">database</a>)</td></tr>
-<tr class="memdesc:a3e10de033927cab210f3d109c4d32562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect ti the <a class="el" href="classunderpass_1_1Underpass.html">Underpass</a> database. <br /></td></tr>
-<tr class="separator:a3e10de033927cab210f3d109c4d32562"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2efc7cced45c818f42f30925e46940ec"><td class="memItemLeft" align="right" valign="top"><a id="a2efc7cced45c818f42f30925e46940ec"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classunderpass_1_1Underpass.html#a2efc7cced45c818f42f30925e46940ec">connect</a> ()</td></tr>
+<tr class="memdesc:a2efc7cced45c818f42f30925e46940ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect ti the <a class="el" href="classunderpass_1_1Underpass.html">Underpass</a> database. <br /></td></tr>
+<tr class="separator:a2efc7cced45c818f42f30925e46940ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0de40ff9a250ee16e547aecae4eca192"><td class="memItemLeft" align="right" valign="top"><a id="a0de40ff9a250ee16e547aecae4eca192"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>dump</b> (void)</td></tr>
 <tr class="separator:a0de40ff9a250ee16e547aecae4eca192"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,19 +124,9 @@ std::shared_ptr&lt; pqxx::connection &gt;&#160;</td><td class="memItemRight" val
 <tr class="memitem:ab72f3a88f28408afde2cdc2a277b2789"><td class="memItemLeft" align="right" valign="top"><a id="ab72f3a88f28408afde2cdc2a277b2789"></a>
 std::map&lt; replication::frequency_t, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>frequency_tags</b></td></tr>
 <tr class="separator:ab72f3a88f28408afde2cdc2a277b2789"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa6bd8428a577eae558253364ace3ee9"><td class="memItemLeft" align="right" valign="top"><a id="aaa6bd8428a577eae558253364ace3ee9"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classunderpass_1_1Underpass.html#aaa6bd8428a577eae558253364ace3ee9">database</a> = &quot;underpass&quot;</td></tr>
-<tr class="memdesc:aaa6bd8428a577eae558253364ace3ee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The database to use. <br /></td></tr>
-<tr class="separator:aaa6bd8428a577eae558253364ace3ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00fb77046e68927577f163221d098be6"><td class="memItemLeft" align="right" valign="top"><a id="a00fb77046e68927577f163221d098be6"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classunderpass_1_1Underpass.html#a00fb77046e68927577f163221d098be6">dbserver</a> = &quot;localhost&quot;</td></tr>
-<tr class="memdesc:a00fb77046e68927577f163221d098be6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The database server to use. <br /></td></tr>
-<tr class="separator:a00fb77046e68927577f163221d098be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cfece0ab550071b2a436efb4ee05ee7"><td class="memItemLeft" align="right" valign="top"><a id="a5cfece0ab550071b2a436efb4ee05ee7"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classunderpass_1_1Underpass.html#a5cfece0ab550071b2a436efb4ee05ee7">port</a> = 443</td></tr>
-<tr class="memdesc:a5cfece0ab550071b2a436efb4ee05ee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Network port on the server, note SSL only allowed <br  />
- <br /></td></tr>
-<tr class="separator:a5cfece0ab550071b2a436efb4ee05ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a707d8dc7bd7e7172cc9e0ddd312ade44"><td class="memItemLeft" align="right" valign="top"><a id="a707d8dc7bd7e7172cc9e0ddd312ade44"></a>
+char *&#160;</td><td class="memItemRight" valign="bottom"><b>db_url</b></td></tr>
+<tr class="separator:a707d8dc7bd7e7172cc9e0ddd312ade44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab8d3926eda69fe9e37ae5ad1edd24ce4"></a>

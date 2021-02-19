@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['verified_355',['verified',['../classosmstats_1_1RawChangeset.html#af45711148ad7ed3580921f2459768377',1,'osmstats::RawChangeset']]],
-  ['version_356',['version',['../classreplication_1_1Planet.html#a19f486bbdf68910c867fc40cfb990e29',1,'replication::Planet::version()'],['../classosmobjects_1_1OsmObject.html#ae441d020f36e9a176f98579664658339',1,'osmobjects::OsmObject::version()']]]
+  ['waterways_5fadded_353',['waterways_added',['../classosmchange_1_1ChangeStats.html#ac7209778e02682e092076c2a2ddb09c9',1,'osmchange::ChangeStats']]],
+  ['waterways_5fkm_5fadded_354',['waterways_km_added',['../classosmchange_1_1ChangeStats.html#a7faaaa70c837fa1589413ee5c6cadc92',1,'osmchange::ChangeStats']]],
+  ['waterways_5fkm_5fmodified_355',['waterways_km_modified',['../classosmchange_1_1ChangeStats.html#a76c037d9163918759bbb9f2a7c52ffbc',1,'osmchange::ChangeStats']]],
+  ['waterways_5fmodified_356',['waterways_modified',['../classosmchange_1_1ChangeStats.html#ad1ba505cc2bd74f5b6c8ef7a8435f3a4',1,'osmchange::ChangeStats']]],
+  ['ways_357',['ways',['../classosmchange_1_1OsmChange.html#a7fc688599c57518b3ef39868036e8e5f',1,'osmchange::OsmChange']]]
 ];

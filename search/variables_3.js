@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['database_313',['database',['../classunderpass_1_1Underpass.html#aaa6bd8428a577eae558253364ace3ee9',1,'underpass::Underpass']]],
-  ['dbserver_314',['dbserver',['../classunderpass_1_1Underpass.html#a00fb77046e68927577f163221d098be6',1,'underpass::Underpass']]]
+  ['editor_311',['editor',['../classchangeset_1_1ChangeSet.html#ac88a56a713214c51b3adb9cc555c8abf',1,'changeset::ChangeSet::editor()'],['../classosmstats_1_1RawChangeset.html#a5df5f49acfe5f27c75fe15f0883d1755',1,'osmstats::RawChangeset::editor()']]]
 ];

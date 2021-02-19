@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['open_329',['open',['../classchangeset_1_1ChangeSet.html#a77a5b6c937061066cff7ed7560572fd0',1,'changeset::ChangeSet']]],
-  ['ostats_330',['ostats',['../classosmstats_1_1QueryOSMStats.html#a7f584f727c92945125e835d5a87be5d5',1,'osmstats::QueryOSMStats']]]
+  ['path_327',['path',['../classreplication_1_1StateFile.html#a7a1ebc080d2dc1486e9fb2f516a2fa63',1,'replication::StateFile']]],
+  ['point_328',['point',['../classosmobjects_1_1OsmNode.html#abac518986f396a13c039c04e0691f011',1,'osmobjects::OsmNode']]],
+  ['pois_5fadded_329',['pois_added',['../classosmchange_1_1ChangeStats.html#ab19b2a87b29e4cf08b6ec0de5632825f',1,'osmchange::ChangeStats']]],
+  ['pois_5fmodified_330',['pois_modified',['../classosmchange_1_1ChangeStats.html#aaafd9fd0d5f88e5f3bd15c7b2014c539',1,'osmchange::ChangeStats']]],
+  ['polygon_331',['polygon',['../classosmobjects_1_1OsmWay.html#ae785c64e015ea8cafed62c578345e5dc',1,'osmobjects::OsmWay']]],
+  ['port_332',['port',['../classreplication_1_1Planet.html#aa8092ecfd1bd0c555e9c3a3cfc2873e5',1,'replication::Planet']]]
 ];
