@@ -70,7 +70,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <a href="import_8hh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Copyright (c) 2020, Humanitarian OpenStreetMap Team</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Copyright (c) 2020, 2021 Humanitarian OpenStreetMap Team</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// All rights reserved.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// Redistribution and use in source and binary forms, with or without</span></div>
@@ -153,26 +153,20 @@ $(function() {
 <div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="classimport_1_1ImportOSM.html">  103</a></span>&#160;<span class="keyword">class </span><a class="code" href="classimport_1_1ImportOSM.html">ImportOSM</a></div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="classimport_1_1ImportOSM.html#afd1b0aef2bef0f61a345981c86cc5c28">  107</a></span>&#160;    <a class="code" href="classimport_1_1ImportOSM.html#afd1b0aef2bef0f61a345981c86cc5c28">ImportOSM</a>(<span class="keyword">const</span> std::string &amp;file, <span class="keyword">const</span> std::string &amp;db) {</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        osmium::io::Reader reader{file};</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        database = db;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        handler.connect(db, <span class="stringliteral">&quot;localhost&quot;</span>);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        osmium::apply(reader, handler);</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    };</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="comment">// ~ImportOSM(void) { reader.close(); };</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    std::string database;       </div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    std::string server;         </div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="classimport_1_1OSMHandler.html">OSMHandler</a> handler;         </div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;};</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;} <span class="comment">// EOF import namespace</span></div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// EOF __IMPORT_HH__</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="classimport_1_1ImportOSM.html">ImportOSM</a>(<span class="keyword">const</span> std::string &amp;file, <span class="keyword">const</span> std::string &amp;db);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="comment">// ~ImportOSM(void) { reader.close(); };</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    std::string database;       </div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    std::string server;         </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="code" href="classimport_1_1OSMHandler.html">OSMHandler</a> handler;         </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;};</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;} <span class="comment">// EOF import namespace</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// EOF __IMPORT_HH__</span></div>
 <div class="ttc" id="aclassimport_1_1ImportOSM_html"><div class="ttname"><a href="classimport_1_1ImportOSM.html">import::ImportOSM</a></div><div class="ttdoc">Derived class for Osmium.</div><div class="ttdef"><b>Definition:</b> import.hh:104</div></div>
-<div class="ttc" id="aclassimport_1_1ImportOSM_html_afd1b0aef2bef0f61a345981c86cc5c28"><div class="ttname"><a href="classimport_1_1ImportOSM.html#afd1b0aef2bef0f61a345981c86cc5c28">import::ImportOSM::ImportOSM</a></div><div class="ttdeci">ImportOSM(const std::string &amp;file, const std::string &amp;db)</div><div class="ttdoc">Import a raw OSM file using libosmium.</div><div class="ttdef"><b>Definition:</b> import.hh:107</div></div>
 <div class="ttc" id="aclassimport_1_1OSMHandler_html"><div class="ttname"><a href="classimport_1_1OSMHandler.html">import::OSMHandler</a></div><div class="ttdoc">Osmium object handler.</div><div class="ttdef"><b>Definition:</b> import.hh:75</div></div>
 <div class="ttc" id="apgsnapshot_8hh_html"><div class="ttname"><a href="pgsnapshot_8hh.html">pgsnapshot.hh</a></div><div class="ttdoc">This file writes data to the pgsnapshot schema.</div></div>
 </div><!-- fragment --></div><!-- contents -->
