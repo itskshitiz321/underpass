@@ -14,7 +14,8 @@ var searchData=
   ['setupboundaries_142',['setupBoundaries',['../classchangeset_1_1ChangeSetFile.html#afa37411e03668eec9184cd112d81670f',1,'changeset::ChangeSetFile']]],
   ['setuser_143',['setUser',['../classosmchange_1_1OsmChange.html#a10fde8a7069270a1803b2ceeef953c59',1,'osmchange::OsmChange']]],
   ['setversion_144',['setVersion',['../classosmchange_1_1OsmChange.html#a1292a364221444904615be5b8d13ab31',1,'osmchange::OsmChange']]],
-  ['statefile_145',['StateFile',['../classreplication_1_1StateFile.html',1,'replication::StateFile'],['../classreplication_1_1StateFile.html#a94940d5ec293d407443da8b5eea7e480',1,'replication::StateFile::StateFile()']]],
-  ['states_146',['states',['../classreplication_1_1Replication.html#a1adbd500e517618c7039fd416069394e',1,'replication::Replication']]],
-  ['statistics_20collection_147',['Statistics Collection',['../md_doc_statstics.html',1,'']]]
+  ['source_145',['source',['../classchangeset_1_1ChangeSet.html#ab188e4039a5f46f9dafb783bd660fe71',1,'changeset::ChangeSet']]],
+  ['statefile_146',['StateFile',['../classreplication_1_1StateFile.html',1,'replication::StateFile'],['../classreplication_1_1StateFile.html#a94940d5ec293d407443da8b5eea7e480',1,'replication::StateFile::StateFile()']]],
+  ['states_147',['states',['../classreplication_1_1Replication.html#a1adbd500e517618c7039fd416069394e',1,'replication::Replication']]],
+  ['statistics_20collection_148',['Statistics Collection',['../md_doc_statstics.html',1,'']]]
 ];
