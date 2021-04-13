@@ -261,6 +261,8 @@ class QueryOSMStats : public apidb::QueryStats
     bool applyChange(changeset::ChangeSet &change);
     bool applyChange(osmchange::ChangeStats &change);
 
+    std::string toString(std::map<std::string, double> counts);
+
     int lookupHashtag(const std::string &hashtag);
 
     bool hasHashtag(long changeid);

@@ -122,6 +122,28 @@ QueryOSMStats::lookupHashtag(const std::string &hashtag)
     return result[0][0].as(int(0));
 }
 
+
+std::string
+QueryOSMStats::toString(std::map<std::string, double> counts) {
+    std::string arrayStr = "HSTORE(ARRAY[";
+
+    for (auto it =counts.begin(); it != counts.end(); ++it) {
+        if (it->second == 0) {
+            continue;
+        }
+
+        arrayStr += " ARRAY[\'" + it->first + "\',\'" + std::to_string(it->second) +"\']";
+
+        if (std::next(it) != counts.end()) {
+            arrayStr += ",";
+        }
+    }
+    arrayStr += "])";
+
+    return arrayStr;
+}
+
+
 bool
 QueryOSMStats::applyChange(osmchange::ChangeStats &change)
 {
@@ -131,39 +153,29 @@ QueryOSMStats::applyChange(osmchange::ChangeStats &change)
         std::cout << "Has hashtag for id: " << change.change_id << std::endl;
     } else {
         std::cerr << "No hashtag for id: " << change.change_id << std::endl;
+        return false;
     }
-    std::string query = "UPDATE changesets SET added = HSTORE(ARRAY[";
     // query += std::to_string(change.change_id);
+    std::map<std::string, std::string> columns;
     if (change.added.size() > 0) {
-        for (auto it = std::begin(change.added); it != std::end(change.added); ++it) {
-            if (it->second > 0) {
-                query += " ARRAY[\'" + it->first + "\',\'" + std::to_string(it->second) +"\'],";
-            }
-        }
-        query.erase(query.size() - 1);
-        query += "])";
+        columns.insert({"added", toString(change.added)});
     }
-    // query.erase(query.size() - 2);
     if (change.modified.size() > 0) {
-        query += ", modified = HSTORE(ARRAY[";
-        for (auto it = std::begin(change.modified); it != std::end(change.modified); ++it) {
-            if (it->second > 0) {
-                query += " ARRAY[\'" + it->first + "\',\'" + std::to_string(it->second) +"\'],";
-            }
-        }
-        query.erase(query.size() - 1);
-        query += "] ";
+        columns.insert({"modified", toString(change.modified)});
     }
     if (change.deleted.size() > 0) {
-        for (auto it = std::begin(change.deleted); it != std::end(change.deleted); ++it) {
-            if (it->second > 0) {
-                query += ", ARRAY[\'" + it->first + "\',\'" + std::to_string(it->second) +"\'], ";
-            }
-        }
-        query += "])";
+        columns.insert({"deleted", toString(change.deleted)});
     }
-    query += ")";
-    boost::algorithm::replace_all(query, ", ])", "])");
+
+    std::string query = "UPDATE changesets SET ";
+    for (auto it = columns.begin(); it != columns.end(); ++it) {
+        query += it->first + " = " + it->second;
+
+        if (std::next(it) != columns.end()) {
+            query += ",";
+        }
+    }
+
     ptime now = boost::posix_time::microsec_clock::local_time();
 //    query += ", updated_at=\'" + to_simple_string(now) + "\'";
 //    query += " WHERE id=" + std::to_string(change.change_id) + ";";
