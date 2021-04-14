@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['osm_20stats_342',['OSM Stats',['../md_doc_osmstats.html',1,'']]]
+  ['osm_20stats_341',['OSM Stats',['../md_doc_osmstats.html',1,'']]]
 ];

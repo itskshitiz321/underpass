@@ -17,6 +17,5 @@ var searchData=
   ['source_137',['source',['../classchangeset_1_1ChangeSet.html#ab188e4039a5f46f9dafb783bd660fe71',1,'changeset::ChangeSet']]],
   ['statefile_138',['StateFile',['../classreplication_1_1StateFile.html',1,'replication::StateFile'],['../classreplication_1_1StateFile.html#a94940d5ec293d407443da8b5eea7e480',1,'replication::StateFile::StateFile()']]],
   ['states_139',['states',['../classreplication_1_1Replication.html#a1adbd500e517618c7039fd416069394e',1,'replication::Replication']]],
-  ['statistics_20collection_140',['Statistics Collection',['../md_doc_statstics.html',1,'']]],
-  ['statistics_20database_141',['Statistics Database',['../md_doc_statistics.html',1,'']]]
+  ['statistics_20database_140',['Statistics Database',['../md_doc_statistics.html',1,'']]]
 ];
