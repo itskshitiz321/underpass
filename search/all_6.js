@@ -16,6 +16,6 @@ var searchData=
   ['getnode_53',['getNode',['../classosmchange_1_1OsmChange.html#a8c30b2f22bf34e5455d866caab32a2ba',1,'osmchange::OsmChange']]],
   ['getrawchangesets_54',['getRawChangeSets',['../classosmstats_1_1QueryOSMStats.html#a8341ae6ad14261de357a62d6db178ceb',1,'osmstats::QueryOSMStats']]],
   ['getrelation_55',['getRelation',['../classosmchange_1_1OsmChange.html#a2c13f8582c45ab6194f91285298e5702',1,'osmchange::OsmChange']]],
-  ['getstate_56',['getState',['../classunderpass_1_1Underpass.html#a06b5bad8a8bb3841dc19ef5a673f9d8f',1,'underpass::Underpass::getState(const std::string &amp;path)'],['../classunderpass_1_1Underpass.html#a549ff8f39645334481c236bcc958b3c6',1,'underpass::Underpass::getState(replication::frequency_t freq, ptime &amp;tstamp)']]],
+  ['getstate_56',['getState',['../classunderpass_1_1Underpass.html#a28e4d511cbebe802f8b78cd55a5b735a',1,'underpass::Underpass::getState(replication::frequency_t freq, const std::string &amp;path)'],['../classunderpass_1_1Underpass.html#a549ff8f39645334481c236bcc958b3c6',1,'underpass::Underpass::getState(replication::frequency_t freq, ptime &amp;tstamp)']]],
   ['getway_57',['getWay',['../classosmchange_1_1OsmChange.html#a8992710cb2a2d2f259fa05e59303f221',1,'osmchange::OsmChange']]]
 ];
