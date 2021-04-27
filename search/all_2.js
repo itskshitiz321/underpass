@@ -8,12 +8,12 @@ var searchData=
   ['changestats_19',['ChangeStats',['../classosmchange_1_1ChangeStats.html',1,'osmchange']]],
   ['checkpoi_20',['checkPOI',['../classvalidate_1_1Validate.html#a2683db7a66ccb2f68e11baabb0223c3a',1,'validate::Validate']]],
   ['checkway_21',['checkWay',['../classvalidate_1_1Validate.html#ad2ca5055e5b1c69901a2ccba31163f12',1,'validate::Validate']]],
-  ['closed_5fat_22',['closed_at',['../classosmstats_1_1RawChangeset.html#a9b90f02dd3fefebba354c2a347909419',1,'osmstats::RawChangeset::closed_at()'],['../classchangeset_1_1ChangeSet.html#aff8d2330dc6e5d112298e327557860b1',1,'changeset::ChangeSet::closed_at()']]],
+  ['closed_5fat_22',['closed_at',['../classreplication_1_1StateFile.html#a2416ba1e57152e91cd2ee3e088974188',1,'replication::StateFile::closed_at()'],['../classosmstats_1_1RawChangeset.html#a9b90f02dd3fefebba354c2a347909419',1,'osmstats::RawChangeset::closed_at()'],['../classchangeset_1_1ChangeSet.html#aff8d2330dc6e5d112298e327557860b1',1,'changeset::ChangeSet::closed_at()']]],
   ['collectstats_23',['collectStats',['../classosmchange_1_1OsmChangeFile.html#a4a6035b16ec815be6e0289b65bcbaaad',1,'osmchange::OsmChangeFile']]],
   ['comment_24',['comment',['../classchangeset_1_1ChangeSet.html#a9242071eb18936a46ff760ff172abea5',1,'changeset::ChangeSet']]],
   ['comments_5fcount_25',['comments_count',['../classchangeset_1_1ChangeSet.html#afcf540e20008ffdb7ce777c9556052b8',1,'changeset::ChangeSet']]],
   ['connect_26',['connect',['../classosmstats_1_1QueryOSMStats.html#a11f9103e3f03983062a5deb4a711ddc9',1,'osmstats::QueryOSMStats::connect()'],['../classgeoutil_1_1GeoUtil.html#a5b77bbd1bbd8af82e6d14a8055274b95',1,'geoutil::GeoUtil::connect()'],['../classimport_1_1OSMHandler.html#ac7c09a13bbcb8a5d3dbdbb94c12b67ff',1,'import::OSMHandler::connect()'],['../classunderpass_1_1Underpass.html#afae2b2d84cfca9729406005b24f7dd0d',1,'underpass::Underpass::connect()']]],
   ['countries_27',['countries',['../classosmstats_1_1QueryOSMStats.html#a18b5eeb3eab1ea4b3d5d403f12f79877',1,'osmstats::QueryOSMStats']]],
-  ['created_5fat_28',['created_at',['../classchangeset_1_1ChangeSet.html#a27d6b821415087523ded8ffebbfe3596',1,'changeset::ChangeSet::created_at()'],['../classosmstats_1_1RawChangeset.html#ae3dada993ed0900616c04b812689eaf3',1,'osmstats::RawChangeset::created_at()']]],
+  ['created_5fat_28',['created_at',['../classchangeset_1_1ChangeSet.html#a27d6b821415087523ded8ffebbfe3596',1,'changeset::ChangeSet::created_at()'],['../classosmstats_1_1RawChangeset.html#ae3dada993ed0900616c04b812689eaf3',1,'osmstats::RawChangeset::created_at()'],['../classreplication_1_1StateFile.html#a56f28b186aca66587eeddd1435ad9eb2',1,'replication::StateFile::created_at()']]],
   ['currentnode_29',['currentNode',['../classosmchange_1_1OsmChange.html#a27e3e7f0e8505f7cf80cb0d320737ca5',1,'osmchange::OsmChange']]]
 ];

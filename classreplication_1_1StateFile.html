@@ -116,10 +116,15 @@ ptime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1StateFile.html#ac13b736e502fd858d607478570358808">sequence</a></td></tr>
 <tr class="memdesc:ac13b736e502fd858d607478570358808"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sequence number of the associated changeset file. <br /></td></tr>
 <tr class="separator:ac13b736e502fd858d607478570358808"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae25490419512421285a55694e10585e1"><td class="memItemLeft" align="right" valign="top"><a id="ae25490419512421285a55694e10585e1"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1StateFile.html#ae25490419512421285a55694e10585e1">frequency</a></td></tr>
-<tr class="memdesc:ae25490419512421285a55694e10585e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The time interval of this change file. <br /></td></tr>
+<tr class="memitem:ae25490419512421285a55694e10585e1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1StateFile.html#ae25490419512421285a55694e10585e1">frequency</a></td></tr>
 <tr class="separator:ae25490419512421285a55694e10585e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56f28b186aca66587eeddd1435ad9eb2"><td class="memItemLeft" align="right" valign="top">ptime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1StateFile.html#a56f28b186aca66587eeddd1435ad9eb2">created_at</a></td></tr>
+<tr class="memdesc:a56f28b186aca66587eeddd1435ad9eb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">These two values are updated after the changset is parsed.  <a href="classreplication_1_1StateFile.html#a56f28b186aca66587eeddd1435ad9eb2">More...</a><br /></td></tr>
+<tr class="separator:a56f28b186aca66587eeddd1435ad9eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2416ba1e57152e91cd2ee3e088974188"><td class="memItemLeft" align="right" valign="top"><a id="a2416ba1e57152e91cd2ee3e088974188"></a>
+ptime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1StateFile.html#a2416ba1e57152e91cd2ee3e088974188">closed_at</a></td></tr>
+<tr class="memdesc:a2416ba1e57152e91cd2ee3e088974188"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last timestamp in the changefile. <br /></td></tr>
+<tr class="separator:a2416ba1e57152e91cd2ee3e088974188"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Data structure for state.text files. </p>
@@ -157,6 +162,39 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <p>The other format is used for minutely change files, and has more fields. For now, only the timestamp and sequence number is stored. It looks like this:</p>
 <p>#Fri Oct 09 10:03:04 UTC 2020 sequenceNumber=4230996 txnMaxQueried=3083073477 txnActiveList= txnReadyList= txnMax=3083073477 timestamp=2020-10-09T10\:03\:02Z</p>
 <p>State files are used to know where to start downloading files </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a56f28b186aca66587eeddd1435ad9eb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56f28b186aca66587eeddd1435ad9eb2">&#9670;&nbsp;</a></span>created_at</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ptime replication::StateFile::created_at</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>These two values are updated after the changset is parsed. </p>
+<p>The first timestamp in the changefile </p>
+
+</div>
+</div>
+<a id="ae25490419512421285a55694e10585e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae25490419512421285a55694e10585e1">&#9670;&nbsp;</a></span>frequency</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string replication::StateFile::frequency</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The time interval of this change file </p>
 
 </div>
 </div>
