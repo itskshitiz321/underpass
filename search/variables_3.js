@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['editor_298',['editor',['../classchangeset_1_1ChangeSet.html#ac88a56a713214c51b3adb9cc555c8abf',1,'changeset::ChangeSet::editor()'],['../classosmstats_1_1RawChangeset.html#a5df5f49acfe5f27c75fe15f0883d1755',1,'osmstats::RawChangeset::editor()']]]
+  ['filename_297',['filename',['../classchangeset_1_1ChangeSetFile.html#a83094b6098735aebabd132c06cb0cda1',1,'changeset::ChangeSetFile']]],
+  ['frequency_298',['frequency',['../classreplication_1_1StateFile.html#ae25490419512421285a55694e10585e1',1,'replication::StateFile']]]
 ];

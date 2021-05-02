@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['editor_33',['editor',['../classchangeset_1_1ChangeSet.html#ac88a56a713214c51b3adb9cc555c8abf',1,'changeset::ChangeSet::editor()'],['../classosmstats_1_1RawChangeset.html#a5df5f49acfe5f27c75fe15f0883d1755',1,'osmstats::RawChangeset::editor()']]],
-  ['exportcountries_34',['exportCountries',['../classgeoutil_1_1GeoUtil.html#a6bd539e294fe68a6de45fc063f8eaaa3',1,'geoutil::GeoUtil']]],
-  ['extracttags_35',['extractTags',['../classgeoutil_1_1GeoCountry.html#a344f585bf4cd6791ea2c800aa1afbbaf',1,'geoutil::GeoCountry']]]
+  ['filename_35',['filename',['../classchangeset_1_1ChangeSetFile.html#a83094b6098735aebabd132c06cb0cda1',1,'changeset::ChangeSetFile']]],
+  ['finddata_36',['findData',['../classreplication_1_1Planet.html#a31da6fc6607e65ae61ad67ca695b4d64',1,'replication::Planet']]],
+  ['focusarea_37',['focusArea',['../classgeoutil_1_1GeoUtil.html#a046af0638f97eede82e847f3257e067d',1,'geoutil::GeoUtil']]],
+  ['frequency_38',['frequency',['../classreplication_1_1StateFile.html#ae25490419512421285a55694e10585e1',1,'replication::StateFile']]]
 ];
