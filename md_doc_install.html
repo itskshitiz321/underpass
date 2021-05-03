@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Underpass: Utility Programs</title>
+<title>Underpass: Underpass installation</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,13 +62,48 @@ $(function() {
 </div><!-- top -->
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Utility Programs </div>  </div>
+<div class="title">Underpass installation </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md45"></a>
-data/setupdb.sh</h1>
-<p>This is a simple shell script that creates all the databases Underpass uses. It can also be used to initialize the two internal databases Underpass uses, one for the *.state.txt files that contain the timestamp of the data files, and the other is for the boundaries of countries used to determine which country a change was made in for statistics collection. These are used to bootstrap a new Underpass installation. </p>
-</div></div><!-- contents -->
+<div class="textblock"><p>Tested in operating system Ubuntu 20.04</p>
+<h1><a class="anchor" id="autotoc_md12"></a>
+Install binary dependencies</h1>
+<div class="fragment"><div class="line">$ sudo apt-get update &amp;&amp; apt-get install -y \</div>
+<div class="line">        autotools-dev \</div>
+<div class="line">        swig \</div>
+<div class="line">        python3 \</div>
+<div class="line">        python3-dev \</div>
+<div class="line">        libgdal-dev \</div>
+<div class="line">        pkg-config \</div>
+<div class="line">        gcc \</div>
+<div class="line">        openjdk-11-jdk \</div>
+<div class="line">        build-essential \</div>
+<div class="line">        libosmium2-dev \</div>
+<div class="line">        libgumbo-dev \</div>
+<div class="line">        libwebkit2gtk-4.0-dev \</div>
+<div class="line">        libopenmpi-dev \</div>
+<div class="line">        libboost-all-dev \</div>
+<div class="line">        librange-v3-dev \</div>
+<div class="line">        wget \</div>
+<div class="line">        unzip \</div>
+<div class="line">        libxml++2.6-dev</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md13"></a>
+Compile libpqxx</h1>
+<h2><a class="anchor" id="autotoc_md14"></a>
+Create folder</h2>
+<div class="fragment"><div class="line">$ mkdir /libpqxx &amp;&amp; cd /libpqxx</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md15"></a>
+Download source dode</h2>
+<div class="fragment"><div class="line">$ wget https://github.com/jtv/libpqxx/archive/7.3.1.zip &amp;&amp; unzip 7.3.1.zip &amp;&amp; cd libpqxx-7.3.1</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md16"></a>
+Compile as shared library</h2>
+<div class="fragment"><div class="line">$ ./configure --enable-shared &amp;&amp; make &amp;&amp; sudo make install</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md17"></a>
+Compile Underpass</h1>
+<div class="fragment"><div class="line">$ export PKG_CONFIG_PATH=$UNDERPASS_PATH/m4/</div>
+<div class="line">$ sudo ln -s /lib/x86_64-linux-gnu/pkgconfig/python-3.8.pc /lib/x86_64-linux-gnu/pkgconfig/python.pc</div>
+</div><!-- fragment --><div class="fragment"><div class="line">$ cd $UNDERPASS_PATH &amp;&amp; ./autogen.sh &amp;&amp; mkdir build &amp;&amp; cd build &amp;&amp; ../configure &amp;&amp; make -j4</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
