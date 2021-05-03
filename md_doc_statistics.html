@@ -89,11 +89,11 @@ geoboundaries table</h1>
 changesets table</h1>
 <p>This is the primary table used to contain the data for each changeset. All of the data is stored in a table for better query performance on large data sets. It also limits needing SQL <a href="https://www.postgresql.org/docs/13/functions-subquery.html">sub queries</a> or a <a href="https://www.postgresql.org/docs/13/tutorial-join.html">JOIN</a> between tables, reducing complexity.</p>
 <p>An <a href="https://www.postgresql.org/docs/13/hstore.html">hstore</a> is used to store the statistics instead of having a separate table for each feature to allow for more flexibility. An hstore is a key &amp; value pair, and multiple data items can be stored in a single column, indexed by the key. This allows for more features to be added by the backend and the frontend, without having modify the database schema.</p>
-<p>An example query to count the total number of buildings added by the user <b>4321</b> for a Tasking Manager project <b>1234</b> would be this:</p>
-<blockquote class="doxtable">
+<p>An example query to count the total number of buildings added by the user <b>4321</b> for a Tasking Manager project <b>1234</b> would be this: </p><blockquote class="doxtable">
 <p>SELECT SUM(CAST(added::hstore-&gt;'building' AS DOUBLE precision)) FROM </p>
 </blockquote>
 <p>changesets WHERE 'hotosm-project1234' = ANY(hashtags) AND user_id=4321;</p>
+<p>The source is the satellite imagery used for remote mapping.</p>
 <p>&#160;</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -121,7 +121,7 @@ changesets table</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">source   </td><td class="markdownTableBodyNone">The imagery source used for this changeset    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">validated   </td><td class="markdownTableBodyNone">Where this changeset has been validated in the tasking manager    </td></tr>
+<td class="markdownTableBodyNone">validated   </td><td class="markdownTableBodyNone">Where this changeset has been validated in the Tasking Manager    </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">bbox   </td><td class="markdownTableBodyNone">The bounding box of this changeset   </td></tr>
 </table>
