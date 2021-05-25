@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['finddata_229',['findData',['../classreplication_1_1Planet.html#a31da6fc6607e65ae61ad67ca695b4d64',1,'replication::Planet']]],
-  ['focusarea_230',['focusArea',['../classgeoutil_1_1GeoUtil.html#a046af0638f97eede82e847f3257e067d',1,'geoutil::GeoUtil']]]
+  ['finddata_230',['findData',['../classreplication_1_1Planet.html#a31da6fc6607e65ae61ad67ca695b4d64',1,'replication::Planet']]],
+  ['focusarea_231',['focusArea',['../classgeoutil_1_1GeoUtil.html#a046af0638f97eede82e847f3257e067d',1,'geoutil::GeoUtil']]]
 ];
