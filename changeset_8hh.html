@@ -66,7 +66,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">changeset.hh File Reference</div>  </div>
 </div><!--header-->
@@ -81,6 +82,7 @@ $(function() {
 <code>#include &lt;map&gt;</code><br />
 <code>#include &lt;list&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;boost/locale.hpp&gt;</code><br />
 <code>#include &lt;boost/date_time.hpp&gt;</code><br />
 <code>#include &quot;boost/date_time/posix_time/posix_time.hpp&quot;</code><br />
 <code>#include &quot;timer.hh&quot;</code><br />
@@ -92,31 +94,32 @@ Include dependency graph for changeset.hh:</div>
 <div class="dyncontent">
 <div class="center"><img src="changeset_8hh__incl.png" border="0" usemap="#aosmstats_2changeset_8hh" alt=""/></div>
 <map name="aosmstats_2changeset_8hh" id="aosmstats_2changeset_8hh">
-<area shape="rect" title="The file is used for processing changeset files." alt="" coords="400,5,558,32"/>
-<area shape="rect" title=" " alt="" coords="1634,311,1689,338"/>
-<area shape="rect" title=" " alt="" coords="1796,311,1855,338"/>
-<area shape="rect" title=" " alt="" coords="138,229,188,256"/>
-<area shape="rect" title=" " alt="" coords="213,229,281,256"/>
-<area shape="rect" title=" " alt="" coords="88,80,134,107"/>
-<area shape="rect" title=" " alt="" coords="158,80,197,107"/>
-<area shape="rect" title=" " alt="" coords="247,311,319,338"/>
-<area shape="rect" title=" " alt="" coords="343,311,482,338"/>
-<area shape="rect" title=" " alt="" coords="74,304,223,345"/>
-<area shape="rect" title=" " alt="" coords="1914,229,1982,256"/>
-<area shape="rect" title=" " alt="" coords="1482,229,1564,256"/>
-<area shape="rect" href="osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="624,80,774,107"/>
-<area shape="rect" href="geoutil_8hh.html" title="This file parses a data file containing country boundaries." alt="" coords="1212,155,1319,181"/>
-<area shape="rect" title=" " alt="" coords="880,155,955,181"/>
-<area shape="rect" title=" " alt="" coords="1226,229,1305,256"/>
-<area shape="rect" href="osmchange_8hh.html" title="This file parses a change file in the OsmChange format." alt="" coords="617,155,781,181"/>
-<area shape="rect" title=" " alt="" coords="506,311,638,338"/>
-<area shape="rect" title=" " alt="" coords="1272,311,1406,338"/>
-<area shape="rect" title=" " alt="" coords="1431,304,1610,345"/>
-<area shape="rect" title=" " alt="" coords="1068,304,1247,345"/>
-<area shape="rect" title=" " alt="" coords="866,304,1044,345"/>
-<area shape="rect" title=" " alt="" coords="663,304,842,345"/>
-<area shape="rect" href="osmobjects_8hh.html" title="Data structures for OSM objects." alt="" coords="813,229,948,256"/>
-<area shape="rect" title=" " alt="" coords="1690,229,1788,256"/>
+<area shape="rect" title="The file is used for processing changeset files." alt="" coords="343,5,500,32"/>
+<area shape="rect" title=" " alt="" coords="1633,311,1688,338"/>
+<area shape="rect" title=" " alt="" coords="1795,311,1854,338"/>
+<area shape="rect" title=" " alt="" coords="136,229,187,256"/>
+<area shape="rect" title=" " alt="" coords="212,229,280,256"/>
+<area shape="rect" title=" " alt="" coords="86,80,133,107"/>
+<area shape="rect" title=" " alt="" coords="157,80,196,107"/>
+<area shape="rect" title=" " alt="" coords="246,311,318,338"/>
+<area shape="rect" title=" " alt="" coords="364,80,480,107"/>
+<area shape="rect" title=" " alt="" coords="342,311,480,338"/>
+<area shape="rect" title=" " alt="" coords="72,304,222,345"/>
+<area shape="rect" title=" " alt="" coords="1913,229,1981,256"/>
+<area shape="rect" title=" " alt="" coords="1480,229,1563,256"/>
+<area shape="rect" href="osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="622,80,773,107"/>
+<area shape="rect" href="geoutil_8hh.html" title="This file parses a data file containing country boundaries." alt="" coords="1211,155,1318,181"/>
+<area shape="rect" title=" " alt="" coords="879,155,954,181"/>
+<area shape="rect" title=" " alt="" coords="1225,229,1304,256"/>
+<area shape="rect" href="osmchange_8hh.html" title="This file parses a change file in the OsmChange format." alt="" coords="616,155,780,181"/>
+<area shape="rect" title=" " alt="" coords="505,311,637,338"/>
+<area shape="rect" title=" " alt="" coords="1270,311,1405,338"/>
+<area shape="rect" title=" " alt="" coords="1430,304,1608,345"/>
+<area shape="rect" title=" " alt="" coords="1067,304,1246,345"/>
+<area shape="rect" title=" " alt="" coords="864,304,1043,345"/>
+<area shape="rect" title=" " alt="" coords="662,304,840,345"/>
+<area shape="rect" href="osmobjects_8hh.html" title="Data structures for OSM objects." alt="" coords="812,229,946,256"/>
+<area shape="rect" title=" " alt="" coords="1688,229,1787,256"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -145,11 +148,39 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchangeset_1_1ChangeSetFile.html">changeset::ChangeSetFile</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This file reads a changeset file.  <a href="classchangeset_1_1ChangeSetFile.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a84db973a3e79220aa3da55333a093de4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><b>changeset::IsControl</b> (int i)</td></tr>
+<tr class="memdesc:a84db973a3e79220aa3da55333a093de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check a character in a string if it's a control character.  <a href="changeset_8cc.html#a84db973a3e79220aa3da55333a093de4">More...</a><br /></td></tr>
+<tr class="separator:a84db973a3e79220aa3da55333a093de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The file is used for processing changeset files. </p>
 <p>The Changeset file contains the raw data on just the change, and doesn't contain any data of the change except the comment and hashtags used when the change was uploaded to OSM. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a84db973a3e79220aa3da55333a093de4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84db973a3e79220aa3da55333a093de4">&#9670;&nbsp;</a></span>IsControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool changeset::IsControl </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check a character in a string if it's a control character. </p>
+<p>Check a character in a string if it'S a control character. </p>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
