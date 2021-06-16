@@ -78,14 +78,26 @@ $(function() {
  <a href="classreplication_1_1Planet.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="replication_8hh_source.html">replication.hh</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for replication::Planet:</div>
+<div class="dyncontent">
+<div class="center"><img src="classreplication_1_1Planet__coll__graph.png" border="0" usemap="#areplication_1_1Planet_coll__map" alt="Collaboration graph"/></div>
+<map name="areplication_1_1Planet_coll__map" id="areplication_1_1Planet_coll__map">
+<area shape="rect" title="This stores file paths and timestamps from planet." alt="" coords="23,95,147,121"/>
+<area shape="rect" href="classreplication_1_1RemoteURL.html" title="This parses a remote URL into pieces." alt="" coords="5,5,164,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a3fcb4d08b83fff3c64a348fe945e3965"><td class="memItemLeft" align="right" valign="top"><a id="a3fcb4d08b83fff3c64a348fe945e3965"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Planet</b> (const <a class="el" href="classreplication_1_1RemoteURL.html">RemoteURL</a> &amp;url)</td></tr>
+<tr class="separator:a3fcb4d08b83fff3c64a348fe945e3965"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbcfd4358f9e963906a1f40df3701974"><td class="memItemLeft" align="right" valign="top"><a id="afbcfd4358f9e963906a1f40df3701974"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>connectServer</b> (void)</td></tr>
 <tr class="separator:afbcfd4358f9e963906a1f40df3701974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea3405da1fa9a222a8476853540fdc98"><td class="memItemLeft" align="right" valign="top"><a id="aea3405da1fa9a222a8476853540fdc98"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>connectServer</b> (const std::string &amp;<a class="el" href="classreplication_1_1Planet.html#a8ab828126d8742bef03f5998e0a391f6">server</a>)</td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>connectServer</b> (const std::string &amp;server)</td></tr>
 <tr class="separator:aea3405da1fa9a222a8476853540fdc98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7330942ae21d79c576d4c6d0f8a1fc59"><td class="memItemLeft" align="right" valign="top"><a id="a7330942ae21d79c576d4c6d0f8a1fc59"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>disconnectServer</b> (void)</td></tr>
@@ -93,11 +105,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>disconnectServer</b> 
 <tr class="memitem:a211c2e74758c8e4692a1dd9588619945"><td class="memItemLeft" align="right" valign="top"><a id="a211c2e74758c8e4692a1dd9588619945"></a>
 std::shared_ptr&lt; std::vector&lt; unsigned char &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>downloadFile</b> (const std::string &amp;file)</td></tr>
 <tr class="separator:a211c2e74758c8e4692a1dd9588619945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31da6fc6607e65ae61ad67ca695b4d64"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#a31da6fc6607e65ae61ad67ca695b4d64">findData</a> (frequency_t freq, ptime starttime)</td></tr>
-<tr class="separator:a31da6fc6607e65ae61ad67ca695b4d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e23baf948dc02b73a87403819b99119"><td class="memItemLeft" align="right" valign="top"><a id="a4e23baf948dc02b73a87403819b99119"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>findData</b> (frequency_t freq, int sequence)</td></tr>
-<tr class="separator:a4e23baf948dc02b73a87403819b99119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f9303ad479f27801917010569935f99"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#a1f9303ad479f27801917010569935f99">findData</a> (frequency_t freq, long sequence)</td></tr>
+<tr class="separator:a1f9303ad479f27801917010569935f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71719787af454f1c4d44ead96010c6ca"><td class="memItemLeft" align="right" valign="top"><a id="a71719787af454f1c4d44ead96010c6ca"></a>
+std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>findData</b> (frequency_t freq, ptime starttime)</td></tr>
+<tr class="separator:a71719787af454f1c4d44ead96010c6ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31cbf840bbc25fe010f00989cafe67a8"><td class="memItemLeft" align="right" valign="top"><a id="a31cbf840bbc25fe010f00989cafe67a8"></a>
+std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>findData</b> (frequency_t freq, const std::string &amp;path)</td></tr>
+<tr class="separator:a31cbf840bbc25fe010f00989cafe67a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9cf2b2a2cdcc1ca521efe6273ce5302"><td class="memItemLeft" align="right" valign="top"><a id="ae9cf2b2a2cdcc1ca521efe6273ce5302"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#ae9cf2b2a2cdcc1ca521efe6273ce5302">dump</a> (void)</td></tr>
 <tr class="memdesc:ae9cf2b2a2cdcc1ca521efe6273ce5302"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump internal data to the terminal, used only for debugging. <br /></td></tr>
@@ -111,10 +126,9 @@ std::shared_ptr&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="m
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a8ab828126d8742bef03f5998e0a391f6"><td class="memItemLeft" align="right" valign="top"><a id="a8ab828126d8742bef03f5998e0a391f6"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#a8ab828126d8742bef03f5998e0a391f6">server</a> = &quot;planet.openstreetmap.org&quot;</td></tr>
-<tr class="memdesc:a8ab828126d8742bef03f5998e0a391f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">planet server <br /></td></tr>
-<tr class="separator:a8ab828126d8742bef03f5998e0a391f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f3684b7bdf8bdb27f0ae0ca62fce40"><td class="memItemLeft" align="right" valign="top"><a id="ab6f3684b7bdf8bdb27f0ae0ca62fce40"></a>
+<a class="el" href="classreplication_1_1RemoteURL.html">RemoteURL</a>&#160;</td><td class="memItemRight" valign="bottom"><b>remote</b></td></tr>
+<tr class="separator:ab6f3684b7bdf8bdb27f0ae0ca62fce40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8092ecfd1bd0c555e9c3a3cfc2873e5"><td class="memItemLeft" align="right" valign="top"><a id="aa8092ecfd1bd0c555e9c3a3cfc2873e5"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#aa8092ecfd1bd0c555e9c3a3cfc2873e5">port</a> = 443</td></tr>
 <tr class="memdesc:aa8092ecfd1bd0c555e9c3a3cfc2873e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Network port on the server, note SSL only allowed. <br /></td></tr>
@@ -153,22 +167,18 @@ tcp::resolver&#160;</td><td class="memItemRight" valign="bottom"><b>resolver</b>
 <tr class="memitem:aca33a04f41338154eb414d85e867e473"><td class="memItemLeft" align="right" valign="top"><a id="aca33a04f41338154eb414d85e867e473"></a>
 boost::asio::ssl::stream&lt; tcp::socket &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stream</b> {ioc, ctx}</td></tr>
 <tr class="separator:aca33a04f41338154eb414d85e867e473"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0062f218df51e64cc33e2a2d11f473bb"><td class="memItemLeft" align="right" valign="top"><a id="a0062f218df51e64cc33e2a2d11f473bb"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#a0062f218df51e64cc33e2a2d11f473bb">baseurl</a></td></tr>
-<tr class="memdesc:a0062f218df51e64cc33e2a2d11f473bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">URL for the planet server. <br /></td></tr>
-<tr class="separator:a0062f218df51e64cc33e2a2d11f473bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This stores file paths and timestamps from planet. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a31da6fc6607e65ae61ad67ca695b4d64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31da6fc6607e65ae61ad67ca695b4d64">&#9670;&nbsp;</a></span>findData()</h2>
+<a id="a1f9303ad479f27801917010569935f99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f9303ad479f27801917010569935f99">&#9670;&nbsp;</a></span>findData()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string replication::Planet::findData </td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt; replication::Planet::findData </td>
           <td>(</td>
           <td class="paramtype">frequency_t&#160;</td>
           <td class="paramname"><em>freq</em>, </td>
@@ -176,8 +186,8 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ptime&#160;</td>
-          <td class="paramname"><em>starttime</em>&#160;</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>sequence</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

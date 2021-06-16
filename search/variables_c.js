@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['refs_320',['refs',['../classosmobjects_1_1OsmWay.html#a806786ac2a18fda3150e33480b6549cf',1,'osmobjects::OsmWay']]],
-  ['relations_321',['relations',['../classosmchange_1_1OsmChange.html#a257952dea4a4fad6d7cb362929ebe986',1,'osmchange::OsmChange']]]
+  ['sequence_319',['sequence',['../classreplication_1_1StateFile.html#ac13b736e502fd858d607478570358808',1,'replication::StateFile']]],
+  ['source_320',['source',['../classchangeset_1_1ChangeSet.html#ab188e4039a5f46f9dafb783bd660fe71',1,'changeset::ChangeSet']]],
+  ['states_321',['states',['../classreplication_1_1Replication.html#a1adbd500e517618c7039fd416069394e',1,'replication::Replication']]]
 ];

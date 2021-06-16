@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['way_168',['way',['../classimport_1_1OSMHandler.html#a9edd204ec3ee0c2f3e832f5ceb8d04d6',1,'import::OSMHandler']]],
-  ['ways_169',['ways',['../classosmchange_1_1OsmChange.html#a7fc688599c57518b3ef39868036e8e5f',1,'osmchange::OsmChange']]],
-  ['writestate_170',['writeState',['../classunderpass_1_1Underpass.html#ab8d3926eda69fe9e37ae5ad1edd24ce4',1,'underpass::Underpass']]]
+  ['_7equeryosmstats_169',['~QueryOSMStats',['../classosmstats_1_1QueryOSMStats.html#a9494f1b4cd710c975ae888c876653456',1,'osmstats::QueryOSMStats']]]
 ];

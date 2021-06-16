@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['queryosmstats_188',['QueryOSMStats',['../classosmstats_1_1QueryOSMStats.html',1,'osmstats']]]
+  ['queryosmstats_186',['QueryOSMStats',['../classosmstats_1_1QueryOSMStats.html',1,'osmstats']]]
 ];

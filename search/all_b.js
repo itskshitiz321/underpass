@@ -1,11 +1,18 @@
 var searchData=
 [
-  ['name_76',['name',['../classosmstats_1_1RawCountry.html#a7ae4fe9f4d858b06b5c38e3c8e1a573c',1,'osmstats::RawCountry::name()'],['../classosmstats_1_1RawUser.html#abd5295df8fd246a742db0b39035c06c5',1,'osmstats::RawUser::name()'],['../classosmstats_1_1RawHashtag.html#ac68532a5733a4d26af1b61f96162a6f3',1,'osmstats::RawHashtag::name()']]],
-  ['newnode_77',['newNode',['../classosmchange_1_1OsmChange.html#afb5d4b78256ee45581b28f6436613645',1,'osmchange::OsmChange']]],
-  ['newrelation_78',['newRelation',['../classosmchange_1_1OsmChange.html#a38c278ed2bb09341a4b7c5743a2c0cc4',1,'osmchange::OsmChange']]],
-  ['newway_79',['newWay',['../classosmchange_1_1OsmChange.html#a4a74be2f216b738e3be6a62eca07cf64',1,'osmchange::OsmChange']]],
-  ['node_80',['node',['../classimport_1_1OSMHandler.html#a836ccc7e2aba9bcc78dfaa2947cfedeb',1,'import::OSMHandler']]],
-  ['nodes_81',['nodes',['../classosmchange_1_1OsmChange.html#aba26d97755b7d2ec4da050f16a9f32e1',1,'osmchange::OsmChange']]],
-  ['num_5fchanges_82',['num_changes',['../classchangeset_1_1ChangeSet.html#aab16ec2192fb773e699e12d2d6d44f10',1,'changeset::ChangeSet']]],
-  ['numpoints_83',['numPoints',['../classosmobjects_1_1OsmWay.html#a13a0a60bc79d57b265ce9fe628a34eca',1,'osmobjects::OsmWay']]]
+  ['open_82',['open',['../classchangeset_1_1ChangeSet.html#a77a5b6c937061066cff7ed7560572fd0',1,'changeset::ChangeSet']]],
+  ['operator_5b_5d_83',['operator[]',['../classchangeset_1_1ChangeSetFile.html#ad5cc72034136784d6dfd3482572493db',1,'changeset::ChangeSetFile']]],
+  ['osm_20stats_84',['OSM Stats',['../md_doc_osmstats.html',1,'']]],
+  ['osmchange_85',['OsmChange',['../classosmchange_1_1OsmChange.html',1,'osmchange']]],
+  ['osmchange_2ehh_86',['osmchange.hh',['../osmchange_8hh.html',1,'']]],
+  ['osmchangefile_87',['OsmChangeFile',['../classosmchange_1_1OsmChangeFile.html',1,'osmchange']]],
+  ['osmhandler_88',['OSMHandler',['../classimport_1_1OSMHandler.html',1,'import']]],
+  ['osmnode_89',['OsmNode',['../classosmobjects_1_1OsmNode.html',1,'osmobjects']]],
+  ['osmobject_90',['OsmObject',['../classosmobjects_1_1OsmObject.html',1,'osmobjects']]],
+  ['osmobjects_2ehh_91',['osmobjects.hh',['../osmobjects_8hh.html',1,'']]],
+  ['osmrelation_92',['OsmRelation',['../classosmobjects_1_1OsmRelation.html',1,'osmobjects']]],
+  ['osmstats_2ehh_93',['osmstats.hh',['../osmstats_8hh.html',1,'']]],
+  ['osmtype_5ft_94',['osmtype_t',['../osmchange_8hh.html#af02e73fa92b123e0fc4095f07546bae6',1,'osmchange']]],
+  ['osmway_95',['OsmWay',['../classosmobjects_1_1OsmWay.html',1,'osmobjects']]],
+  ['ostats_96',['ostats',['../classosmstats_1_1QueryOSMStats.html#a7f584f727c92945125e835d5a87be5d5',1,'osmstats::QueryOSMStats']]]
 ];
