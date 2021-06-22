@@ -159,6 +159,8 @@ geoboundaries table</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">tags   </td><td class="markdownTableBodyNone">Other metadata related to this boundary    </td></tr>
 <tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">priority   </td><td class="markdownTableBodyNone">If this is in a priority boundary    </td></tr>
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">boundary   </td><td class="markdownTableBodyNone">The multipolygon of this boundary   </td></tr>
 </table>
 <h2><a class="anchor" id="autotoc_md49"></a>
@@ -181,17 +183,17 @@ changesets table</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">user_id   </td><td class="markdownTableBodyNone">The OSM User ID of the mapper    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">created_at   </td><td class="markdownTableBodyNone">The timestamp    </td></tr>
+<td class="markdownTableBodyNone">created_at   </td><td class="markdownTableBodyNone">The timestamp when this changes was uploaded    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">closed_at   </td><td class="markdownTableBodyNone">The timestamp    </td></tr>
+<td class="markdownTableBodyNone">closed_at   </td><td class="markdownTableBodyNone">The timestamp when this uploaded change completed processing    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">updated_at   </td><td class="markdownTableBodyNone">The timestamp    </td></tr>
+<td class="markdownTableBodyNone">updated_at   </td><td class="markdownTableBodyNone">The timestamp when this last had data updated    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">added   </td><td class="markdownTableBodyNone">An array of the added map features    </td></tr>
+<td class="markdownTableBodyNone">added   </td><td class="markdownTableBodyNone">An hstore array of the added map features    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">modified   </td><td class="markdownTableBodyNone">An array of the modified map features    </td></tr>
+<td class="markdownTableBodyNone">modified   </td><td class="markdownTableBodyNone">An hstore array of the modified map features    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">deleted   </td><td class="markdownTableBodyNone">An array of the deleted map features    </td></tr>
+<td class="markdownTableBodyNone">deleted   </td><td class="markdownTableBodyNone">An hstore array of the deleted map features    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">hashtags   </td><td class="markdownTableBodyNone">An array of the hashtags used for this changeset    </td></tr>
 <tr class="markdownTableRowOdd">
@@ -203,7 +205,7 @@ changesets table</h2>
 </table>
 <h2><a class="anchor" id="autotoc_md50"></a>
 users table</h2>
-<p>Tnis table contains data on mappers, and is used to track indivigual activity. Often badges are given based on this data.</p>
+<p>This table contains data on mappers, and is used to track indivigual activity. Often badges are given based on this data. Most of this data comes from the Tasking Manager, but is copied hear to improve performance.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Keyword   </th><th class="markdownTableHeadNone">Description    </th></tr>
@@ -216,8 +218,14 @@ users table</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">osm_registration   </td><td class="markdownTableBodyNone">The timestamp of when the mapper registered with openstreetmap    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">gender   </td><td class="markdownTableBodyNone">The mappers gender, when available    </td></tr>
+<td class="markdownTableBodyNone">tasks_mapped   </td><td class="markdownTableBodyNone">The number of tasking manager tasks completed    </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">tasks_validated   </td><td class="markdownTableBodyNone">The number of tasking manager tasks validated    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">projects_mapped   </td><td class="markdownTableBodyNone">The number of tasking manager tasks invalidated    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">gender   </td><td class="markdownTableBodyNone">The mappers gender, when available    </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">home   </td><td class="markdownTableBodyNone">The mappers home location, when available   </td></tr>
 </table>
 <h2><a class="anchor" id="autotoc_md51"></a>
@@ -236,6 +244,28 @@ ground data table</h2>
 <td class="markdownTableBodyNone">changeset_id   </td><td class="markdownTableBodyNone">Changeset ID applied when the data is uploaded to OSM    </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">location   </td><td class="markdownTableBodyNone">The coordinates of this POI   </td></tr>
+</table>
+<h2><a class="anchor" id="autotoc_md52"></a>
+training data table</h2>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Keyword   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">name   </td><td class="markdownTableBodyNone">The mappers name    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">local   </td><td class="markdownTableBodyNone">Whether it was a local training, or remote    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">organization   </td><td class="markdownTableBodyNone">The organization doing the training    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">tools   </td><td class="markdownTableBodyNone">The software tools covered in the training    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">teams   </td><td class="markdownTableBodyNone">The teams the mapper is a member of    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">gender   </td><td class="markdownTableBodyNone">The slef-defined gender (optional) of the mapper    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">hours   </td><td class="markdownTableBodyNone">The hours of training    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">age   </td><td class="markdownTableBodyNone">The age (optional) of the mapper   </td></tr>
 </table>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
