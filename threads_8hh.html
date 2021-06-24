@@ -173,8 +173,8 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>tcp</b> = net::ip::t
 Functions</h2></td></tr>
 <tr class="memitem:a682dae5c70821d6a5261779edbb06d8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><b>threads::startStateThreads</b> (const std::string &amp;base, const std::string &amp;file)</td></tr>
 <tr class="separator:a682dae5c70821d6a5261779edbb06d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b31af2eb351b0f545683e2fd22a68e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><b>threads::startMonitor</b> (<a class="el" href="classreplication_1_1RemoteURL.html">replication::RemoteURL</a> &amp;remote)</td></tr>
-<tr class="separator:a6b31af2eb351b0f545683e2fd22a68e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a816118eaeb661e4734e05475c64c37d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><b>threads::startMonitor</b> (const <a class="el" href="classreplication_1_1RemoteURL.html">replication::RemoteURL</a> &amp;inr)</td></tr>
+<tr class="separator:a816118eaeb661e4734e05475c64c37d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53ed6a264f7e68b955962b33024f5b3f"><td class="memItemLeft" align="right" valign="top"><a id="a53ed6a264f7e68b955962b33024f5b3f"></a>
 std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">replication::StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>threads::threadStateFile</b> (ssl::stream&lt; tcp::socket &gt; &amp;stream, const std::string &amp;file)</td></tr>
 <tr class="memdesc:a53ed6a264f7e68b955962b33024f5b3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the states table in the Underpass database. <br /></td></tr>
@@ -192,8 +192,8 @@ std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">repl
 <div class="textblock"><p>Threads for monitoring the OSM planet server for replication files. </p>
 <p>These are the threads used to download and apply the replication files to a database. The monitor the OSM planet server for updated replication files. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a6b31af2eb351b0f545683e2fd22a68e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b31af2eb351b0f545683e2fd22a68e6">&#9670;&nbsp;</a></span>startMonitor()</h2>
+<a id="a816118eaeb661e4734e05475c64c37d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a816118eaeb661e4734e05475c64c37d6">&#9670;&nbsp;</a></span>startMonitor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -201,7 +201,7 @@ std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">repl
         <tr>
           <td class="memname">void threads::startMonitor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classreplication_1_1RemoteURL.html">replication::RemoteURL</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classreplication_1_1RemoteURL.html">replication::RemoteURL</a> &amp;&#160;</td>
           <td class="paramname"><em>remote</em></td><td>)</td>
           <td></td>
         </tr>
