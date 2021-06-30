@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['statistics_20calculations_346',['Statistics Calculations',['../md_doc_statistics.html',1,'']]]
+  ['statistics_20calculations_316',['Statistics Calculations',['../md_doc_statistics.html',1,'']]]
 ];

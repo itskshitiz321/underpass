@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['underpass_282',['Underpass',['../classunderpass_1_1Underpass.html#a61fd99a7f3e8bb30eb5bb2e0fc92cd15',1,'underpass::Underpass']]],
-  ['updatecountries_283',['updateCountries',['../classosmstats_1_1QueryOSMStats.html#aac9b30653ceeaed33635a93ce8d3b626',1,'osmstats::QueryOSMStats']]],
-  ['updatecreator_284',['updateCreator',['../classunderpass_1_1Underpass.html#a0d375ae6d7da7d1f79eade3c7c7debeb',1,'underpass::Underpass']]],
-  ['updaterawhashtags_285',['updateRawHashtags',['../classosmstats_1_1QueryOSMStats.html#a8494ed97c8775c17acd8ed742a1c8d79',1,'osmstats::QueryOSMStats']]]
+  ['way_258',['way',['../classimport_1_1OSMHandler.html#a9edd204ec3ee0c2f3e832f5ceb8d04d6',1,'import::OSMHandler']]],
+  ['writestate_259',['writeState',['../classunderpass_1_1Underpass.html#ab8d3926eda69fe9e37ae5ad1edd24ce4',1,'underpass::Underpass']]]
 ];

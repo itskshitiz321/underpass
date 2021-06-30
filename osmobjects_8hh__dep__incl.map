@@ -1,11 +1,11 @@
 <map id="data/osmobjects.hh" name="data/osmobjects.hh">
-<area shape="rect" id="node1" title="Data structures for OSM objects." alt="" coords="118,5,253,32"/>
-<area shape="rect" id="node2" href="$osmchange_8hh.html" title="This file parses a change file in the OsmChange format." alt="" coords="31,80,195,107"/>
-<area shape="rect" id="node9" href="$validate_8hh.html" title="This class tries to validate the OSM objects." alt="" coords="207,155,321,181"/>
-<area shape="rect" id="node3" href="$osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="33,155,183,181"/>
-<area shape="rect" id="node4" href="$changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="31,304,188,331"/>
-<area shape="rect" id="node6" href="$threads_8hh.html" title="Threads for monitoring the OSM planet server for replication files." alt="" coords="51,453,162,480"/>
-<area shape="rect" id="node7" href="$underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="187,453,315,480"/>
-<area shape="rect" id="node8" href="$geoutil_8hh.html" title="This file parses a data file containing country boundaries." alt="" coords="107,229,213,256"/>
-<area shape="rect" id="node5" href="$replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="31,379,187,405"/>
+<area shape="rect" id="node1" title="Data structures for OSM objects." alt="" coords="274,5,409,32"/>
+<area shape="rect" id="node2" href="$changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="5,80,163,107"/>
+<area shape="rect" id="node4" href="$geoutil_8hh.html" title="This file parses a data file containing boundaries." alt="" coords="364,229,471,256"/>
+<area shape="rect" id="node8" href="$osmchange_8hh.html" title="This file parses a change file in the OsmChange format." alt="" coords="187,80,351,107"/>
+<area shape="rect" id="node9" href="$validate_8hh.html" title="This class tries to validate the OSM objects." alt="" coords="309,155,422,181"/>
+<area shape="rect" id="node3" href="$osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="126,155,277,181"/>
+<area shape="rect" id="node6" href="$replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="87,304,243,331"/>
+<area shape="rect" id="node5" href="$threads_8hh.html" title="Threads for monitoring the OSM planet server for replication files." alt="" coords="122,229,233,256"/>
+<area shape="rect" id="node7" href="$underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="159,379,287,405"/>
 </map>

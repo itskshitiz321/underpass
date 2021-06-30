@@ -80,31 +80,23 @@ $(function() {
 <div class="textblock"><code>#include &lt;string&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;boost/geometry.hpp&gt;</code><br />
 <code>#include &lt;boost/date_time.hpp&gt;</code><br />
 <code>#include &quot;boost/date_time/posix_time/posix_time.hpp&quot;</code><br />
 <code>#include &lt;boost/progress.hpp&gt;</code><br />
-<code>#include &lt;boost/geometry.hpp&gt;</code><br />
-<code>#include &lt;boost/geometry/geometries/point_xy.hpp&gt;</code><br />
-<code>#include &lt;boost/geometry/geometries/linestring.hpp&gt;</code><br />
-<code>#include &lt;boost/geometry/geometries/polygon.hpp&gt;</code><br />
-<code>#include &lt;boost/geometry/geometries/geometries.hpp&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for osmobjects.hh:</div>
 <div class="dyncontent">
 <div class="center"><img src="osmobjects_8hh__incl.png" border="0" usemap="#adata_2osmobjects_8hh" alt=""/></div>
 <map name="adata_2osmobjects_8hh" id="adata_2osmobjects_8hh">
-<area shape="rect" title="Data structures for OSM objects." alt="" coords="599,5,733,32"/>
+<area shape="rect" title="Data structures for OSM objects." alt="" coords="264,5,399,32"/>
 <area shape="rect" title=" " alt="" coords="5,87,60,114"/>
 <area shape="rect" title=" " alt="" coords="85,87,143,114"/>
 <area shape="rect" title=" " alt="" coords="167,87,239,114"/>
-<area shape="rect" title=" " alt="" coords="263,87,402,114"/>
-<area shape="rect" title=" " alt="" coords="426,80,575,121"/>
-<area shape="rect" title=" " alt="" coords="600,87,732,114"/>
-<area shape="rect" title=" " alt="" coords="756,87,891,114"/>
-<area shape="rect" title=" " alt="" coords="915,80,1094,121"/>
-<area shape="rect" title=" " alt="" coords="1118,80,1297,121"/>
-<area shape="rect" title=" " alt="" coords="1321,80,1499,121"/>
-<area shape="rect" title=" " alt="" coords="1523,80,1702,121"/>
+<area shape="rect" title=" " alt="" coords="264,87,399,114"/>
+<area shape="rect" title=" " alt="" coords="423,87,562,114"/>
+<area shape="rect" title=" " alt="" coords="586,80,735,121"/>
+<area shape="rect" title=" " alt="" coords="760,87,892,114"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -112,15 +104,15 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="osmobjects_8hh__dep__incl.png" border="0" usemap="#adata_2osmobjects_8hhdep" alt=""/></div>
 <map name="adata_2osmobjects_8hhdep" id="adata_2osmobjects_8hhdep">
-<area shape="rect" title="Data structures for OSM objects." alt="" coords="118,5,253,32"/>
-<area shape="rect" href="osmchange_8hh.html" title="This file parses a change file in the OsmChange format." alt="" coords="31,80,195,107"/>
-<area shape="rect" href="validate_8hh.html" title="This class tries to validate the OSM objects." alt="" coords="207,155,321,181"/>
-<area shape="rect" href="osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="33,155,183,181"/>
-<area shape="rect" href="changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="31,304,188,331"/>
-<area shape="rect" href="threads_8hh.html" title="Threads for monitoring the OSM planet server for replication files." alt="" coords="51,453,162,480"/>
-<area shape="rect" href="underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="187,453,315,480"/>
-<area shape="rect" href="geoutil_8hh.html" title="This file parses a data file containing country boundaries." alt="" coords="107,229,213,256"/>
-<area shape="rect" href="replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="31,379,187,405"/>
+<area shape="rect" title="Data structures for OSM objects." alt="" coords="274,5,409,32"/>
+<area shape="rect" href="changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="5,80,163,107"/>
+<area shape="rect" href="geoutil_8hh.html" title="This file parses a data file containing boundaries." alt="" coords="364,229,471,256"/>
+<area shape="rect" href="osmchange_8hh.html" title="This file parses a change file in the OsmChange format." alt="" coords="187,80,351,107"/>
+<area shape="rect" href="validate_8hh.html" title="This class tries to validate the OSM objects." alt="" coords="309,155,422,181"/>
+<area shape="rect" href="osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="126,155,277,181"/>
+<area shape="rect" href="replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="87,304,243,331"/>
+<area shape="rect" href="threads_8hh.html" title="Threads for monitoring the OSM planet server for replication files." alt="" coords="122,229,233,256"/>
+<area shape="rect" href="underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="159,379,287,405"/>
 </map>
 </div>
 </div>
@@ -155,15 +147,15 @@ typedef boost::geometry::model::d2::point_xy&lt; double &gt;&#160;</td><td class
 <tr class="memitem:afca75a520800ed0dd7f57d082ed3eee1"><td class="memItemLeft" align="right" valign="top"><a id="afca75a520800ed0dd7f57d082ed3eee1"></a>
 typedef boost::geometry::model::polygon&lt; point_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>polygon_t</b></td></tr>
 <tr class="separator:afca75a520800ed0dd7f57d082ed3eee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a60a9bc3777b474951d8a5f44cfd4c2"><td class="memItemLeft" align="right" valign="top"><a id="a1a60a9bc3777b474951d8a5f44cfd4c2"></a>
-typedef boost::geometry::model::multi_point&lt; point_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>mpoint_t</b></td></tr>
-<tr class="separator:a1a60a9bc3777b474951d8a5f44cfd4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a590beb4f416992356507cbbb526b1a93"><td class="memItemLeft" align="right" valign="top"><a id="a590beb4f416992356507cbbb526b1a93"></a>
+typedef boost::geometry::model::multi_polygon&lt; polygon_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>multipolygon_t</b></td></tr>
+<tr class="separator:a590beb4f416992356507cbbb526b1a93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af416481be86fd021d5f050897f11b68c"><td class="memItemLeft" align="right" valign="top"><a id="af416481be86fd021d5f050897f11b68c"></a>
 typedef boost::geometry::model::linestring&lt; point_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>linestring_t</b></td></tr>
 <tr class="separator:af416481be86fd021d5f050897f11b68c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1a5d0faa6cca5797628980f37eece46"><td class="memItemLeft" align="right" valign="top"><a id="ae1a5d0faa6cca5797628980f37eece46"></a>
-typedef boost::geometry::model::multi_linestring&lt; linestring_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>mlinestring_t</b></td></tr>
-<tr class="separator:ae1a5d0faa6cca5797628980f37eece46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e44fef9d596728635bac08051485d3"><td class="memItemLeft" align="right" valign="top"><a id="a60e44fef9d596728635bac08051485d3"></a>
+typedef boost::geometry::model::point&lt; double, 2, boost::geometry::cs::spherical_equatorial&lt; boost::geometry::degree &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>sphere_t</b></td></tr>
+<tr class="separator:a60e44fef9d596728635bac08051485d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
