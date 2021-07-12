@@ -325,7 +325,7 @@ $(function() {
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    Replication(ptime last) { last_run = last; };</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    Replication(<span class="keywordtype">long</span> seq) { sequence = seq; };</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160; </div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <span class="keywordtype">bool</span> readChanges(<span class="keyword">const</span> std::string &amp;file);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <span class="keywordtype">bool</span> readChanges(<span class="keyword">const</span> std::string &amp;file, <a class="code" href="classosmstats_1_1QueryOSMStats.html">osmstats::QueryOSMStats</a> &amp;ostats);</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160; </div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <span class="keywordtype">bool</span> mergeToDB();</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160; </div>
@@ -348,6 +348,7 @@ $(function() {
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160; </div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// EOF __REPLICATION_HH__</span></div>
 <div class="ttc" id="achangeset_8hh_html"><div class="ttname"><a href="changeset_8hh.html">changeset.hh</a></div><div class="ttdoc">The file is used for processing changeset files.</div></div>
+<div class="ttc" id="aclassosmstats_1_1QueryOSMStats_html"><div class="ttname"><a href="classosmstats_1_1QueryOSMStats.html">osmstats::QueryOSMStats</a></div><div class="ttdoc">This handles all direct database access.</div><div class="ttdef"><b>Definition:</b> osmstats.hh:193</div></div>
 <div class="ttc" id="aclassreplication_1_1Planet_html"><div class="ttname"><a href="classreplication_1_1Planet.html">replication::Planet</a></div><div class="ttdoc">This stores file paths and timestamps from planet.</div><div class="ttdef"><b>Definition:</b> replication.hh:189</div></div>
 <div class="ttc" id="aclassreplication_1_1RemoteURL_html"><div class="ttname"><a href="classreplication_1_1RemoteURL.html">replication::RemoteURL</a></div><div class="ttdoc">This parses a remote URL into pieces.</div><div class="ttdef"><b>Definition:</b> replication.hh:161</div></div>
 <div class="ttc" id="aclassreplication_1_1Replication_html"><div class="ttname"><a href="classreplication_1_1Replication.html">replication::Replication</a></div><div class="ttdoc">Handle replication files from the OSM planet server.</div><div class="ttdef"><b>Definition:</b> replication.hh:276</div></div>
