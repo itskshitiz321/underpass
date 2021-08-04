@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['filename_271',['filename',['../classchangeset_1_1ChangeSetFile.html#a83094b6098735aebabd132c06cb0cda1',1,'changeset::ChangeSetFile']]],
-  ['frequency_272',['frequency',['../classreplication_1_1StateFile.html#ae25490419512421285a55694e10585e1',1,'replication::StateFile']]]
+  ['filename_255',['filename',['../classchangeset_1_1ChangeSetFile.html#a83094b6098735aebabd132c06cb0cda1',1,'changeset::ChangeSetFile']]],
+  ['frequency_256',['frequency',['../classreplication_1_1StateFile.html#ae25490419512421285a55694e10585e1',1,'replication::StateFile']]]
 ];
