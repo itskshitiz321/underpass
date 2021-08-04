@@ -99,7 +99,7 @@ replication/002/002/002/002.osm.gz
 <p>Underpass can also monitor for new data files, so as to keep up to date. If the database is up to date, the threads are put to sleep, and wake up a minute later to see if there are new files. If behind by several minutes, Underpass will bulk download them until caught up.</p>
 <p>Underpass uses simple threading, so can utilize multiple CPU cores. When a new data file is downloaded, it's uncompressed and parsed. During the parsing process, some data validation is done. If a change fails validation, it's written to a database table so a validator can look into the issue later. If it passes validation, then statistics are calculated, and written to the <b>OSM Stats</b> database. Some data also comes from the Tasking Manager.</p>
 <p>In the near future, Changes will also be applied to a standard OSM database so it can be quered for data extracts.</p>
-<p>&#160; <img src="https://github.com/hotosm/underpass/blob/master/doc/dataflow.png" alt="Flow Chart" class="inline"/> </p>
+<p>&#160; <img src="https://raw.githubusercontent.com/hotosm/underpass/master/doc/dataflow.png" alt="Flow Chart" class="inline"/> </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->
