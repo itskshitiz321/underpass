@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Underpass: Mainpage</title>
+<title>Underpass: Main Page</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,10 +62,13 @@ $(function() {
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Mainpage </div>  </div>
+<div class="title">Underpass Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md_README"></a> Underpass is a C++ API and utility programs for manipulating OpenStreetMap data at the database and raw data file level. It can download replication files from the OSM planet server and use these files to update a local copy of the OSM database, or analyze the changes to generate statistics. It is designed to be high performance on modest hardware.</p>
+<div class="textblock"><p><a class="anchor" id="md_README"></a> <img src="https://github.com/hotosm/underpass/actions/workflows/run_tests.yml/badge.svg" alt="CI Build and Testing" style="pointer-events: none;" class="inline"/></p>
+<h1><a class="anchor" id="autotoc_md0"></a>
+Mainpage</h1>
+<p>Underpass is a C++ API and utility programs for manipulating OpenStreetMap data at the database and raw data file level. It can download replication files from the OSM planet server and use these files to update a local copy of the OSM database, or analyze the changes to generate statistics. It is designed to be high performance on modest hardware.</p>
 <p>Currently this is usually done using Overpass, which can be self-hosted or accessed remotely. Overpass has major performance issues though, namely it’s single threaded, and doesn’t use a real database. What Overpass does is support a wide range of querying OSM data, and can handle rather complicated filters. Much of that functionality is not needed for supporting statistics collection and simple validation.</p>
 <p>Underpass is designed to function as a replacement for a subset of Overpass’s functionality. It is focused on analyzing the change data every minute, and generating statistics or doing validation of the metadata. This can be used for the Missing Maps Leaderboard, and the Red Cross OSM Stats. It is designed to be able to process large files by streaming the data.</p>
 <p>Rather than using disk based tempfiles, it has a self-hosted database centric design for better performance. It uses Postgresql with the Postgis extension, both commonly used for core OSM infrastructure. One big advantage of using postgres is it supports utilizing multi-core processors for faster SQL queries. It can optionally use <a href="https://heterodb.github.io/pg-strom/">GPU support</a> for faster geospatial queries.</p>
