@@ -1,5 +1,0 @@
-<map id="osmstats/replication.hh" name="osmstats/replication.hh">
-<area shape="rect" id="node1" title="This class downloads replication files, and adds them to the database." alt="" coords="5,5,161,32"/>
-<area shape="rect" id="node2" href="$threads_8hh.html" title="Threads for monitoring the OSM planet server for replication files." alt="" coords="28,80,139,107"/>
-<area shape="rect" id="node3" href="$underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="163,80,291,107"/>
-</map>
