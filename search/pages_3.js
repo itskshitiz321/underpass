@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['statistics_20calculations_341',['Statistics Calculations',['../md_doc_statistics.html',1,'']]]
+  ['replication_340',['Replication',['../md_doc_replication.html',1,'']]],
+  ['replication_20files_341',['Replication Files',['../md_doc_changefile.html',1,'']]],
+  ['replicator_342',['Replicator',['../md_doc_replicator.html',1,'']]]
 ];
