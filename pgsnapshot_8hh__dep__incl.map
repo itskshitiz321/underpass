@@ -1,0 +1,4 @@
+<map id="data/pgsnapshot.hh" name="data/pgsnapshot.hh">
+<area shape="rect" id="node1" title="This file writes data to the pgsnapshot schema." alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node2" href="$import_8hh.html" title="Import an OSM data file into postgres." alt="" coords="21,80,125,107"/>
+</map>
