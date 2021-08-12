@@ -1,9 +1,0 @@
-<map id="osmstats/osmchange.hh" name="osmstats/osmchange.hh">
-<area shape="rect" id="node1" title="This file parses a change file in the OsmChange format." alt="" coords="29,6,193,33"/>
-<area shape="rect" id="node2" href="$osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="36,81,186,108"/>
-<area shape="rect" id="node3" href="$changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="32,156,190,182"/>
-<area shape="rect" id="node5" href="$threads_8hh.html" title="Threads for monitoring the OSM planet server for replication files." alt="" coords="28,305,138,332"/>
-<area shape="rect" id="node6" href="$underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="163,305,291,332"/>
-<area shape="rect" id="node7" href="$geoutil_8hh.html" title="This file parses a data file containing boundaries." alt="" coords="264,156,371,182"/>
-<area shape="rect" id="node4" href="$replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="33,230,189,257"/>
-</map>

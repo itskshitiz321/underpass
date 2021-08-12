@@ -1,6 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classosmobjects_1_1OsmObject.html" title="This is the base class for the common data fields used by all OSM objects." alt="" coords="5,56,167,83"/>
-<area shape="rect" id="node2" href="$classosmobjects_1_1OsmNode.html" title="This represents an OSM node." alt="" coords="223,5,377,32"/>
-<area shape="rect" id="node3" href="$classosmobjects_1_1OsmRelation.html" title="This represents an OSM relation." alt="" coords="215,56,385,83"/>
-<area shape="rect" id="node4" href="$classosmobjects_1_1OsmWay.html" title="This represents an OSM way." alt="" coords="226,107,374,133"/>
-</map>
