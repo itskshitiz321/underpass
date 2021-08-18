@@ -86,6 +86,7 @@ Creating a Chroot</h1>
 <p>To create signed packages, you need a <em>GPG</em> key pair setup, so mjight as well do that now. Type <em>gpg &ndash;full-generate-key</em>, and answer the questions. This will only work if you've execute the mount commands as documented above.</p>
 <h2><a class="anchor" id="autotoc_md10"></a>
 For Debian</h2>
+<p>sudo /usr/sbin/debootstrap &ndash;arch amd64 bullseye bullseye/ <a href="http://deb.debian.org/debian/">http://deb.debian.org/debian/</a></p>
 <p>Start by installing packages needed to build Underpass.</p>
 <p>apt install gcc g++ pkg-config libboost-all-dev libgdal-dev git libxml++2.6-dev git libosmium2-dev libpq-dev ccache libgumbo-dev libssl-dev make debhelper debconf libpq5-dev chrpath devscripts gpg git</p>
 <h2><a class="anchor" id="autotoc_md11"></a>
