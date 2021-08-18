@@ -1,6 +1,10 @@
 var searchData=
 [
-  ['linestring_53',['linestring',['../classosmobjects_1_1OsmWay.html#a2fcd1395cf5fb030d398fce6c8fe9be3',1,'osmobjects::OsmWay']]],
-  ['log_54',['log',['../classlogger_1_1LogFile.html#a6075e8cc2a88de65cb60ad6ec17a72ff',1,'logger::LogFile::log(const std::string &amp;label, const std::string &amp;msg)'],['../classlogger_1_1LogFile.html#aa8e78b528f118e46ec4f20832d478b4c',1,'logger::LogFile::log(const std::string &amp;msg)']]],
-  ['logfile_55',['LogFile',['../classlogger_1_1LogFile.html',1,'logger']]]
+  ['id_46',['id',['../classchangeset_1_1ChangeSet.html#a7bfc2b565c25766a73ff46e3bee49af8',1,'changeset::ChangeSet::id()'],['../classosmstats_1_1RawChangeset.html#a373c97ca4b7f5b226c4f3aab89d45c60',1,'osmstats::RawChangeset::id()'],['../classosmstats_1_1RawUser.html#af5621c4d2240ffac60b73af987aed7e2',1,'osmstats::RawUser::id()'],['../classosmstats_1_1RawHashtag.html#a7eb94b6f33ad9415d76a55f18109c8aa',1,'osmstats::RawHashtag::id()'],['../classosmobjects_1_1OsmObject.html#ab800a67aa9359b7b2f4bbe2dcd04fe23',1,'osmobjects::OsmObject::id()']]],
+  ['import_2ehh_47',['import.hh',['../import_8hh.html',1,'']]],
+  ['importchanges_48',['importChanges',['../classchangeset_1_1ChangeSetFile.html#aa49b23e51eaf4904c3a13ed368046880',1,'changeset::ChangeSetFile']]],
+  ['importosm_49',['ImportOSM',['../classimport_1_1ImportOSM.html',1,'import::ImportOSM'],['../classimport_1_1ImportOSM.html#afd1b0aef2bef0f61a345981c86cc5c28',1,'import::ImportOSM::ImportOSM()']]],
+  ['initializeraw_50',['initializeRaw',['../classReplicator.html#ab6269765bcc1341f810cb4d632a30b64',1,'Replicator']]],
+  ['inpriorityarea_51',['inPriorityArea',['../classgeoutil_1_1GeoUtil.html#a41803bb0e3021dde217939250d317679',1,'geoutil::GeoUtil']]],
+  ['isclosed_52',['isClosed',['../classosmobjects_1_1OsmWay.html#ab502f606ba0b2108d71e470ff284472d',1,'osmobjects::OsmWay']]]
 ];

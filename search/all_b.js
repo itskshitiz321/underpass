@@ -1,16 +1,11 @@
 var searchData=
 [
-  ['open_72',['open',['../classchangeset_1_1ChangeSet.html#a77a5b6c937061066cff7ed7560572fd0',1,'changeset::ChangeSet']]],
-  ['osm_20stats_73',['OSM Stats',['../md_doc_osmstats.html',1,'']]],
-  ['osmchange_74',['OsmChange',['../classosmchange_1_1OsmChange.html',1,'osmchange']]],
-  ['osmchange_2ehh_75',['osmchange.hh',['../osmchange_8hh.html',1,'']]],
-  ['osmchangefile_76',['OsmChangeFile',['../classosmchange_1_1OsmChangeFile.html',1,'osmchange']]],
-  ['osmhandler_77',['OSMHandler',['../classimport_1_1OSMHandler.html',1,'import']]],
-  ['osmnode_78',['OsmNode',['../classosmobjects_1_1OsmNode.html',1,'osmobjects']]],
-  ['osmobject_79',['OsmObject',['../classosmobjects_1_1OsmObject.html',1,'osmobjects']]],
-  ['osmobjects_2ehh_80',['osmobjects.hh',['../osmobjects_8hh.html',1,'']]],
-  ['osmrelation_81',['OsmRelation',['../classosmobjects_1_1OsmRelation.html',1,'osmobjects']]],
-  ['osmstats_2ehh_82',['osmstats.hh',['../osmstats_8hh.html',1,'']]],
-  ['osmtype_5ft_83',['osmtype_t',['../osmchange_8hh.html#af02e73fa92b123e0fc4095f07546bae6',1,'osmchange']]],
-  ['osmway_84',['OsmWay',['../classosmobjects_1_1OsmWay.html',1,'osmobjects']]]
+  ['name_64',['name',['../classosmstats_1_1RawUser.html#abd5295df8fd246a742db0b39035c06c5',1,'osmstats::RawUser::name()'],['../classosmstats_1_1RawHashtag.html#ac68532a5733a4d26af1b61f96162a6f3',1,'osmstats::RawHashtag::name()']]],
+  ['newnode_65',['newNode',['../classosmchange_1_1OsmChange.html#ae3fe326cb007864b7d6e84449a4a829d',1,'osmchange::OsmChange']]],
+  ['newrelation_66',['newRelation',['../classosmchange_1_1OsmChange.html#ade60fe025e27fc97ff382ad552439bc9',1,'osmchange::OsmChange']]],
+  ['newway_67',['newWay',['../classosmchange_1_1OsmChange.html#a0cc054ff98184fbb690fdd3e9a11e6fa',1,'osmchange::OsmChange']]],
+  ['node_68',['node',['../classimport_1_1OSMHandler.html#a836ccc7e2aba9bcc78dfaa2947cfedeb',1,'import::OSMHandler']]],
+  ['nodes_69',['nodes',['../classosmchange_1_1OsmChange.html#a1a3d619ff3b46e1679a1b7a9c30a1524',1,'osmchange::OsmChange']]],
+  ['num_5fchanges_70',['num_changes',['../classchangeset_1_1ChangeSet.html#aab16ec2192fb773e699e12d2d6d44f10',1,'changeset::ChangeSet']]],
+  ['numpoints_71',['numPoints',['../classosmobjects_1_1OsmWay.html#a13a0a60bc79d57b265ce9fe628a34eca',1,'osmobjects::OsmWay']]]
 ];

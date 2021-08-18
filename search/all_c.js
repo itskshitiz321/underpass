@@ -1,15 +1,16 @@
 var searchData=
 [
-  ['parse_85',['parse',['../classreplication_1_1RemoteURL.html#ab325070813e69e1f711b27a1393b1f43',1,'replication::RemoteURL']]],
-  ['path_86',['path',['../classreplication_1_1StateFile.html#a7a1ebc080d2dc1486e9fb2f516a2fa63',1,'replication::StateFile']]],
-  ['pgsnapshot_87',['PGSnapshot',['../classpgsnapshot_1_1PGSnapshot.html',1,'pgsnapshot']]],
-  ['pgsnapshot_2ehh_88',['pgsnapshot.hh',['../pgsnapshot_8hh.html',1,'']]],
-  ['planet_89',['Planet',['../classreplication_1_1Planet.html',1,'replication']]],
-  ['point_90',['point',['../classosmobjects_1_1OsmNode.html#abac518986f396a13c039c04e0691f011',1,'osmobjects::OsmNode']]],
-  ['polygon_91',['polygon',['../classosmobjects_1_1OsmWay.html#ae785c64e015ea8cafed62c578345e5dc',1,'osmobjects::OsmWay']]],
-  ['populate_92',['populate',['../classosmstats_1_1QueryOSMStats.html#a7b10253cbe371d5585a44270946ee536',1,'osmstats::QueryOSMStats']]],
-  ['port_93',['port',['../classreplication_1_1Planet.html#aa8092ecfd1bd0c555e9c3a3cfc2873e5',1,'replication::Planet']]],
-  ['pq_94',['Pq',['../classpq_1_1Pq.html#a256551a25e8a6936004fcaeac380862b',1,'pq::Pq::Pq()'],['../classpq_1_1Pq.html',1,'pq::Pq']]],
-  ['pq_2ehh_95',['pq.hh',['../pq_8hh.html',1,'']]],
-  ['priority_96',['priority',['../classosmobjects_1_1OsmObject.html#a2e418218766d96cc7bb6ee42a43e46ca',1,'osmobjects::OsmObject']]]
+  ['open_72',['open',['../classchangeset_1_1ChangeSet.html#a77a5b6c937061066cff7ed7560572fd0',1,'changeset::ChangeSet']]],
+  ['osm_20stats_73',['OSM Stats',['../md_doc_osmstats.html',1,'']]],
+  ['osmchange_74',['OsmChange',['../classosmchange_1_1OsmChange.html',1,'osmchange']]],
+  ['osmchange_2ehh_75',['osmchange.hh',['../osmchange_8hh.html',1,'']]],
+  ['osmchangefile_76',['OsmChangeFile',['../classosmchange_1_1OsmChangeFile.html',1,'osmchange']]],
+  ['osmhandler_77',['OSMHandler',['../classimport_1_1OSMHandler.html',1,'import']]],
+  ['osmnode_78',['OsmNode',['../classosmobjects_1_1OsmNode.html',1,'osmobjects']]],
+  ['osmobject_79',['OsmObject',['../classosmobjects_1_1OsmObject.html',1,'osmobjects']]],
+  ['osmobjects_2ehh_80',['osmobjects.hh',['../osmobjects_8hh.html',1,'']]],
+  ['osmrelation_81',['OsmRelation',['../classosmobjects_1_1OsmRelation.html',1,'osmobjects']]],
+  ['osmstats_2ehh_82',['osmstats.hh',['../osmstats_8hh.html',1,'']]],
+  ['osmtype_5ft_83',['osmtype_t',['../osmchange_8hh.html#af02e73fa92b123e0fc4095f07546bae6',1,'osmchange']]],
+  ['osmway_84',['OsmWay',['../classosmobjects_1_1OsmWay.html',1,'osmobjects']]]
 ];

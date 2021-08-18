@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['filename_29',['filename',['../classchangeset_1_1ChangeSetFile.html#a83094b6098735aebabd132c06cb0cda1',1,'changeset::ChangeSetFile']]],
-  ['finddata_30',['findData',['../classreplication_1_1Planet.html#a1f9303ad479f27801917010569935f99',1,'replication::Planet']]],
-  ['frequency_31',['frequency',['../classreplication_1_1StateFile.html#ae25490419512421285a55694e10585e1',1,'replication::StateFile']]]
+  ['editor_27',['editor',['../classchangeset_1_1ChangeSet.html#ac88a56a713214c51b3adb9cc555c8abf',1,'changeset::ChangeSet::editor()'],['../classosmstats_1_1RawChangeset.html#a5df5f49acfe5f27c75fe15f0883d1755',1,'osmstats::RawChangeset::editor()']]],
+  ['endtimer_28',['endTimer',['../classTimer.html#a098486550b8262502f25e98c72c6a098',1,'Timer']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['chroots_337',['chroots',['../md_doc_chroots.html',1,'']]]
+  ['building_20packages_20_20in_20a_20chroot_337',['Building Packages  in a Chroot',['../md_doc_chroots.html',1,'']]]
 ];

@@ -66,7 +66,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>There are several database schemas used for OpenStreetMap data. The primary two used by most people working with OSM files are created by the two utility programs, <em>osm2pgsql</em> and <em>ogr2ogr</em>. Both work the same, and contain the same data, it's just organized differently. Underpass doesn't import into these database, as there are actively maintained tools for this already. These schemas are well-suited towards data extracts, and <a href="https://wiki.openstreetmap.org/wiki/Conflation">conflation</a> and <a href="https://labs.mapbox.com/mapping/validating-osm/">validation</a>.</p>
-<h1><a class="anchor" id="autotoc_md38"></a>
+<h1><a class="anchor" id="autotoc_md39"></a>
 osm2pgsql</h1>
 <p><a href="https://osm2pgsql.org/">Osm2pgsql</a> is the primary tool for importing OSM files. The <em>osm2pgsql</em> program can import a data file into postgres, but it doesn’t support updating the data. As it contains geospatial data, it’s a compact and easily queried schema. It lacks any knowledge of relations, which isn’t usually a problem unless you want to do deeper analysis of the data.</p>
 <p>&#160;</p>
@@ -85,7 +85,7 @@ osm2pgsql</h1>
 <td class="markdownTableBodyNone">spatial_ref_sys   </td><td class="markdownTableBodyNone">Geospatial data for postgis   </td></tr>
 </table>
 <p>All of these tables have the same columns in the database. Any tag that doesn't fit one of these columns is stored in the *tags" column. The tags column uses <a href="https://www.postgresqltutorial.com/postgresql-hstore/">hstore</a>, which can store additional keyword/value pairs. The columns are: osm_id, access, addr:housename, addr:housenumber, addr:interpolation, admin_level, aerialway, aeroway, amenity, area, barrier, bicycle, brand, bridge, boundary, building, construction, covered, culvert, cutting, denomination, disused, embankment, foot, generator:source, harbour, highway, historic, horse, intermittent, junction, landuse, layer, leisure, lock, man_made, military, motorcar, name, natural, office, oneway, operator, place, population, power, power_source, public_transport, railway, ref, religion, route, service, shop , sport, surface, toll, tourism, tower:type, tracktype, tunnel , water, waterway, wetland, width, wood, z_order, way_area, tags, way</p>
-<h1><a class="anchor" id="autotoc_md39"></a>
+<h1><a class="anchor" id="autotoc_md40"></a>
 ogr2ogr</h1>
 <p><a href="https://www.osgeo.org/projects/gdal/">Ogr and GDAL</a> are the basis for many GIS projects, but has <a href="https://gdal.org/drivers/vector/osm.html">minimal OSM</a> support. It can read the OSM XML and PBF formats, and can import into a database. It uses a different schema for each table.</p>
 <p>&#160;</p>
@@ -117,7 +117,7 @@ ogr2ogr</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">lines   </td><td class="markdownTableBodyNone">ogc_fid, osm_id, name, highway, waterway, aerialway, barrier, man_made, z_order, other_tags, wkb_geometry   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md40"></a>
+<h1><a class="anchor" id="autotoc_md41"></a>
 Example Queries</h1>
 <p><a href="https://en.wikipedia.org/wiki/SQL">SQL</a> is a powerful language for manipulating database data. </p><pre class="fragment"># Select all buildings
 SELECT name,wkb_geometry FROM multipolygons WHERE building='yes';
@@ -127,12 +127,12 @@ SELECT COUNT(wkb_geometry) FROM multilinestrings WHERE highway is NOT NULL;
 
 # Find bad highways
 # SELECT * FROM multilinestrings WHERE other_tags-&gt;'surface'='bad';
-</pre> <h1><a class="anchor" id="autotoc_md41"></a>
+</pre> <h1><a class="anchor" id="autotoc_md42"></a>
 Core Database Schemas</h1>
 <p>The primary one that operates the core servers uses <b>apidb</b>. There is a simplified version called <b>pgsnapshot</b>, which is more suited towards running ones own database. Both of these schemas are the only ones that can be updated with replication files. A replication file is the data of the actual change, and available with minutely, hourly, or daily updates.</p>
 <p>Osmosis is commonly used for manipulating and importing data into these schemas. Although it has been unmaintained for several years. It’s written in Java, and as it uses temporary files on disk, an import can consume upwards of a terabyte.</p>
 <p>Underpass can import a data file into the <em>pgsnapshot</em> schema without <em>osmosis</em>. It can also use <a class="el" href="md_doc_changefile.html">replication files</a> to update the database.</p>
-<h2><a class="anchor" id="autotoc_md42"></a>
+<h2><a class="anchor" id="autotoc_md43"></a>
 pgsnapshot</h2>
 <p>The <em>pgsnapshot</em> schema is a more compact version of the main database. It contains geospatial information, and can be updated using replication files. It can also be easily queried to produce data extracts in OSM format. By default, it is not well suited to any data analysis that uses geospatial calculations since the nodes are stored separately from the ways. Underpass extends this schema by by adding a geometry column to the ways table.</p>
 <p>&#160;</p>
@@ -166,7 +166,7 @@ pgsnapshot</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">ways   </td><td class="markdownTableBodyNone">A list of ways   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md43"></a>
+<h2><a class="anchor" id="autotoc_md44"></a>
 apidb</h2>
 <p>The <em>apidb</em> schema is the one that operates the core OpenStreetMap servers, and is usually access through a REST API.</p>
 <table class="markdownTable">

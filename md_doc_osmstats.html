@@ -67,7 +67,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><p>The Red Cross maintains statistics of changes, so it’s possible to track the mapping progress of individual users, teams, and mapping campaigns. Underpass writes directly to the postgres database used for OSM Stats. Underpass has the ability to recreate this database and populate it with data from the raw data files. Underpass uses <a class="el" href="md_doc_changefile.html">replication change files</a> to update these tables. The database schema contains a number of tables which are documented here:</p>
 <p>&#160; </p>
-<h1><a class="anchor" id="autotoc_md24"></a>
+<h1><a class="anchor" id="autotoc_md25"></a>
 OSM Stats Tables</h1>
 <p>The OSM schema contains a number of tables, which are designed to support the web front end. the <b>raw_</b> tables are mostly static, and are simply a matching of an ID to a name for display. There are other smaller tables for the same purpose, usedc to group queries together for the front-end.</p>
 <table class="markdownTable">
@@ -98,7 +98,7 @@ OSM Stats Tables</h1>
 </table>
 <p>badge_updater_status</p>
 <p>&#160; </p>
-<h1><a class="anchor" id="autotoc_md25"></a>
+<h1><a class="anchor" id="autotoc_md26"></a>
 raw_changesets Table</h1>
 <p>The main table is raw_changesets, which contains extracted data from the two files is then processed to create the various statistics. The counters use the existing data, and only add to this value based on what is in the change file, as this requires much less processing time. This is the primary table Underpass updates the data in.</p>
 <table class="markdownTable">
@@ -145,7 +145,7 @@ raw_changesets Table</h1>
 </table>
 <p>augmented_diffs</p>
 <p>&#160; </p>
-<h1><a class="anchor" id="autotoc_md26"></a>
+<h1><a class="anchor" id="autotoc_md27"></a>
 raw_users Table</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -156,7 +156,7 @@ raw_users Table</h1>
 <td class="markdownTableBodyNone">name   </td><td class="markdownTableBodyNone">OSM username   </td></tr>
 </table>
 <p>&#160; </p>
-<h1><a class="anchor" id="autotoc_md27"></a>
+<h1><a class="anchor" id="autotoc_md28"></a>
 raw_hashtags Table</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -167,7 +167,7 @@ raw_hashtags Table</h1>
 <td class="markdownTableBodyNone">hashtag   </td><td class="markdownTableBodyNone">OSM username   </td></tr>
 </table>
 <p>&#160; </p>
-<h1><a class="anchor" id="autotoc_md28"></a>
+<h1><a class="anchor" id="autotoc_md29"></a>
 raw_countries Table</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -180,7 +180,7 @@ raw_countries Table</h1>
 <td class="markdownTableBodyNone">code   </td><td class="markdownTableBodyNone">The 3 letter ISO abbreviation   </td></tr>
 </table>
 <p>&#160; </p>
-<h1><a class="anchor" id="autotoc_md29"></a>
+<h1><a class="anchor" id="autotoc_md30"></a>
 raw_changesets_countries Table</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -191,7 +191,7 @@ raw_changesets_countries Table</h1>
 <td class="markdownTableBodyNone">country_id   </td><td class="markdownTableBodyNone">The country ID   </td></tr>
 </table>
 <p>&#160; </p>
-<h1><a class="anchor" id="autotoc_md30"></a>
+<h1><a class="anchor" id="autotoc_md31"></a>
 raw_changesets_hashtags Table</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -202,7 +202,7 @@ raw_changesets_hashtags Table</h1>
 <td class="markdownTableBodyNone">hashtag_id   </td><td class="markdownTableBodyNone">The hashtag ID   </td></tr>
 </table>
 <p>&#160; </p>
-<h1><a class="anchor" id="autotoc_md31"></a>
+<h1><a class="anchor" id="autotoc_md32"></a>
 changesets_status Table</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -213,7 +213,7 @@ changesets_status Table</h1>
 <td class="markdownTableBodyNone">updated_at   </td><td class="markdownTableBodyNone">Timestamp of the update   </td></tr>
 </table>
 <p>&#160; </p>
-<h1><a class="anchor" id="autotoc_md32"></a>
+<h1><a class="anchor" id="autotoc_md33"></a>
 badge Table</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -228,7 +228,7 @@ badge Table</h1>
 <td class="markdownTableBodyNone">level   </td><td class="markdownTableBodyNone">The badge level   </td></tr>
 </table>
 <p>&#160; </p>
-<h1><a class="anchor" id="autotoc_md33"></a>
+<h1><a class="anchor" id="autotoc_md34"></a>
 badges_users Table</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -241,7 +241,7 @@ badges_users Table</h1>
 <td class="markdownTableBodyNone">updated_at   </td><td class="markdownTableBodyNone">The timestamp of the user receiving this badge   </td></tr>
 </table>
 <p>&#160; </p>
-<h1><a class="anchor" id="autotoc_md34"></a>
+<h1><a class="anchor" id="autotoc_md35"></a>
 augmented_diff_status Table</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
