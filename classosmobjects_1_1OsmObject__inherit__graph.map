@@ -1,6 +1,0 @@
-<map id="osmobjects::OsmObject" name="osmobjects::OsmObject">
-<area shape="rect" id="node1" title="This is the base class for the common data fields used by all OSM objects." alt="" coords="189,5,350,32"/>
-<area shape="rect" id="node2" href="$classosmobjects_1_1OsmNode.html" title="This represents an OSM node." alt="" coords="5,80,160,107"/>
-<area shape="rect" id="node3" href="$classosmobjects_1_1OsmRelation.html" title="This represents an OSM relation." alt="" coords="184,80,355,107"/>
-<area shape="rect" id="node4" href="$classosmobjects_1_1OsmWay.html" title="This represents an OSM way." alt="" coords="379,80,527,107"/>
-</map>
