@@ -1,0 +1,4 @@
+<map id="osmobjects::OsmRelation" name="osmobjects::OsmRelation">
+<area shape="rect" id="node1" title="This represents an OSM relation." alt="" coords="5,80,176,107"/>
+<area shape="rect" id="node2" href="$classosmobjects_1_1OsmObject.html" title="This is the base class for the common data fields used by all OSM objects." alt="" coords="10,5,171,32"/>
+</map>

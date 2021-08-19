@@ -1,0 +1,9 @@
+<map id="timer.hh" name="timer.hh">
+<area shape="rect" id="node1" title="Implement a timer for performance testing." alt="" coords="242,5,310,32"/>
+<area shape="rect" id="node2" href="$changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="140,80,297,107"/>
+<area shape="rect" id="node6" href="$replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="137,304,293,331"/>
+<area shape="rect" id="node3" href="$osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="119,155,270,181"/>
+<area shape="rect" id="node4" href="$geoutil_8hh.html" title="This file parses a data file containing boundaries." alt="" coords="28,229,135,256"/>
+<area shape="rect" id="node5" href="$threads_8hh.html" title="Threads for monitoring/synchronizing various data sources:" alt="" coords="159,229,270,256"/>
+<area shape="rect" id="node7" href="$underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="39,379,167,405"/>
+</map>
