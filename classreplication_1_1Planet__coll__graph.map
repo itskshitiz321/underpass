@@ -1,4 +1,0 @@
-<map id="replication::Planet" name="replication::Planet">
-<area shape="rect" id="node1" title="This stores file paths and timestamps from planet." alt="" coords="23,95,147,121"/>
-<area shape="rect" id="node2" href="$classreplication_1_1RemoteURL.html" title="This parses a remote URL into pieces." alt="" coords="5,5,164,32"/>
-</map>
