@@ -1,0 +1,8 @@
+<map id="osmstats/osmstats.hh" name="osmstats/osmstats.hh">
+<area shape="rect" id="node1" title="This file is used to work with the OSM Stats database." alt="" coords="275,5,426,32"/>
+<area shape="rect" id="node2" href="$geoutil_8hh.html" title="This file parses a data file containing boundaries." alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node3" href="$threads_8hh.html" title="Threads for monitoring/synchronizing various data sources:" alt="" coords="137,80,247,107"/>
+<area shape="rect" id="node5" href="$underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="305,229,433,256"/>
+<area shape="rect" id="node6" href="$changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="272,80,429,107"/>
+<area shape="rect" id="node4" href="$replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="194,155,350,181"/>
+</map>
