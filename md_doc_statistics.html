@@ -79,12 +79,38 @@ What Is Collected</h1>
 Building Types</h2>
 <p >Most buildings added by remote tracing of satellite imagery lack any metadata tags beyond <em>building=yes</em>. When local mappers import more detailed data, or update the existing metadata, those values get added. This is the current set of building values being accumulated.</p>
 <ul>
-<li>hospital</li>
+<li>yes</li>
+<li>house</li>
+<li>residential</li>
+<li>commercial</li>
+<li>retail</li>
+<li>commercial;residential</li>
+<li>apartments</li>
+<li>kitchen</li>
+<li>roof</li>
+<li>construction</li>
 <li>school</li>
-<li>healthcare</li>
 <li>clinic</li>
-<li>health center</li>
-<li>health centre</li>
+<li>hospital</li>
+<li>office</li>
+<li>public</li>
+<li>church</li>
+<li>mosque</li>
+<li>temple</li>
+<li>service</li>
+<li>warehouse</li>
+<li>industrial</li>
+<li>kiosk</li>
+<li>abandoned</li>
+<li>cabin</li>
+<li>bungalow</li>
+<li>hotel</li>
+<li>farm</li>
+<li>hut</li>
+<li>train_station</li>
+<li>house_boat</li>
+<li>barn</li>
+<li>historic</li>
 <li>latrine</li>
 <li>latrines</li>
 <li>toilet</li>
@@ -117,15 +143,15 @@ Places Types</h2>
 Highway Types</h2>
 <p >Highways traced from satellite imagery often lack metadata beyond the functional type. For example, a highway that connects two villages is easy to determine. An accumulated value for the total of highways, and the total length in kilometers is store as an aggregate. More detailed statistics are also kept allowing more detail when needed.</p>
 <ul>
-<li>highway</li>
+<li>trunk</li>
 <li>tertiary</li>
 <li>secondary</li>
 <li>unclassified</li>
 <li>track</li>
 <li>residential</li>
 <li>path</li>
+<li>service</li>
 <li>bridge</li>
-<li>waterway</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md50"></a>
 School Types</h2>
@@ -269,7 +295,26 @@ training data table</h2>
 </table>
 <h2><a class="anchor" id="autotoc_md58"></a>
 validation data table</h2>
-<p >Keyword | Description -----&mdash;|---------&mdash; </p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Keyword   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">osm_id   </td><td class="markdownTableBodyNone">The OSM ID of this feature    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">user_id   </td><td class="markdownTableBodyNone">The user ID editing this feature    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">change_id   </td><td class="markdownTableBodyNone">The Changeset ID of this feature    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">objtype   </td><td class="markdownTableBodyNone">The type of opbjecct, node, way, or relation    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">angle   </td><td class="markdownTableBodyNone">The angle of the first corner (current DEBUG only!)    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">status[]   </td><td class="markdownTableBodyNone">An array of flagged issues is the feature    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">timestamp   </td><td class="markdownTableBodyNone">The time of this validation    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">location   </td><td class="markdownTableBodyNone">The centroid of this feature   </td></tr>
+</table>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->
