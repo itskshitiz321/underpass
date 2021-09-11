@@ -69,6 +69,7 @@ $(function() {
 <h1><a class="anchor" id="autotoc_md38"></a>
 osm2pgsql</h1>
 <p ><a href="https://osm2pgsql.org/">Osm2pgsql</a> is the primary tool for importing OSM files. The <em>osm2pgsql</em> program can import a data file into postgres, but it doesn’t support updating the data. As it contains geospatial data, it’s a compact and easily queried schema. It lacks any knowledge of relations, which isn’t usually a problem unless you want to do deeper analysis of the data.</p>
+<p >osm2pgsql has the ability to import <code>.osc</code> change files and update an existing database.</p>
 <p >&#160;</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -103,9 +104,11 @@ can store additional keyword/value pairs. The columns are:
 
 &lt;a href="<a href="https://www.osgeo.org/projects/gdal/">https://www.osgeo.org/projects/gdal/</a>" &gt;Ogr and GDAL&lt;/a&gt; are the basis for
 many GIS projects, but has &lt;a href="<a href="https://gdal.org/drivers/vector/osm.html">https://gdal.org/drivers/vector/osm.html</a>"
- &gt;minimal OSM&lt;/a&gt; support. It can read 
+ &gt;minimal OSM&lt;/a&gt; support. It can read
 the OSM XML and PBF formats, and can import into a database. It uses a
 different schema for each table.
+
+osm2pgsql does not support updating from &lt;tt&gt;.osc&lt;/tt&gt; change files.
 
 &amp;nbsp;
 
@@ -291,6 +294,18 @@ apidb</h2>
 <td class="markdownTableBodyNone">way_tags   </td><td class="markdownTableBodyNone">tbd    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">ways   </td><td class="markdownTableBodyNone">tbd   </td></tr>
+</table>
+<h2><a class="anchor" id="autotoc_md44"></a>
+Schema Comparison</h2>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name   </th><th class="markdownTableHeadNone">Tool Language   </th><th class="markdownTableHeadNone">OSC Support   </th><th class="markdownTableHeadNone">Geometry in the main table    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">osm2pgsql   </td><td class="markdownTableBodyNone">C++   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">yes    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">ogr2ogr   </td><td class="markdownTableBodyNone">C++   </td><td class="markdownTableBodyNone">no   </td><td class="markdownTableBodyNone">yes    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">pgsnapshot   </td><td class="markdownTableBodyNone">&ndash;   </td><td class="markdownTableBodyNone">yes   </td><td class="markdownTableBodyNone">no   </td></tr>
 </table>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

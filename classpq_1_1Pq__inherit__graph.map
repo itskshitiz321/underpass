@@ -1,5 +1,6 @@
 <map id="pq::Pq" name="pq::Pq">
-<area shape="rect" id="node1" title=" " alt="" coords="158,5,217,32"/>
-<area shape="rect" id="node2" href="$classosmstats_1_1QueryOSMStats.html" title="This handles all direct database access." alt="" coords="5,80,183,107"/>
-<area shape="rect" id="node3" href="$classunderpass_1_1Underpass.html" title=" " alt="" coords="207,80,357,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="247,5,306,32"/>
+<area shape="rect" id="node2" href="$classosm2pgsql_1_1Osm2Pgsql.html" title="The Osm2Pgsql class handles the communication with an osm2pgsql DB." alt="" coords="5,80,164,107"/>
+<area shape="rect" id="node3" href="$classosmstats_1_1QueryOSMStats.html" title="This handles all direct database access." alt="" coords="188,80,365,107"/>
+<area shape="rect" id="node4" href="$classunderpass_1_1Underpass.html" title=" " alt="" coords="389,80,540,107"/>
 </map>

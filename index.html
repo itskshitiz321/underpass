@@ -66,7 +66,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p ><a class="anchor" id="md_README"></a> <img src="https://github.com/hotosm/underpass/actions/workflows/run_tests.yml/badge.svg" alt="CI Build and Testing" style="pointer-events: none;" class="inline"/> <img src="https://github.com/hotosm/underpass/actions/workflows/main.yml/badge.svg" alt="Doxygen" style="pointer-events: none;" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md64"></a>
+<h1><a class="anchor" id="autotoc_md65"></a>
 Mainpage</h1>
 <p >Underpass is a C++ API and utility programs for manipulating OpenStreetMap data at the database and raw data file level. It can download replication files from the OSM planet server and use these files to update a local copy of the OSM database, or analyze the changes to generate statistics. It is designed to be high performance on modest hardware.</p>
 <p >Currently this is usually done using Overpass, which can be self-hosted or accessed remotely. Overpass has major performance issues though, namely it’s single threaded, and doesn’t use a real database. What Overpass does is support a wide range of querying OSM data, and can handle rather complicated filters. Much of that functionality is not needed for supporting statistics collection and simple validation.</p>
@@ -84,11 +84,11 @@ Mainpage</h1>
 </ul>
 <p >Ideally Underpass can be used by other projects needing to do similar tasks without Overpass. It should be able to support collecting more statistics than are currently used. Since much of Underpass deals with the low level data flow of OpenStreetMap, long-term it can be used to support future projects as a common infrastructure for database oriented mapping tasks.</p>
 <p >A critical future project is conflation and validation of existing data and mapathons. Underpass will support the database management tasks those projects will need. The same database can also be used for data exports, and Underpass can be used to keep that data up to date. What the Overpass data store contains is history information, change information, and the actual OSM data. Underpass can access this same information by processing the change data itself.</p>
-<h1><a class="anchor" id="autotoc_md65"></a>
+<h1><a class="anchor" id="autotoc_md66"></a>
 Dependencies</h1>
 <p >Underpass requires a modern C++ compiler that supports the 2011 C++ standard. The 2011 standard simplified the syntax by adding the <em>auto</em> keyword, and thread support became part of the standard C++ library. Underpass is a heavy user of of the <em>boost</em> libraries, and also requires reasonably up to date C++ libraries for other dependencies. Underpass also uses the ranges-v3 library. This will be in the 2020 C++ standard, but hasn't been released yet.</p>
 <p >Fedora 33, Debian Buster, and Ubuntu Groovy contain a package for librange-v3, which is the code base for what will be in C++ 2020. Both Debian Buster and Ubuntu Groovy ship <em>libpqxx 6.x</em>, which has a bug which has been fixed in <em>libpqxx 7.x</em>. Fedora 33 ships the newer version.</p>
-<h1><a class="anchor" id="autotoc_md66"></a>
+<h1><a class="anchor" id="autotoc_md67"></a>
 More Information</h1>
 <p >If you want to know more about Underpass, the <a href="https://hotosm.github.io/underpass/index.html">project Documentation</a> is here. This includes the internal documentation of all the classes. The source code is <a href="https://github.com/robsavoye/underpass">available here</a>. </p>
 </div></div><!-- PageDoc -->

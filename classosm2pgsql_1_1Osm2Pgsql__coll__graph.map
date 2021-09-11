@@ -1,0 +1,4 @@
+<map id="osm2pgsql::Osm2Pgsql" name="osm2pgsql::Osm2Pgsql">
+<area shape="rect" id="node1" title="The Osm2Pgsql class handles the communication with an osm2pgsql DB." alt="" coords="5,80,164,107"/>
+<area shape="rect" id="node2" href="$classpq_1_1Pq.html" title=" " alt="" coords="55,5,114,32"/>
+</map>

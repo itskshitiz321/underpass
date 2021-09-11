@@ -1,0 +1,10 @@
+<map id="data/osm2pgsql.hh" name="data/osm2pgsql.hh">
+<area shape="rect" id="node1" title="Manages a osm2pgsql DB." alt="" coords="140,5,271,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,155,121"/>
+<area shape="rect" id="node3" href="$pq_8hh.html" title="Pq for monitoring the OSM planet server for replication files." alt="" coords="179,87,232,114"/>
+<area shape="rect" id="node8" title=" " alt="" coords="256,87,395,114"/>
+<area shape="rect" id="node4" title=" " alt="" coords="24,169,96,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="121,169,199,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="223,169,278,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="303,169,361,196"/>
+</map>

@@ -94,6 +94,7 @@ $(function() {
 <code>#include &lt;boost/beast/http.hpp&gt;</code><br />
 <code>#include &lt;boost/beast/http/parser.hpp&gt;</code><br />
 <code>#include &lt;boost/beast/version.hpp&gt;</code><br />
+<code>#include &quot;<a class="el" href="osm2pgsql_8hh_source.html">data/osm2pgsql.hh</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="osmstats_8hh_source.html">osmstats/osmstats.hh</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="replication_8hh_source.html">osmstats/replication.hh</a>&quot;</code><br />
 <code>#include &quot;validate/validate.hh&quot;</code><br />
@@ -102,52 +103,53 @@ Include dependency graph for threads.hh:</div>
 <div class="dyncontent">
 <div class="center"><img src="threads_8hh__incl.png" border="0" usemap="#adata_2threads_8hh" alt=""/></div>
 <map name="adata_2threads_8hh" id="adata_2threads_8hh">
-<area shape="rect" title="Threads for monitoring/synchronizing various data sources:" alt="" coords="2288,5,2399,32"/>
+<area shape="rect" title="Threads for monitoring/synchronizing various data sources:" alt="" coords="2337,5,2448,32"/>
 <area shape="rect" title=" " alt="" coords="5,80,60,107"/>
-<area shape="rect" title=" " alt="" coords="1203,326,1275,353"/>
-<area shape="rect" title=" " alt="" coords="389,244,468,271"/>
-<area shape="rect" title=" " alt="" coords="1124,326,1179,353"/>
-<area shape="rect" title=" " alt="" coords="1875,326,1934,353"/>
-<area shape="rect" title=" " alt="" coords="2968,80,3095,107"/>
-<area shape="rect" title=" " alt="" coords="2100,162,2157,189"/>
-<area shape="rect" title=" " alt="" coords="1619,244,1729,271"/>
-<area shape="rect" title=" " alt="" coords="2182,162,2241,189"/>
-<area shape="rect" title=" " alt="" coords="2158,319,2307,360"/>
-<area shape="rect" title=" " alt="" coords="2441,326,2579,353"/>
-<area shape="rect" title=" " alt="" coords="2265,162,2421,189"/>
-<area shape="rect" title=" " alt="" coords="3900,162,4043,189"/>
-<area shape="rect" title=" " alt="" coords="4067,162,4225,189"/>
-<area shape="rect" title=" " alt="" coords="4249,162,4419,189"/>
-<area shape="rect" title=" " alt="" coords="3119,80,3261,107"/>
-<area shape="rect" title=" " alt="" coords="3285,80,3425,107"/>
-<area shape="rect" title=" " alt="" coords="3449,80,3629,107"/>
-<area shape="rect" title=" " alt="" coords="3654,80,3814,107"/>
-<area shape="rect" href="osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="939,80,1089,107"/>
-<area shape="rect" title=" " alt="" coords="1461,244,1594,271"/>
-<area shape="rect" href="replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="2584,80,2740,107"/>
-<area shape="rect" title=" " alt="" coords="466,162,541,189"/>
-<area shape="rect" title=" " alt="" coords="989,244,1039,271"/>
-<area shape="rect" title=" " alt="" coords="1064,244,1132,271"/>
-<area shape="rect" href="pq_8hh.html" title="Pq for monitoring the OSM planet server for replication files." alt="" coords="309,162,391,189"/>
-<area shape="rect" href="tmdefs_8hh_source.html" title=" " alt="" coords="544,244,660,271"/>
-<area shape="rect" href="tmusers_8hh_source.html" title=" " alt="" coords="739,162,862,189"/>
-<area shape="rect" href="changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="1715,162,1873,189"/>
-<area shape="rect" href="osmchange_8hh.html" title="This file parses a change file in the OsmChange format." alt="" coords="1240,162,1404,189"/>
-<area shape="rect" title=" " alt="" coords="1753,244,1792,271"/>
-<area shape="rect" title=" " alt="" coords="2129,244,2176,271"/>
-<area shape="rect" href="osmobjects_8hh.html" title="Data structures for OSM objects." alt="" coords="1919,244,2053,271"/>
-<area shape="rect" href="timer_8hh.html" title="Implement a timer for performance testing." alt="" coords="2404,244,2472,271"/>
-<area shape="rect" title=" " alt="" coords="1959,326,2093,353"/>
-<area shape="rect" title=" " alt="" coords="1520,326,1652,353"/>
-<area shape="rect" title=" " alt="" coords="2350,326,2417,353"/>
-<area shape="rect" title=" " alt="" coords="2699,162,2779,189"/>
-<area shape="rect" title=" " alt="" coords="2804,162,2864,189"/>
-<area shape="rect" title=" " alt="" coords="2888,162,2959,189"/>
-<area shape="rect" title=" " alt="" coords="2982,162,3147,189"/>
-<area shape="rect" title=" " alt="" coords="3171,155,3310,196"/>
-<area shape="rect" title=" " alt="" coords="3334,162,3473,189"/>
-<area shape="rect" title=" " alt="" coords="3497,162,3627,189"/>
-<area shape="rect" title=" " alt="" coords="3651,162,3825,189"/>
+<area shape="rect" title=" " alt="" coords="767,326,839,353"/>
+<area shape="rect" title=" " alt="" coords="395,244,473,271"/>
+<area shape="rect" title=" " alt="" coords="1932,326,1987,353"/>
+<area shape="rect" title=" " alt="" coords="1539,326,1598,353"/>
+<area shape="rect" title=" " alt="" coords="3017,80,3144,107"/>
+<area shape="rect" title=" " alt="" coords="2200,162,2257,189"/>
+<area shape="rect" title=" " alt="" coords="1313,244,1424,271"/>
+<area shape="rect" title=" " alt="" coords="2282,162,2341,189"/>
+<area shape="rect" title=" " alt="" coords="2383,319,2533,360"/>
+<area shape="rect" title=" " alt="" coords="2693,326,2831,353"/>
+<area shape="rect" title=" " alt="" coords="2365,162,2521,189"/>
+<area shape="rect" title=" " alt="" coords="3951,162,4093,189"/>
+<area shape="rect" title=" " alt="" coords="4118,162,4275,189"/>
+<area shape="rect" title=" " alt="" coords="4299,162,4470,189"/>
+<area shape="rect" title=" " alt="" coords="3168,80,3311,107"/>
+<area shape="rect" title=" " alt="" coords="3335,80,3475,107"/>
+<area shape="rect" title=" " alt="" coords="3499,80,3679,107"/>
+<area shape="rect" title=" " alt="" coords="3703,80,3863,107"/>
+<area shape="rect" href="osm2pgsql_8hh.html" title="Manages a osm2pgsql DB." alt="" coords="2070,80,2201,107"/>
+<area shape="rect" href="osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="884,80,1035,107"/>
+<area shape="rect" title=" " alt="" coords="135,244,269,271"/>
+<area shape="rect" href="replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="2633,80,2789,107"/>
+<area shape="rect" href="pq_8hh.html" title="Pq for monitoring the OSM planet server for replication files." alt="" coords="770,162,823,189"/>
+<area shape="rect" title=" " alt="" coords="621,162,695,189"/>
+<area shape="rect" title=" " alt="" coords="1086,244,1137,271"/>
+<area shape="rect" title=" " alt="" coords="993,244,1061,271"/>
+<area shape="rect" href="tmdefs_8hh_source.html" title=" " alt="" coords="497,244,613,271"/>
+<area shape="rect" href="tmusers_8hh_source.html" title=" " alt="" coords="898,162,1021,189"/>
+<area shape="rect" href="changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="1582,162,1739,189"/>
+<area shape="rect" href="osmchange_8hh.html" title="This file parses a change file in the OsmChange format." alt="" coords="1193,162,1357,189"/>
+<area shape="rect" title=" " alt="" coords="1448,244,1487,271"/>
+<area shape="rect" title=" " alt="" coords="1824,244,1871,271"/>
+<area shape="rect" href="osmobjects_8hh.html" title="Data structures for OSM objects." alt="" coords="1563,244,1697,271"/>
+<area shape="rect" href="timer_8hh.html" title="Implement a timer for performance testing." alt="" coords="2200,244,2268,271"/>
+<area shape="rect" title=" " alt="" coords="1623,326,1757,353"/>
+<area shape="rect" title=" " alt="" coords="1271,326,1403,353"/>
+<area shape="rect" title=" " alt="" coords="2201,326,2267,353"/>
+<area shape="rect" title=" " alt="" coords="2749,162,2829,189"/>
+<area shape="rect" title=" " alt="" coords="2853,162,2913,189"/>
+<area shape="rect" title=" " alt="" coords="2937,162,3008,189"/>
+<area shape="rect" title=" " alt="" coords="3033,155,3171,196"/>
+<area shape="rect" title=" " alt="" coords="3195,162,3334,189"/>
+<area shape="rect" title=" " alt="" coords="3358,162,3523,189"/>
+<area shape="rect" title=" " alt="" coords="3547,162,3721,189"/>
+<area shape="rect" title=" " alt="" coords="3745,162,3875,189"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -173,14 +175,14 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>tcp</b> = net::ip::t
 Functions</h2></td></tr>
 <tr class="memitem:a682dae5c70821d6a5261779edbb06d8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="threads_8cc.html#a682dae5c70821d6a5261779edbb06d8f">threads::startStateThreads</a> (const std::string &amp;base, const std::string &amp;file)</td></tr>
 <tr class="separator:a682dae5c70821d6a5261779edbb06d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad101491c3fe6a688c4f1dd6eeaaea6fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="threads_8cc.html#ad101491c3fe6a688c4f1dd6eeaaea6fc">threads::startMonitor</a> (const <a class="el" href="classreplication_1_1RemoteURL.html">replication::RemoteURL</a> &amp;inr, const multipolygon_t &amp;poly, const std::string &amp;dburl)</td></tr>
-<tr class="separator:ad101491c3fe6a688c4f1dd6eeaaea6fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae0f454c976ae0893e2088d70761d34e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="threads_8cc.html#aae0f454c976ae0893e2088d70761d34e">threads::startMonitor</a> (const <a class="el" href="classreplication_1_1RemoteURL.html">replication::RemoteURL</a> &amp;inr, const multipolygon_t &amp;poly, const std::string &amp;dburl, const std::string &amp;osm2pgsql_dburl)</td></tr>
+<tr class="separator:aae0f454c976ae0893e2088d70761d34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53ed6a264f7e68b955962b33024f5b3f"><td class="memItemLeft" align="right" valign="top"><a id="a53ed6a264f7e68b955962b33024f5b3f" name="a53ed6a264f7e68b955962b33024f5b3f"></a>
 std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">replication::StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>threads::threadStateFile</b> (ssl::stream&lt; tcp::socket &gt; &amp;stream, const std::string &amp;file)</td></tr>
 <tr class="memdesc:a53ed6a264f7e68b955962b33024f5b3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the states table in the Underpass database. <br /></td></tr>
 <tr class="separator:a53ed6a264f7e68b955962b33024f5b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b57ee6472b64b1f66b90e671a200fa8"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classosmchange_1_1OsmChangeFile.html">osmchange::OsmChangeFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="threads_8cc.html#a0b57ee6472b64b1f66b90e671a200fa8">threads::threadOsmChange</a> (const <a class="el" href="classreplication_1_1RemoteURL.html">replication::RemoteURL</a> &amp;remote, const multipolygon_t &amp;poly, <a class="el" href="classosmstats_1_1QueryOSMStats.html">osmstats::QueryOSMStats</a> &amp;ostats, std::shared_ptr&lt; Validate &gt; &amp;plugin)</td></tr>
-<tr class="separator:a0b57ee6472b64b1f66b90e671a200fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad06e93cdc84c827be9139057f32bec33"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classosmchange_1_1OsmChangeFile.html">osmchange::OsmChangeFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="threads_8cc.html#ad06e93cdc84c827be9139057f32bec33">threads::threadOsmChange</a> (const <a class="el" href="classreplication_1_1RemoteURL.html">replication::RemoteURL</a> &amp;remote, const multipolygon_t &amp;poly, <a class="el" href="classosmstats_1_1QueryOSMStats.html">osmstats::QueryOSMStats</a> &amp;ostats, <a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html">osm2pgsql::Osm2Pgsql</a> &amp;o2pgsql, std::shared_ptr&lt; Validate &gt; &amp;plugin)</td></tr>
+<tr class="separator:ad06e93cdc84c827be9139057f32bec33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa948b1019860a6a508249924fd23b751"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classchangeset_1_1ChangeSetFile.html">changeset::ChangeSetFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="threads_8cc.html#aa948b1019860a6a508249924fd23b751">threads::threadChangeSet</a> (const <a class="el" href="classreplication_1_1RemoteURL.html">replication::RemoteURL</a> &amp;remote, const multipolygon_t &amp;poly, <a class="el" href="classosmstats_1_1QueryOSMStats.html">osmstats::QueryOSMStats</a> &amp;ostats)</td></tr>
 <tr class="separator:aa948b1019860a6a508249924fd23b751"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8048675cb3b9451a7b9b187a570cbd46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="threads_8cc.html#a8048675cb3b9451a7b9b187a570cbd46">threads::threadStatistics</a> (const std::string &amp;database, ptime &amp;timestamp)</td></tr>
@@ -199,8 +201,8 @@ std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">repl
 </ul>
 <p >These are the threads used to download and apply the replication files to a database. The thread monitors the OSM planet server for updated replication files. Another thread imports users data from TM database. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="ad101491c3fe6a688c4f1dd6eeaaea6fc" name="ad101491c3fe6a688c4f1dd6eeaaea6fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad101491c3fe6a688c4f1dd6eeaaea6fc">&#9670;&nbsp;</a></span>startMonitor()</h2>
+<a id="aae0f454c976ae0893e2088d70761d34e" name="aae0f454c976ae0893e2088d70761d34e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae0f454c976ae0893e2088d70761d34e">&#9670;&nbsp;</a></span>startMonitor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +223,13 @@ std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">repl
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>dburl</em>&#160;</td>
+          <td class="paramname"><em>dburl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>osm2pgsql_dburl</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -327,8 +335,8 @@ std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">repl
 
 </div>
 </div>
-<a id="a0b57ee6472b64b1f66b90e671a200fa8" name="a0b57ee6472b64b1f66b90e671a200fa8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b57ee6472b64b1f66b90e671a200fa8">&#9670;&nbsp;</a></span>threadOsmChange()</h2>
+<a id="ad06e93cdc84c827be9139057f32bec33" name="ad06e93cdc84c827be9139057f32bec33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad06e93cdc84c827be9139057f32bec33">&#9670;&nbsp;</a></span>threadOsmChange()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -350,6 +358,12 @@ std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">repl
           <td></td>
           <td class="paramtype"><a class="el" href="classosmstats_1_1QueryOSMStats.html">osmstats::QueryOSMStats</a> &amp;&#160;</td>
           <td class="paramname"><em>ostats</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html">osm2pgsql::Osm2Pgsql</a> &amp;&#160;</td>
+          <td class="paramname"><em>o2pgsql</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -114,21 +114,22 @@ $(function() {
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    pqxx::result <a class="code hl_function" href="classpq_1_1Pq.html#ae6ec82fffea5edfa30241f0af4c6ff85">query</a>(<span class="keyword">const</span> std::string &amp;<a class="code hl_function" href="classpq_1_1Pq.html#ae6ec82fffea5edfa30241f0af4c6ff85">query</a>);</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">bool</span> parseURL(<span class="keyword">const</span> std::string &amp;<a class="code hl_function" href="classpq_1_1Pq.html#ae6ec82fffea5edfa30241f0af4c6ff85">query</a>);</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> dump(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="comment">//protected:</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    std::unique_ptr&lt;pqxx::connection&gt; sdb;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    pqxx::result result;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    std::string host;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    std::string user;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    std::string passwd;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    std::string dbname;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>};</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>} <span class="comment">// namespace pq</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">#endif </span><span class="comment">// EOF __PQ_HH__</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">bool</span> isOpen();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="comment">//protected:</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    std::unique_ptr&lt;pqxx::connection&gt; sdb;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    pqxx::result result;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    std::string host;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    std::string user;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    std::string passwd;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    std::string dbname;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>};</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>} <span class="comment">// namespace pq</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#endif </span><span class="comment">// EOF __PQ_HH__</span></div>
 <div class="ttc" id="aclasspq_1_1Pq_html"><div class="ttname"><a href="classpq_1_1Pq.html">pq::Pq</a></div><div class="ttdef"><b>Definition:</b> pq.hh:44</div></div>
-<div class="ttc" id="aclasspq_1_1Pq_html_ae6ec82fffea5edfa30241f0af4c6ff85"><div class="ttname"><a href="classpq_1_1Pq.html#ae6ec82fffea5edfa30241f0af4c6ff85">pq::Pq::query</a></div><div class="ttdeci">pqxx::result query(const std::string &amp;query)</div><div class="ttdoc">Query the database.</div><div class="ttdef"><b>Definition:</b> pq.cc:173</div></div>
+<div class="ttc" id="aclasspq_1_1Pq_html_ae6ec82fffea5edfa30241f0af4c6ff85"><div class="ttname"><a href="classpq_1_1Pq.html#ae6ec82fffea5edfa30241f0af4c6ff85">pq::Pq::query</a></div><div class="ttdeci">pqxx::result query(const std::string &amp;query)</div><div class="ttdoc">Query the database.</div><div class="ttdef"><b>Definition:</b> pq.cc:179</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
