@@ -68,7 +68,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classunderpass_1_1Underpass-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">underpass::Underpass Class Reference</div></div>
 </div><!--header-->
@@ -94,16 +96,16 @@ Collaboration diagram for underpass::Underpass:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a61fd99a7f3e8bb30eb5bb2e0fc92cd15"><td class="memItemLeft" align="right" valign="top"><a id="a61fd99a7f3e8bb30eb5bb2e0fc92cd15" name="a61fd99a7f3e8bb30eb5bb2e0fc92cd15"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Underpass</b> (void)</td></tr>
-<tr class="memdesc:a61fd99a7f3e8bb30eb5bb2e0fc92cd15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to the <a class="el" href="classunderpass_1_1Underpass.html">Underpass</a> database. <br /></td></tr>
-<tr class="separator:a61fd99a7f3e8bb30eb5bb2e0fc92cd15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ff8973151530c2617d34330ebffc12d"><td class="memItemLeft" align="right" valign="top"><a id="a6ff8973151530c2617d34330ebffc12d" name="a6ff8973151530c2617d34330ebffc12d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Underpass</b> (void)=default</td></tr>
+<tr class="memdesc:a6ff8973151530c2617d34330ebffc12d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to the <a class="el" href="classunderpass_1_1Underpass.html">Underpass</a> database. <br /></td></tr>
+<tr class="separator:a6ff8973151530c2617d34330ebffc12d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaacc8ff94422c9ed8e04360a0951629"><td class="memItemLeft" align="right" valign="top"><a id="adaacc8ff94422c9ed8e04360a0951629" name="adaacc8ff94422c9ed8e04360a0951629"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Underpass</b> (const std::string &amp;dburl)</td></tr>
 <tr class="separator:adaacc8ff94422c9ed8e04360a0951629"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0de40ff9a250ee16e547aecae4eca192"><td class="memItemLeft" align="right" valign="top"><a id="a0de40ff9a250ee16e547aecae4eca192" name="a0de40ff9a250ee16e547aecae4eca192"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>dump</b> (void)</td></tr>
-<tr class="separator:a0de40ff9a250ee16e547aecae4eca192"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6cfb55dfc7fb482de27eed0ce711f7f"><td class="memItemLeft" align="right" valign="top"><a id="ae6cfb55dfc7fb482de27eed0ce711f7f" name="ae6cfb55dfc7fb482de27eed0ce711f7f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>dump</b> ()</td></tr>
+<tr class="separator:ae6cfb55dfc7fb482de27eed0ce711f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d375ae6d7da7d1f79eade3c7c7debeb"><td class="memItemLeft" align="right" valign="top"><a id="a0d375ae6d7da7d1f79eade3c7c7debeb" name="a0d375ae6d7da7d1f79eade3c7c7debeb"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>updateCreator</b> (long user_id, long change_id, const std::string &amp;editor)</td></tr>
 <tr class="memdesc:a0d375ae6d7da7d1f79eade3c7c7debeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the creator table to track editor statistics. <br /></td></tr>
@@ -118,6 +120,26 @@ std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">repl
 std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">replication::StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getState</b> (replication::frequency_t freq, ptime &amp;tstamp)</td></tr>
 <tr class="memdesc:a549ff8f39645334481c236bcc958b3c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the state.txt date by timestamp. <br /></td></tr>
 <tr class="separator:a549ff8f39645334481c236bcc958b3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a752f7571a0c80c181746b724f5c84569"><td class="memItemLeft" align="right" valign="top"><a id="a752f7571a0c80c181746b724f5c84569" name="a752f7571a0c80c181746b724f5c84569"></a>
+std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">replication::StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getState</b> (replication::frequency_t freq, long sequence)</td></tr>
+<tr class="memdesc:a752f7571a0c80c181746b724f5c84569"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the state.txt date by sequence. <br /></td></tr>
+<tr class="separator:a752f7571a0c80c181746b724f5c84569"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6409922b43fbe568fbc23c981d276b9"><td class="memItemLeft" align="right" valign="top"><a id="ab6409922b43fbe568fbc23c981d276b9" name="ab6409922b43fbe568fbc23c981d276b9"></a>
+std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">replication::StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getStateGreaterThan</b> (replication::frequency_t freq, ptime &amp;timestamp)</td></tr>
+<tr class="memdesc:ab6409922b43fbe568fbc23c981d276b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the state.txt data greater than <em>timestamp</em>. <br /></td></tr>
+<tr class="separator:ab6409922b43fbe568fbc23c981d276b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0ce9ec097c988c972e48aa09db242e7"><td class="memItemLeft" align="right" valign="top"><a id="aa0ce9ec097c988c972e48aa09db242e7" name="aa0ce9ec097c988c972e48aa09db242e7"></a>
+std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">replication::StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getStateGreaterThan</b> (replication::frequency_t freq, long sequence)</td></tr>
+<tr class="memdesc:aa0ce9ec097c988c972e48aa09db242e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the state.txt data greater than <em>sequence</em>. <br /></td></tr>
+<tr class="separator:aa0ce9ec097c988c972e48aa09db242e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a323d632dd64a3acb19d7389f0e06d438"><td class="memItemLeft" align="right" valign="top"><a id="a323d632dd64a3acb19d7389f0e06d438" name="a323d632dd64a3acb19d7389f0e06d438"></a>
+std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">replication::StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getStateLessThan</b> (replication::frequency_t freq, ptime &amp;timestamp)</td></tr>
+<tr class="memdesc:a323d632dd64a3acb19d7389f0e06d438"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the state.txt data less than <em>timestamp</em>. <br /></td></tr>
+<tr class="separator:a323d632dd64a3acb19d7389f0e06d438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fc34d334ca064299feac088ac3a6608"><td class="memItemLeft" align="right" valign="top"><a id="a2fc34d334ca064299feac088ac3a6608" name="a2fc34d334ca064299feac088ac3a6608"></a>
+std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">replication::StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getStateLessThan</b> (replication::frequency_t freq, long sequence)</td></tr>
+<tr class="memdesc:a2fc34d334ca064299feac088ac3a6608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the state.txt data less than <em>sequence</em>. <br /></td></tr>
+<tr class="separator:a2fc34d334ca064299feac088ac3a6608"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0efa2c1f162aad8ca5025a3e5f753ebf"><td class="memItemLeft" align="right" valign="top"><a id="a0efa2c1f162aad8ca5025a3e5f753ebf" name="a0efa2c1f162aad8ca5025a3e5f753ebf"></a>
 std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">replication::StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getLastState</b> (replication::frequency_t freq)</td></tr>
 <tr class="memdesc:a0efa2c1f162aad8ca5025a3e5f753ebf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum timestamp for the state.txt data. <br /></td></tr>
@@ -132,9 +154,6 @@ std::shared_ptr&lt; osmstats::RawCountry &gt;&#160;</td><td class="memItemRight"
 <tr class="memitem:aa43a1cb3c0cf8c1ff66fd99283cfb7ee"><td class="memItemLeft" align="right" valign="top"><a id="aa43a1cb3c0cf8c1ff66fd99283cfb7ee" name="aa43a1cb3c0cf8c1ff66fd99283cfb7ee"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>parsePath</b> (const std::string &amp;url)</td></tr>
 <tr class="separator:aa43a1cb3c0cf8c1ff66fd99283cfb7ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5df69dbff25a40b082382e70828ca675"><td class="memItemLeft" align="right" valign="top"><a id="a5df69dbff25a40b082382e70828ca675" name="a5df69dbff25a40b082382e70828ca675"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>freq_to_string</b> (replication::frequency_t tag)</td></tr>
-<tr class="separator:a5df69dbff25a40b082382e70828ca675"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classpq_1_1Pq"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classpq_1_1Pq')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classpq_1_1Pq.html">pq::Pq</a></td></tr>
 <tr class="memitem:a256551a25e8a6936004fcaeac380862b inherit pub_methods_classpq_1_1Pq"><td class="memItemLeft" align="right" valign="top"><a id="a256551a25e8a6936004fcaeac380862b" name="a256551a25e8a6936004fcaeac380862b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Pq</b> (const std::string &amp;dbname)</td></tr>
@@ -143,6 +162,9 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>freq_to_string
 <tr class="memitem:affd4a33517bfcbb0908f2e46f663c4ca inherit pub_methods_classpq_1_1Pq"><td class="memItemLeft" align="right" valign="top"><a id="affd4a33517bfcbb0908f2e46f663c4ca" name="affd4a33517bfcbb0908f2e46f663c4ca"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>connect</b> (const std::string &amp;args)</td></tr>
 <tr class="separator:affd4a33517bfcbb0908f2e46f663c4ca inherit pub_methods_classpq_1_1Pq"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e62adf31987e472a31558fb68808187 inherit pub_methods_classpq_1_1Pq"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpq_1_1Pq.html#a4e62adf31987e472a31558fb68808187">isOpen</a> () const</td></tr>
+<tr class="memdesc:a4e62adf31987e472a31558fb68808187 inherit pub_methods_classpq_1_1Pq"><td class="mdescLeft">&#160;</td><td class="mdescRight">isOpen, checks if the DB is open.  <a href="classpq_1_1Pq.html#a4e62adf31987e472a31558fb68808187">More...</a><br /></td></tr>
+<tr class="separator:a4e62adf31987e472a31558fb68808187 inherit pub_methods_classpq_1_1Pq"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6ec82fffea5edfa30241f0af4c6ff85 inherit pub_methods_classpq_1_1Pq"><td class="memItemLeft" align="right" valign="top"><a id="ae6ec82fffea5edfa30241f0af4c6ff85" name="ae6ec82fffea5edfa30241f0af4c6ff85"></a>
 pqxx::result&#160;</td><td class="memItemRight" valign="bottom"><b>query</b> (const std::string &amp;query)</td></tr>
 <tr class="memdesc:ae6ec82fffea5edfa30241f0af4c6ff85 inherit pub_methods_classpq_1_1Pq"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query the database. <br /></td></tr>
@@ -153,15 +175,18 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>parseURL</b> (const s
 <tr class="memitem:a703c66d6a4db2530c685c564dea8e255 inherit pub_methods_classpq_1_1Pq"><td class="memItemLeft" align="right" valign="top"><a id="a703c66d6a4db2530c685c564dea8e255" name="a703c66d6a4db2530c685c564dea8e255"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>dump</b> (void)</td></tr>
 <tr class="separator:a703c66d6a4db2530c685c564dea8e255 inherit pub_methods_classpq_1_1Pq"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7c27cbe685d407b404a71d687f19f9c inherit pub_methods_classpq_1_1Pq"><td class="memItemLeft" align="right" valign="top"><a id="ac7c27cbe685d407b404a71d687f19f9c" name="ac7c27cbe685d407b404a71d687f19f9c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isOpen</b> ()</td></tr>
-<tr class="separator:ac7c27cbe685d407b404a71d687f19f9c inherit pub_methods_classpq_1_1Pq"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aa2740d15b7b23af700ef2fa663525f16"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classunderpass_1_1Underpass.html#aa2740d15b7b23af700ef2fa663525f16">freq_to_string</a> (replication::frequency_t frequency)</td></tr>
+<tr class="memdesc:aa2740d15b7b23af700ef2fa663525f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">freq_to_string returns a string representation of the given <em>frequency</em>. The string representation can be used as part of the path for replication URL (day, hour, minute, changesets).  <a href="classunderpass_1_1Underpass.html#aa2740d15b7b23af700ef2fa663525f16">More...</a><br /></td></tr>
+<tr class="separator:aa2740d15b7b23af700ef2fa663525f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0110c122362f45ec2cd64006e3c50209"><td class="memItemLeft" align="right" valign="top">static replication::frequency_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classunderpass_1_1Underpass.html#a0110c122362f45ec2cd64006e3c50209">freq_from_string</a> (const std::string &amp;frequency_str)</td></tr>
+<tr class="memdesc:a0110c122362f45ec2cd64006e3c50209"><td class="mdescLeft">&#160;</td><td class="mdescRight">freq_from_string returns a frequency from its string representation <em>frequency_str</em>.  <a href="classunderpass_1_1Underpass.html#a0110c122362f45ec2cd64006e3c50209">More...</a><br /></td></tr>
+<tr class="separator:a0110c122362f45ec2cd64006e3c50209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ab72f3a88f28408afde2cdc2a277b2789"><td class="memItemLeft" align="right" valign="top"><a id="ab72f3a88f28408afde2cdc2a277b2789" name="ab72f3a88f28408afde2cdc2a277b2789"></a>
-std::map&lt; replication::frequency_t, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>frequency_tags</b></td></tr>
-<tr class="separator:ab72f3a88f28408afde2cdc2a277b2789"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaad4f7af6b6b3aff21fc8fecf0a9fe57"><td class="memItemLeft" align="right" valign="top"><a id="aaad4f7af6b6b3aff21fc8fecf0a9fe57" name="aaad4f7af6b6b3aff21fc8fecf0a9fe57"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>db_url</b></td></tr>
 <tr class="separator:aaad4f7af6b6b3aff21fc8fecf0a9fe57"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,8 +209,89 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>passwd</b></td
 <tr class="memitem:ad12e344e4aa3e2334d1d50c4cc08f3d1 inherit pub_attribs_classpq_1_1Pq"><td class="memItemLeft" align="right" valign="top"><a id="ad12e344e4aa3e2334d1d50c4cc08f3d1" name="ad12e344e4aa3e2334d1d50c4cc08f3d1"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>dbname</b></td></tr>
 <tr class="separator:ad12e344e4aa3e2334d1d50c4cc08f3d1 inherit pub_attribs_classpq_1_1Pq"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a101a240b21d519bd7d2e3c172bc7d2d5"><td class="memItemLeft" align="right" valign="top">static std::map&lt; replication::frequency_t, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classunderpass_1_1Underpass.html#a101a240b21d519bd7d2e3c172bc7d2d5">frequency_tags</a></td></tr>
+<tr class="separator:a101a240b21d519bd7d2e3c172bc7d2d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0110c122362f45ec2cd64006e3c50209" name="a0110c122362f45ec2cd64006e3c50209"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0110c122362f45ec2cd64006e3c50209">&#9670;&nbsp;</a></span>freq_from_string()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static replication::frequency_t underpass::Underpass::freq_from_string </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>frequency_str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>freq_from_string returns a frequency from its string representation <em>frequency_str</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frequency_str</td><td>the string representation (day, hour, minute, changesets). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the enum value for <em>frequency_str</em>. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>if the <em>frequency_str</em> is not a valid frequency. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa2740d15b7b23af700ef2fa663525f16" name="aa2740d15b7b23af700ef2fa663525f16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2740d15b7b23af700ef2fa663525f16">&#9670;&nbsp;</a></span>freq_to_string()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string underpass::Underpass::freq_to_string </td>
+          <td>(</td>
+          <td class="paramtype">replication::frequency_t&#160;</td>
+          <td class="paramname"><em>frequency</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>freq_to_string returns a string representation of the given <em>frequency</em>. The string representation can be used as part of the path for replication URL (day, hour, minute, changesets). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frequency</td><td>the frequency enum value. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a string representation of the frequency. </dd></dl>
+
+</div>
+</div>
 <a id="ab8d3926eda69fe9e37ae5ad1edd24ce4" name="ab8d3926eda69fe9e37ae5ad1edd24ce4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab8d3926eda69fe9e37ae5ad1edd24ce4">&#9670;&nbsp;</a></span>writeState()</h2>
 
@@ -203,6 +309,34 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>dbname</b></td
 </div><div class="memdoc">
 <p >Write the stored data on the directories and timestamps on the planet server. </p>
 
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a101a240b21d519bd7d2e3c172bc7d2d5" name="a101a240b21d519bd7d2e3c172bc7d2d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a101a240b21d519bd7d2e3c172bc7d2d5">&#9670;&nbsp;</a></span>frequency_tags</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt; replication::frequency_t, std::string &gt; underpass::Underpass::frequency_tags</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    {replication::minutely, <span class="stringliteral">&quot;minute&quot;</span>},</div>
+<div class="line">    {replication::hourly, <span class="stringliteral">&quot;hour&quot;</span>},</div>
+<div class="line">    {replication::daily, <span class="stringliteral">&quot;day&quot;</span>},</div>
+<div class="line">    {replication::changeset, <span class="stringliteral">&quot;changesets&quot;</span>}}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>

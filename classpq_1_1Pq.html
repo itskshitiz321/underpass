@@ -94,6 +94,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:affd4a33517bfcbb0908f2e46f663c4ca"><td class="memItemLeft" align="right" valign="top"><a id="affd4a33517bfcbb0908f2e46f663c4ca" name="affd4a33517bfcbb0908f2e46f663c4ca"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>connect</b> (const std::string &amp;args)</td></tr>
 <tr class="separator:affd4a33517bfcbb0908f2e46f663c4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e62adf31987e472a31558fb68808187"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpq_1_1Pq.html#a4e62adf31987e472a31558fb68808187">isOpen</a> () const</td></tr>
+<tr class="memdesc:a4e62adf31987e472a31558fb68808187"><td class="mdescLeft">&#160;</td><td class="mdescRight">isOpen, checks if the DB is open.  <a href="classpq_1_1Pq.html#a4e62adf31987e472a31558fb68808187">More...</a><br /></td></tr>
+<tr class="separator:a4e62adf31987e472a31558fb68808187"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6ec82fffea5edfa30241f0af4c6ff85"><td class="memItemLeft" align="right" valign="top"><a id="ae6ec82fffea5edfa30241f0af4c6ff85" name="ae6ec82fffea5edfa30241f0af4c6ff85"></a>
 pqxx::result&#160;</td><td class="memItemRight" valign="bottom"><b>query</b> (const std::string &amp;query)</td></tr>
 <tr class="memdesc:ae6ec82fffea5edfa30241f0af4c6ff85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query the database. <br /></td></tr>
@@ -104,9 +107,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>parseURL</b> (const s
 <tr class="memitem:a703c66d6a4db2530c685c564dea8e255"><td class="memItemLeft" align="right" valign="top"><a id="a703c66d6a4db2530c685c564dea8e255" name="a703c66d6a4db2530c685c564dea8e255"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>dump</b> (void)</td></tr>
 <tr class="separator:a703c66d6a4db2530c685c564dea8e255"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7c27cbe685d407b404a71d687f19f9c"><td class="memItemLeft" align="right" valign="top"><a id="ac7c27cbe685d407b404a71d687f19f9c" name="ac7c27cbe685d407b404a71d687f19f9c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isOpen</b> ()</td></tr>
-<tr class="separator:ac7c27cbe685d407b404a71d687f19f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -129,6 +129,27 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>passwd</b></td
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>dbname</b></td></tr>
 <tr class="separator:ad12e344e4aa3e2334d1d50c4cc08f3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4e62adf31987e472a31558fb68808187" name="a4e62adf31987e472a31558fb68808187"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e62adf31987e472a31558fb68808187">&#9670;&nbsp;</a></span>isOpen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool pq::Pq::isOpen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>isOpen, checks if the DB is open. </p>
+<dl class="section return"><dt>Returns</dt><dd>TRUE if the DB is open. </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>data/<a class="el" href="pq_8hh_source.html">pq.hh</a></li>
 <li>data/pq.cc</li>

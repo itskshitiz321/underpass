@@ -15,10 +15,11 @@ var searchData=
   ['setversion_12',['setVersion',['../classosmchange_1_1OsmChange.html#a1292a364221444904615be5b8d13ab31',1,'osmchange::OsmChange']]],
   ['setwritedisk_13',['setWriteDisk',['../classlogger_1_1LogFile.html#a15808cf7752c9865dc450b613650ddac',1,'logger::LogFile']]],
   ['source_14',['source',['../classchangeset_1_1ChangeSet.html#ab188e4039a5f46f9dafb783bd660fe71',1,'changeset::ChangeSet']]],
-  ['starttimer_15',['startTimer',['../classTimer.html#a0e7ad6b9634c5826cf5e522ea4193a1d',1,'Timer']]],
-  ['statefile_16',['StateFile',['../classreplication_1_1StateFile.html',1,'replication::StateFile'],['../classreplication_1_1StateFile.html#a94940d5ec293d407443da8b5eea7e480',1,'replication::StateFile::StateFile()']]],
-  ['states_17',['states',['../classreplication_1_1Replication.html#a1adbd500e517618c7039fd416069394e',1,'replication::Replication']]],
-  ['statistics_20calculations_18',['Statistics Calculations',['../md_doc_statistics.html',1,'']]],
-  ['syncresult_19',['SyncResult',['../structosmstats_1_1QueryOSMStats_1_1SyncResult.html',1,'osmstats::QueryOSMStats']]],
-  ['syncusers_20',['syncUsers',['../classosmstats_1_1QueryOSMStats.html#a498c31fc4fcab144efd774ffe42d735a',1,'osmstats::QueryOSMStats']]]
+  ['starting_5furl_5fpath_15',['starting_url_path',['../structreplicatorconfig_1_1ReplicatorConfig.html#a3488851a879ffb5aaef4f81f8efd16c0',1,'replicatorconfig::ReplicatorConfig']]],
+  ['starttimer_16',['startTimer',['../classTimer.html#a0e7ad6b9634c5826cf5e522ea4193a1d',1,'Timer']]],
+  ['statefile_17',['StateFile',['../classreplication_1_1StateFile.html',1,'replication::StateFile'],['../classreplication_1_1StateFile.html#acc9bad0bf7ae87a3c30989d40c3d6c1e',1,'replication::StateFile::StateFile(void)'],['../classreplication_1_1StateFile.html#a94940d5ec293d407443da8b5eea7e480',1,'replication::StateFile::StateFile(const std::string &amp;file, bool memory)']]],
+  ['states_18',['states',['../classreplication_1_1Replication.html#a1adbd500e517618c7039fd416069394e',1,'replication::Replication']]],
+  ['statistics_20calculations_19',['Statistics Calculations',['../md_doc_statistics.html',1,'']]],
+  ['syncresult_20',['SyncResult',['../structosmstats_1_1QueryOSMStats_1_1SyncResult.html',1,'osmstats::QueryOSMStats']]],
+  ['syncusers_21',['syncUsers',['../classosmstats_1_1QueryOSMStats.html#a498c31fc4fcab144efd774ffe42d735a',1,'osmstats::QueryOSMStats']]]
 ];

@@ -7,5 +7,6 @@ var searchData=
   ['osmnode_4',['OsmNode',['../classosmobjects_1_1OsmNode.html',1,'osmobjects']]],
   ['osmobject_5',['OsmObject',['../classosmobjects_1_1OsmObject.html',1,'osmobjects']]],
   ['osmrelation_6',['OsmRelation',['../classosmobjects_1_1OsmRelation.html',1,'osmobjects']]],
-  ['osmway_7',['OsmWay',['../classosmobjects_1_1OsmWay.html',1,'osmobjects']]]
+  ['osmrelationmember_7',['OsmRelationMember',['../structosmobjects_1_1OsmRelationMember.html',1,'osmobjects']]],
+  ['osmway_8',['OsmWay',['../classosmobjects_1_1OsmWay.html',1,'osmobjects']]]
 ];

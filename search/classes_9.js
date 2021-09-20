@@ -5,5 +5,6 @@ var searchData=
   ['rawuser_2',['RawUser',['../classosmstats_1_1RawUser.html',1,'osmstats']]],
   ['remoteurl_3',['RemoteURL',['../classreplication_1_1RemoteURL.html',1,'replication']]],
   ['replication_4',['Replication',['../classreplication_1_1Replication.html',1,'replication']]],
-  ['replicator_5',['Replicator',['../classReplicator.html',1,'']]]
+  ['replicator_5',['Replicator',['../classReplicator.html',1,'']]],
+  ['replicatorconfig_6',['ReplicatorConfig',['../structreplicatorconfig_1_1ReplicatorConfig.html',1,'replicatorconfig']]]
 ];

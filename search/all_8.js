@@ -6,5 +6,7 @@ var searchData=
   ['importosm_3',['ImportOSM',['../classimport_1_1ImportOSM.html',1,'import::ImportOSM'],['../classimport_1_1ImportOSM.html#afd1b0aef2bef0f61a345981c86cc5c28',1,'import::ImportOSM::ImportOSM()']]],
   ['initializeraw_4',['initializeRaw',['../classReplicator.html#ab6269765bcc1341f810cb4d632a30b64',1,'Replicator']]],
   ['inpriorityarea_5',['inPriorityArea',['../classgeoutil_1_1GeoUtil.html#a41803bb0e3021dde217939250d317679',1,'geoutil::GeoUtil']]],
-  ['isclosed_6',['isClosed',['../classosmobjects_1_1OsmWay.html#ab502f606ba0b2108d71e470ff284472d',1,'osmobjects::OsmWay']]]
+  ['isclosed_6',['isClosed',['../classosmobjects_1_1OsmWay.html#ab502f606ba0b2108d71e470ff284472d',1,'osmobjects::OsmWay']]],
+  ['isopen_7',['isOpen',['../classpq_1_1Pq.html#a4e62adf31987e472a31558fb68808187',1,'pq::Pq']]],
+  ['isvalid_8',['isValid',['../classreplication_1_1StateFile.html#afa9ca364c6858e11513448a2449e53eb',1,'replication::StateFile']]]
 ];

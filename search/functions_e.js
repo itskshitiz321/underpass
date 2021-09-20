@@ -14,6 +14,6 @@ var searchData=
   ['setversion_11',['setVersion',['../classosmchange_1_1OsmChange.html#a1292a364221444904615be5b8d13ab31',1,'osmchange::OsmChange']]],
   ['setwritedisk_12',['setWriteDisk',['../classlogger_1_1LogFile.html#a15808cf7752c9865dc450b613650ddac',1,'logger::LogFile']]],
   ['starttimer_13',['startTimer',['../classTimer.html#a0e7ad6b9634c5826cf5e522ea4193a1d',1,'Timer']]],
-  ['statefile_14',['StateFile',['../classreplication_1_1StateFile.html#a94940d5ec293d407443da8b5eea7e480',1,'replication::StateFile']]],
+  ['statefile_14',['StateFile',['../classreplication_1_1StateFile.html#acc9bad0bf7ae87a3c30989d40c3d6c1e',1,'replication::StateFile::StateFile(void)'],['../classreplication_1_1StateFile.html#a94940d5ec293d407443da8b5eea7e480',1,'replication::StateFile::StateFile(const std::string &amp;file, bool memory)']]],
   ['syncusers_15',['syncUsers',['../classosmstats_1_1QueryOSMStats.html#a498c31fc4fcab144efd774ffe42d735a',1,'osmstats::QueryOSMStats']]]
 ];

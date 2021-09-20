@@ -68,6 +68,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classreplication_1_1Planet-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">replication::Planet Class Reference</div></div>
@@ -102,17 +103,36 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>connectServer</b> (co
 <tr class="memitem:a7330942ae21d79c576d4c6d0f8a1fc59"><td class="memItemLeft" align="right" valign="top"><a id="a7330942ae21d79c576d4c6d0f8a1fc59" name="a7330942ae21d79c576d4c6d0f8a1fc59"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>disconnectServer</b> (void)</td></tr>
 <tr class="separator:a7330942ae21d79c576d4c6d0f8a1fc59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a211c2e74758c8e4692a1dd9588619945"><td class="memItemLeft" align="right" valign="top"><a id="a211c2e74758c8e4692a1dd9588619945" name="a211c2e74758c8e4692a1dd9588619945"></a>
-std::shared_ptr&lt; std::vector&lt; unsigned char &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>downloadFile</b> (const std::string &amp;file)</td></tr>
+<tr class="memitem:a211c2e74758c8e4692a1dd9588619945"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; std::vector&lt; unsigned char &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#a211c2e74758c8e4692a1dd9588619945">downloadFile</a> (const std::string &amp;file)</td></tr>
+<tr class="memdesc:a211c2e74758c8e4692a1dd9588619945"><td class="mdescLeft">&#160;</td><td class="mdescRight">downloadFile downloads a file from planet  <a href="classreplication_1_1Planet.html#a211c2e74758c8e4692a1dd9588619945">More...</a><br /></td></tr>
 <tr class="separator:a211c2e74758c8e4692a1dd9588619945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f9303ad479f27801917010569935f99"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#a1f9303ad479f27801917010569935f99">findData</a> (frequency_t freq, long sequence)</td></tr>
-<tr class="separator:a1f9303ad479f27801917010569935f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71719787af454f1c4d44ead96010c6ca"><td class="memItemLeft" align="right" valign="top"><a id="a71719787af454f1c4d44ead96010c6ca" name="a71719787af454f1c4d44ead96010c6ca"></a>
-std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>findData</b> (frequency_t freq, ptime starttime)</td></tr>
-<tr class="separator:a71719787af454f1c4d44ead96010c6ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31cbf840bbc25fe010f00989cafe67a8"><td class="memItemLeft" align="right" valign="top"><a id="a31cbf840bbc25fe010f00989cafe67a8" name="a31cbf840bbc25fe010f00989cafe67a8"></a>
-std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>findData</b> (frequency_t freq, const std::string &amp;path)</td></tr>
-<tr class="separator:a31cbf840bbc25fe010f00989cafe67a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad55edf343cfd798e3e8347246420a041"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#ad55edf343cfd798e3e8347246420a041">fetchData</a> (frequency_t freq, const std::string &amp;path, const std::string &amp;underpass_dburl=&quot;&quot;)</td></tr>
+<tr class="memdesc:ad55edf343cfd798e3e8347246420a041"><td class="mdescLeft">&#160;</td><td class="mdescRight">fetchData  <a href="classreplication_1_1Planet.html#ad55edf343cfd798e3e8347246420a041">More...</a><br /></td></tr>
+<tr class="separator:ad55edf343cfd798e3e8347246420a041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aa60ba2908814914a52fc41a39d35d2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#a0aa60ba2908814914a52fc41a39d35d2">fetchDataLast</a> (frequency_t freq, const std::string &amp;underpass_dburl=&quot;&quot;)</td></tr>
+<tr class="memdesc:a0aa60ba2908814914a52fc41a39d35d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">fetchLastData reads the replication/&lt;frequency&gt;/state.txt file and retieve the last ???.state.txt state. Data is never read from cache but if <em>underpass_dburl</em> is not empty, retrieved state will be saved in the DB.  <a href="classreplication_1_1Planet.html#a0aa60ba2908814914a52fc41a39d35d2">More...</a><br /></td></tr>
+<tr class="separator:a0aa60ba2908814914a52fc41a39d35d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a59214425278b020020ac8745ebd79f"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#a7a59214425278b020020ac8745ebd79f">fetchDataFirst</a> (frequency_t freq, const std::string &amp;underpass_dburl=&quot;&quot;, bool force_scan=false)</td></tr>
+<tr class="memdesc:a7a59214425278b020020ac8745ebd79f"><td class="mdescLeft">&#160;</td><td class="mdescRight">fetchLastFirst reads the replication/&lt;frequency&gt;/state.txt file and retieve the first ???.state.txt state. Sequence == 1 is attempted first and read from cache (if <em>underpass_dburl</em> is not empty and <em>force_scan</em> is FALSE), if that fails an index scan is performed in order to identify the first valid state, retrieved state will be saved in the DB.  <a href="classreplication_1_1Planet.html#a7a59214425278b020020ac8745ebd79f">More...</a><br /></td></tr>
+<tr class="separator:a7a59214425278b020020ac8745ebd79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71779eb8683816eb49949b6f7f823083"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#a71779eb8683816eb49949b6f7f823083">fetchData</a> (frequency_t freq, ptime timestamp, const std::string &amp;underpass_dburl=&quot;&quot;)</td></tr>
+<tr class="memdesc:a71779eb8683816eb49949b6f7f823083"><td class="mdescLeft">&#160;</td><td class="mdescRight">fetchData retrieves data from the cache or from the server.  <a href="classreplication_1_1Planet.html#a71779eb8683816eb49949b6f7f823083">More...</a><br /></td></tr>
+<tr class="separator:a71779eb8683816eb49949b6f7f823083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e6771dc7ed6703955dfeb1ec0dbcf8b"><td class="memItemLeft" align="right" valign="top"><a id="a7e6771dc7ed6703955dfeb1ec0dbcf8b" name="a7e6771dc7ed6703955dfeb1ec0dbcf8b"></a>
+std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>fetchData</b> (frequency_t freq, long sequence, const std::string &amp;underpass_dburl=&quot;&quot;)</td></tr>
+<tr class="separator:a7e6771dc7ed6703955dfeb1ec0dbcf8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d63d98ff30b638b26f68af1e60ebcb2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#a2d63d98ff30b638b26f68af1e60ebcb2">fetchDataGreaterThan</a> (frequency_t freq, long sequence, const std::string &amp;underpass_dburl=&quot;&quot;)</td></tr>
+<tr class="memdesc:a2d63d98ff30b638b26f68af1e60ebcb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">fetchDataGreaterThan finds and returns the first (possibly invalid) state with a sequence greater than <em>sequence</em>.  <a href="classreplication_1_1Planet.html#a2d63d98ff30b638b26f68af1e60ebcb2">More...</a><br /></td></tr>
+<tr class="separator:a2d63d98ff30b638b26f68af1e60ebcb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e3c703a751b9e2c681a1cedb05dc53"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#a50e3c703a751b9e2c681a1cedb05dc53">fetchDataGreaterThan</a> (frequency_t freq, ptime timestamp, const std::string &amp;underpass_dburl=&quot;&quot;)</td></tr>
+<tr class="memdesc:a50e3c703a751b9e2c681a1cedb05dc53"><td class="mdescLeft">&#160;</td><td class="mdescRight">fetchDataGreaterThan finds and returns a (possibly invalid) state with a timestamp greater than <em>sequence</em>. If the optional <em>underpass_dburl</em> is specified and the DB already contains a state with a timestamp greater than the requested <em>timestamp</em> then that state is returned. In any other case the last available state is fetched from the server and returned if the timestamp is greater than the requested <em>timestamp</em>.  <a href="classreplication_1_1Planet.html#a50e3c703a751b9e2c681a1cedb05dc53">More...</a><br /></td></tr>
+<tr class="separator:a50e3c703a751b9e2c681a1cedb05dc53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada8e52f614c69c9681fffe8107896098"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#ada8e52f614c69c9681fffe8107896098">fetchDataLessThan</a> (frequency_t freq, long sequence, const std::string &amp;underpass_dburl=&quot;&quot;)</td></tr>
+<tr class="memdesc:ada8e52f614c69c9681fffe8107896098"><td class="mdescLeft">&#160;</td><td class="mdescRight">fetchDataLessThan finds and returns a (possibly invalid) state with a sequence less than <em>sequence</em>.  <a href="classreplication_1_1Planet.html#ada8e52f614c69c9681fffe8107896098">More...</a><br /></td></tr>
+<tr class="separator:ada8e52f614c69c9681fffe8107896098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb34db26be2fd2fa59a4a8ff17770a0"><td class="memItemLeft" align="right" valign="top"><a id="abdb34db26be2fd2fa59a4a8ff17770a0" name="abdb34db26be2fd2fa59a4a8ff17770a0"></a>
+std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>fetchDataLessThan</b> (frequency_t freq, ptime timestamp, const std::string &amp;underpass_dburl=&quot;&quot;)</td></tr>
+<tr class="separator:abdb34db26be2fd2fa59a4a8ff17770a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9cf2b2a2cdcc1ca521efe6273ce5302"><td class="memItemLeft" align="right" valign="top"><a id="ae9cf2b2a2cdcc1ca521efe6273ce5302" name="ae9cf2b2a2cdcc1ca521efe6273ce5302"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>dump</b> (void)</td></tr>
 <tr class="memdesc:ae9cf2b2a2cdcc1ca521efe6273ce5302"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump internal data to the terminal, used only for debugging. <br /></td></tr>
@@ -123,6 +143,12 @@ std::shared_ptr&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="m
 <tr class="separator:a4fc07ed305744f6dfb5b8f3007b267ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c9017166218618b376fc8647d80d0f4"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; std::vector&lt; std::string &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1Planet.html#a7c9017166218618b376fc8647d80d0f4">getLinks</a> (GumboNode *node, std::shared_ptr&lt; std::vector&lt; std::string &gt; &gt; &amp;links)</td></tr>
 <tr class="separator:a7c9017166218618b376fc8647d80d0f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ac8a0afa2c5b96bfc973f06832d369b69"><td class="memItemLeft" align="right" valign="top"><a id="ac8a0afa2c5b96bfc973f06832d369b69" name="ac8a0afa2c5b96bfc973f06832d369b69"></a>
+static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>sequenceToPath</b> (long sequence)</td></tr>
+<tr class="separator:ac8a0afa2c5b96bfc973f06832d369b69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -171,14 +197,41 @@ boost::asio::ssl::stream&lt; tcp::socket &gt;&#160;</td><td class="memItemRight"
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >This stores file paths and timestamps from planet. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1f9303ad479f27801917010569935f99" name="a1f9303ad479f27801917010569935f99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f9303ad479f27801917010569935f99">&#9670;&nbsp;</a></span>findData()</h2>
+<a id="a211c2e74758c8e4692a1dd9588619945" name="a211c2e74758c8e4692a1dd9588619945"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a211c2e74758c8e4692a1dd9588619945">&#9670;&nbsp;</a></span>downloadFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt; replication::Planet::findData </td>
+          <td class="memname">std::shared_ptr&lt; std::vector&lt; unsigned char &gt; &gt; replication::Planet::downloadFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>file</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>downloadFile downloads a file from planet </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file</td><td>the full URL or the path part of the URL (such as: "/replication/changesets/000/001/633.osm.gz"), the host part is taken from remote.domain. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>file data (possibly empty in case of errors) </dd></dl>
+
+</div>
+</div>
+<a id="ad55edf343cfd798e3e8347246420a041" name="ad55edf343cfd798e3e8347246420a041"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad55edf343cfd798e3e8347246420a041">&#9670;&nbsp;</a></span>fetchData() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">replication::StateFile</a> &gt; replication::Planet::fetchData </td>
           <td>(</td>
           <td class="paramtype">frequency_t&#160;</td>
           <td class="paramname"><em>freq</em>, </td>
@@ -186,8 +239,14 @@ boost::asio::ssl::stream&lt; tcp::socket &gt;&#160;</td><td class="memItemRight"
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">long&#160;</td>
-          <td class="paramname"><em>sequence</em>&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>underpass_dburl</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -196,7 +255,280 @@ boost::asio::ssl::stream&lt; tcp::socket &gt;&#160;</td><td class="memItemRight"
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Since the data files don't have a consistent time interval, this attempts to do a rough calculation of the probably data file, and downloads *.state.txt files till the right data file is found. Note that this can be slow as it has to download multiple files. </p>
+
+<p>fetchData </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freq</td><td></td></tr>
+    <tr><td class="paramname">path</td><td></td></tr>
+    <tr><td class="paramname">underpass_dburl</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a71779eb8683816eb49949b6f7f823083" name="a71779eb8683816eb49949b6f7f823083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71779eb8683816eb49949b6f7f823083">&#9670;&nbsp;</a></span>fetchData() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt; replication::Planet::fetchData </td>
+          <td>(</td>
+          <td class="paramtype">frequency_t&#160;</td>
+          <td class="paramname"><em>freq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptime&#160;</td>
+          <td class="paramname"><em>timestamp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>underpass_dburl</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>fetchData retrieves data from the cache or from the server. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freq</td><td>frequency. </td></tr>
+    <tr><td class="paramname">timestamp</td><td>timestamp. </td></tr>
+    <tr><td class="paramname">underpass_dburl</td><td>optional url for underpass DB where data are cached, an empty value means no cache will be used. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a (possibly invalid) <a class="el" href="classreplication_1_1StateFile.html" title="Data structure for state.txt files.">StateFile</a> record. </dd></dl>
+
+</div>
+</div>
+<a id="a7a59214425278b020020ac8745ebd79f" name="a7a59214425278b020020ac8745ebd79f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a59214425278b020020ac8745ebd79f">&#9670;&nbsp;</a></span>fetchDataFirst()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt; replication::Planet::fetchDataFirst </td>
+          <td>(</td>
+          <td class="paramtype">frequency_t&#160;</td>
+          <td class="paramname"><em>freq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>underpass_dburl</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>force_scan</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>fetchLastFirst reads the replication/&lt;frequency&gt;/state.txt file and retieve the first ???.state.txt state. Sequence == 1 is attempted first and read from cache (if <em>underpass_dburl</em> is not empty and <em>force_scan</em> is FALSE), if that fails an index scan is performed in order to identify the first valid state, retrieved state will be saved in the DB. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freq</td><td>frequency. </td></tr>
+    <tr><td class="paramname">underpass_dburl</td><td>optional url for underpass DB where data are cached, an empty value means no cache will be used. </td></tr>
+    <tr><td class="paramname">force_scan</td><td>optional flag to force an index scan (mainly for testing purposes). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the first (possily invalid) state. </dd></dl>
+
+</div>
+</div>
+<a id="a2d63d98ff30b638b26f68af1e60ebcb2" name="a2d63d98ff30b638b26f68af1e60ebcb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d63d98ff30b638b26f68af1e60ebcb2">&#9670;&nbsp;</a></span>fetchDataGreaterThan() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt; replication::Planet::fetchDataGreaterThan </td>
+          <td>(</td>
+          <td class="paramtype">frequency_t&#160;</td>
+          <td class="paramname"><em>freq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>sequence</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>underpass_dburl</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>fetchDataGreaterThan finds and returns the first (possibly invalid) state with a sequence greater than <em>sequence</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freq</td><td>frequency. </td></tr>
+    <tr><td class="paramname">sequence</td><td>sequence. </td></tr>
+    <tr><td class="paramname">underpass_dburl</td><td>optional url for underpass DB where data are cached, an empty value means no cache will be used. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the first (possibly invalid) state with a sequence greater than <em>sequence</em>. </dd></dl>
+
+</div>
+</div>
+<a id="a50e3c703a751b9e2c681a1cedb05dc53" name="a50e3c703a751b9e2c681a1cedb05dc53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50e3c703a751b9e2c681a1cedb05dc53">&#9670;&nbsp;</a></span>fetchDataGreaterThan() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt; replication::Planet::fetchDataGreaterThan </td>
+          <td>(</td>
+          <td class="paramtype">frequency_t&#160;</td>
+          <td class="paramname"><em>freq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptime&#160;</td>
+          <td class="paramname"><em>timestamp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>underpass_dburl</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>fetchDataGreaterThan finds and returns a (possibly invalid) state with a timestamp greater than <em>sequence</em>. If the optional <em>underpass_dburl</em> is specified and the DB already contains a state with a timestamp greater than the requested <em>timestamp</em> then that state is returned. In any other case the last available state is fetched from the server and returned if the timestamp is greater than the requested <em>timestamp</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freq</td><td>frequency. </td></tr>
+    <tr><td class="paramname">timestamp</td><td>timestamp. </td></tr>
+    <tr><td class="paramname">underpass_dburl</td><td>optional url for underpass DB where data are cached, an empty value means no cache will be used. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the first (possibly invalid) state with a sequence greater than <em>sequence</em>. </dd></dl>
+
+</div>
+</div>
+<a id="a0aa60ba2908814914a52fc41a39d35d2" name="a0aa60ba2908814914a52fc41a39d35d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aa60ba2908814914a52fc41a39d35d2">&#9670;&nbsp;</a></span>fetchDataLast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt; replication::Planet::fetchDataLast </td>
+          <td>(</td>
+          <td class="paramtype">frequency_t&#160;</td>
+          <td class="paramname"><em>freq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>underpass_dburl</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>fetchLastData reads the replication/&lt;frequency&gt;/state.txt file and retieve the last ???.state.txt state. Data is never read from cache but if <em>underpass_dburl</em> is not empty, retrieved state will be saved in the DB. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freq</td><td>frequency. </td></tr>
+    <tr><td class="paramname">underpass_dburl</td><td>optional url for underpass DB where data are cached, an empty value means no cache will be used. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the last (possily invalid) state. </dd></dl>
+
+</div>
+</div>
+<a id="ada8e52f614c69c9681fffe8107896098" name="ada8e52f614c69c9681fffe8107896098"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada8e52f614c69c9681fffe8107896098">&#9670;&nbsp;</a></span>fetchDataLessThan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &gt; replication::Planet::fetchDataLessThan </td>
+          <td>(</td>
+          <td class="paramtype">frequency_t&#160;</td>
+          <td class="paramname"><em>freq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>sequence</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>underpass_dburl</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>fetchDataLessThan finds and returns a (possibly invalid) state with a sequence less than <em>sequence</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freq</td><td>frequency. </td></tr>
+    <tr><td class="paramname">sequence</td><td>sequence. </td></tr>
+    <tr><td class="paramname">underpass_dburl</td><td>optional url for underpass DB where data are cached, an empty value means no cache will be used. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the first (possibly invalid) state with a sequence less than <em>sequence</em>. </dd></dl>
 
 </div>
 </div>

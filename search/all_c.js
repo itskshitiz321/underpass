@@ -13,7 +13,8 @@ var searchData=
   ['osmobject_10',['OsmObject',['../classosmobjects_1_1OsmObject.html',1,'osmobjects']]],
   ['osmobjects_2ehh_11',['osmobjects.hh',['../osmobjects_8hh.html',1,'']]],
   ['osmrelation_12',['OsmRelation',['../classosmobjects_1_1OsmRelation.html',1,'osmobjects']]],
-  ['osmstats_2ehh_13',['osmstats.hh',['../osmstats_8hh.html',1,'']]],
-  ['osmtype_5ft_14',['osmtype_t',['../osmchange_8hh.html#af02e73fa92b123e0fc4095f07546bae6',1,'osmchange']]],
-  ['osmway_15',['OsmWay',['../classosmobjects_1_1OsmWay.html',1,'osmobjects']]]
+  ['osmrelationmember_13',['OsmRelationMember',['../structosmobjects_1_1OsmRelationMember.html',1,'osmobjects']]],
+  ['osmstats_2ehh_14',['osmstats.hh',['../osmstats_8hh.html',1,'']]],
+  ['osmtype_5ft_15',['osmtype_t',['../osmchange_8hh.html#af02e73fa92b123e0fc4095f07546bae6',1,'osmchange']]],
+  ['osmway_16',['OsmWay',['../classosmobjects_1_1OsmWay.html',1,'osmobjects']]]
 ];

@@ -1,8 +1,9 @@
 <map id="osmstats/changeset.hh" name="osmstats/changeset.hh">
-<area shape="rect" id="node1" title="The file is used for processing changeset files." alt="" coords="93,5,251,32"/>
-<area shape="rect" id="node2" href="$osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="97,80,247,107"/>
-<area shape="rect" id="node5" href="$replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="50,229,206,256"/>
-<area shape="rect" id="node3" href="$geoutil_8hh.html" title="This file parses a data file containing boundaries." alt="" coords="196,155,303,181"/>
-<area shape="rect" id="node4" href="$threads_8hh.html" title="Threads for monitoring/synchronizing various data sources:" alt="" coords="61,155,171,181"/>
-<area shape="rect" id="node6" href="$underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="5,304,133,331"/>
+<area shape="rect" id="node1" title="The file is used for processing changeset files." alt="" coords="83,5,240,32"/>
+<area shape="rect" id="node2" href="$osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="86,80,237,107"/>
+<area shape="rect" id="node7" href="$replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="267,80,423,107"/>
+<area shape="rect" id="node3" href="$geoutil_8hh.html" title="This file parses a data file containing boundaries." alt="" coords="5,155,112,181"/>
+<area shape="rect" id="node4" href="$threads_8hh.html" title="Threads for monitoring/synchronizing various data sources:" alt="" coords="221,304,331,331"/>
+<area shape="rect" id="node5" href="$underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="187,155,315,181"/>
+<area shape="rect" id="node6" href="$replicatorconfig_8hh_source.html" title=" " alt="" coords="213,229,339,256"/>
 </map>

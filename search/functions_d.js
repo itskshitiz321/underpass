@@ -8,5 +8,6 @@ var searchData=
   ['relation_5',['relation',['../classimport_1_1OSMHandler.html#a4ae8c2f7c01733b7f68b70edc5a0d0df',1,'import::OSMHandler']]],
   ['removelog_6',['removeLog',['../classlogger_1_1LogFile.html#aa2a10ab71dde9f223e30080bb6eb19ed',1,'logger::LogFile']]],
   ['replication_7',['Replication',['../classreplication_1_1Replication.html#a460f685816d3c79e7c3b9c40874a5e55',1,'replication::Replication']]],
-  ['replicator_8',['Replicator',['../classReplicator.html#aaaefceec6c7310eb88e14c57942bfa09',1,'Replicator']]]
+  ['replicator_8',['Replicator',['../classReplicator.html#aaaefceec6c7310eb88e14c57942bfa09',1,'Replicator']]],
+  ['replicatorconfig_9',['ReplicatorConfig',['../structreplicatorconfig_1_1ReplicatorConfig.html#a22bdc01154919d9e55992c4e3ebe91b2',1,'replicatorconfig::ReplicatorConfig']]]
 ];

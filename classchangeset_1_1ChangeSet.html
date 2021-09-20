@@ -101,7 +101,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>addEditor</b> (std::s
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ac11ba65d460bba1bbdf216efa83fb4c5"><td class="memItemLeft" align="right" valign="top"><a id="ac11ba65d460bba1bbdf216efa83fb4c5" name="ac11ba65d460bba1bbdf216efa83fb4c5"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>countryid</b></td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>countryid</b> = -1</td></tr>
 <tr class="separator:ac11ba65d460bba1bbdf216efa83fb4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bfc2b565c25766a73ff46e3bee49af8"><td class="memItemLeft" align="right" valign="top"><a id="a7bfc2b565c25766a73ff46e3bee49af8" name="a7bfc2b565c25766a73ff46e3bee49af8"></a>
 long&#160;</td><td class="memItemRight" valign="bottom"><b>id</b> = 0</td></tr>
@@ -139,7 +139,8 @@ long&#160;</td><td class="memItemRight" valign="bottom"><b>uid</b> = 0</td></tr>
 <tr class="memitem:aed352df72acda9294c30e1174f05f557"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchangeset_1_1ChangeSet.html#aed352df72acda9294c30e1174f05f557">max_lon</a></td></tr>
 <tr class="memdesc:aed352df72acda9294c30e1174f05f557"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum longitude for the bounding box of this change.  <a href="classchangeset_1_1ChangeSet.html#aed352df72acda9294c30e1174f05f557">More...</a><br /></td></tr>
 <tr class="separator:aed352df72acda9294c30e1174f05f557"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab16ec2192fb773e699e12d2d6d44f10"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchangeset_1_1ChangeSet.html#aab16ec2192fb773e699e12d2d6d44f10">num_changes</a> = 0</td></tr>
+<tr class="memitem:aab16ec2192fb773e699e12d2d6d44f10"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchangeset_1_1ChangeSet.html#aab16ec2192fb773e699e12d2d6d44f10">num_changes</a></td></tr>
+<tr class="memdesc:aab16ec2192fb773e699e12d2d6d44f10"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of changes in this changeset, -1 means unknown (because this tags started in 2018 and it's not there for older changesets)  <a href="classchangeset_1_1ChangeSet.html#aab16ec2192fb773e699e12d2d6d44f10">More...</a><br /></td></tr>
 <tr class="separator:aab16ec2192fb773e699e12d2d6d44f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcf540e20008ffdb7ce777c9556052b8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchangeset_1_1ChangeSet.html#afcf540e20008ffdb7ce777c9556052b8">comments_count</a> = 0</td></tr>
 <tr class="separator:afcf540e20008ffdb7ce777c9556052b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,7 +185,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>priority</b></td></tr
         </tr>
       </table>
 </div><div class="memdoc">
-<p >The number of comments in this changeset, which apears to be unused </p>
+<p >The number of comments in this changeset, which appears to be unused </p>
 
 </div>
 </div>
@@ -267,11 +268,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>priority</b></td></tr
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int changeset::ChangeSet::num_changes = 0</td>
+          <td class="memname">int changeset::ChangeSet::num_changes</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >The number of changes in this changeset, which apears to be unused </p>
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">        -1</div>
+</div><!-- fragment -->
+<p>The number of changes in this changeset, -1 means unknown (because this tags started in 2018 and it's not there for older changesets) </p>
 
 </div>
 </div>

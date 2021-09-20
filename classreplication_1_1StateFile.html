@@ -74,19 +74,28 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Data structure for state.text files.  
+<p>Data structure for state.txt files.  
  <a href="classreplication_1_1StateFile.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="replication_8hh_source.html">replication.hh</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:acc9bad0bf7ae87a3c30989d40c3d6c1e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1StateFile.html#acc9bad0bf7ae87a3c30989d40c3d6c1e">StateFile</a> (void)</td></tr>
+<tr class="memdesc:acc9bad0bf7ae87a3c30989d40c3d6c1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs an invalid <a class="el" href="classreplication_1_1StateFile.html" title="Data structure for state.txt files.">StateFile</a>  <a href="classreplication_1_1StateFile.html#acc9bad0bf7ae87a3c30989d40c3d6c1e">More...</a><br /></td></tr>
+<tr class="separator:acc9bad0bf7ae87a3c30989d40c3d6c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94940d5ec293d407443da8b5eea7e480"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1StateFile.html#a94940d5ec293d407443da8b5eea7e480">StateFile</a> (const std::string &amp;file, bool memory)</td></tr>
 <tr class="memdesc:a94940d5ec293d407443da8b5eea7e480"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize with a state file from disk or memory.  <a href="classreplication_1_1StateFile.html#a94940d5ec293d407443da8b5eea7e480">More...</a><br /></td></tr>
 <tr class="separator:a94940d5ec293d407443da8b5eea7e480"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7164137377285db0c1b86b12798c827f"><td class="memItemLeft" align="right" valign="top"><a id="a7164137377285db0c1b86b12798c827f" name="a7164137377285db0c1b86b12798c827f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>StateFile</b> (const std::vector&lt; unsigned char &gt; &amp;data)</td></tr>
 <tr class="separator:a7164137377285db0c1b86b12798c827f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7880367a3143b326370675591fad0a2"><td class="memItemLeft" align="right" valign="top"><a id="af7880367a3143b326370675591fad0a2" name="af7880367a3143b326370675591fad0a2"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &amp;other) const</td></tr>
+<tr class="separator:af7880367a3143b326370675591fad0a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace2e930316693779fea4d3f8f9843178"><td class="memItemLeft" align="right" valign="top"><a id="ace2e930316693779fea4d3f8f9843178" name="ace2e930316693779fea4d3f8f9843178"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="classreplication_1_1StateFile.html">StateFile</a> &amp;other)</td></tr>
+<tr class="separator:ace2e930316693779fea4d3f8f9843178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeee595a57839e52e5164f89c5583a81b"><td class="memItemLeft" align="right" valign="top"><a id="aeee595a57839e52e5164f89c5583a81b" name="aeee595a57839e52e5164f89c5583a81b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>dump</b> (void)</td></tr>
 <tr class="memdesc:aeee595a57839e52e5164f89c5583a81b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump internal data to the terminal, used only for debugging. <br /></td></tr>
@@ -101,6 +110,9 @@ long&#160;</td><td class="memItemRight" valign="bottom"><b>getMinor</b> (void)</
 <tr class="memitem:a3b8fc0c233547f946920311c005d956e"><td class="memItemLeft" align="right" valign="top"><a id="a3b8fc0c233547f946920311c005d956e" name="a3b8fc0c233547f946920311c005d956e"></a>
 long&#160;</td><td class="memItemRight" valign="bottom"><b>getIndex</b> (void)</td></tr>
 <tr class="separator:a3b8fc0c233547f946920311c005d956e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa9ca364c6858e11513448a2449e53eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1StateFile.html#afa9ca364c6858e11513448a2449e53eb">isValid</a> () const</td></tr>
+<tr class="memdesc:afa9ca364c6858e11513448a2449e53eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">isValid checks the validity of a state file. A state file is considered valid is it has a not-null timestamp, a path, a frequence and a valid sequence.  <a href="classreplication_1_1StateFile.html#afa9ca364c6858e11513448a2449e53eb">More...</a><br /></td></tr>
+<tr class="separator:afa9ca364c6858e11513448a2449e53eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -108,13 +120,11 @@ Public Attributes</h2></td></tr>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>path</b></td></tr>
 <tr class="memdesc:a7a1ebc080d2dc1486e9fb2f516a2fa63"><td class="mdescLeft">&#160;</td><td class="mdescRight">URL to this file. <br /></td></tr>
 <tr class="separator:a7a1ebc080d2dc1486e9fb2f516a2fa63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af94b5d6554fa9137f644a86ca9a1bcb4"><td class="memItemLeft" align="right" valign="top"><a id="af94b5d6554fa9137f644a86ca9a1bcb4" name="af94b5d6554fa9137f644a86ca9a1bcb4"></a>
-ptime&#160;</td><td class="memItemRight" valign="bottom"><b>timestamp</b></td></tr>
-<tr class="memdesc:af94b5d6554fa9137f644a86ca9a1bcb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The timestamp of the associated changeset file. <br /></td></tr>
+<tr class="memitem:af94b5d6554fa9137f644a86ca9a1bcb4"><td class="memItemLeft" align="right" valign="top">ptime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1StateFile.html#af94b5d6554fa9137f644a86ca9a1bcb4">timestamp</a></td></tr>
+<tr class="memdesc:af94b5d6554fa9137f644a86ca9a1bcb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The timestamp of the associated changeset file.  <a href="classreplication_1_1StateFile.html#af94b5d6554fa9137f644a86ca9a1bcb4">More...</a><br /></td></tr>
 <tr class="separator:af94b5d6554fa9137f644a86ca9a1bcb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac13b736e502fd858d607478570358808"><td class="memItemLeft" align="right" valign="top"><a id="ac13b736e502fd858d607478570358808" name="ac13b736e502fd858d607478570358808"></a>
-long&#160;</td><td class="memItemRight" valign="bottom"><b>sequence</b></td></tr>
-<tr class="memdesc:ac13b736e502fd858d607478570358808"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sequence number of the associated changeset file. <br /></td></tr>
+<tr class="memitem:ac13b736e502fd858d607478570358808"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1StateFile.html#ac13b736e502fd858d607478570358808">sequence</a></td></tr>
+<tr class="memdesc:ac13b736e502fd858d607478570358808"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sequence number of the associated changeset/osmchange file.  <a href="classreplication_1_1StateFile.html#ac13b736e502fd858d607478570358808">More...</a><br /></td></tr>
 <tr class="separator:ac13b736e502fd858d607478570358808"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae25490419512421285a55694e10585e1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreplication_1_1StateFile.html#ae25490419512421285a55694e10585e1">frequency</a></td></tr>
 <tr class="separator:ae25490419512421285a55694e10585e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -122,16 +132,45 @@ long&#160;</td><td class="memItemRight" valign="bottom"><b>sequence</b></td></tr
 <tr class="memdesc:a56f28b186aca66587eeddd1435ad9eb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">These two values are updated after the changset is parsed.  <a href="classreplication_1_1StateFile.html#a56f28b186aca66587eeddd1435ad9eb2">More...</a><br /></td></tr>
 <tr class="separator:a56f28b186aca66587eeddd1435ad9eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2416ba1e57152e91cd2ee3e088974188"><td class="memItemLeft" align="right" valign="top"><a id="a2416ba1e57152e91cd2ee3e088974188" name="a2416ba1e57152e91cd2ee3e088974188"></a>
-ptime&#160;</td><td class="memItemRight" valign="bottom"><b>closed_at</b></td></tr>
+ptime&#160;</td><td class="memItemRight" valign="bottom"><b>closed_at</b> = not_a_date_time</td></tr>
 <tr class="memdesc:a2416ba1e57152e91cd2ee3e088974188"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last timestamp in the changefile. <br /></td></tr>
 <tr class="separator:a2416ba1e57152e91cd2ee3e088974188"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Data structure for state.text files. </p>
+<div class="textblock"><p >Data structure for state.txt files. </p>
 <p >This contains the data in a ???.state.txt file, used to identify the timestamp of the changeset replication file. The replication file uses the same 3 digit number as the state file. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="acc9bad0bf7ae87a3c30989d40c3d6c1e" name="acc9bad0bf7ae87a3c30989d40c3d6c1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc9bad0bf7ae87a3c30989d40c3d6c1e">&#9670;&nbsp;</a></span>StateFile() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">replication::StateFile::StateFile </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs an invalid <a class="el" href="classreplication_1_1StateFile.html" title="Data structure for state.txt files.">StateFile</a> </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classreplication_1_1StateFile.html#afa9ca364c6858e11513448a2449e53eb" title="isValid checks the validity of a state file. A state file is considered valid is it has a not-null ti...">isValid()</a> </dd></dl>
+
+</div>
+</div>
 <a id="a94940d5ec293d407443da8b5eea7e480" name="a94940d5ec293d407443da8b5eea7e480"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94940d5ec293d407443da8b5eea7e480">&#9670;&nbsp;</a></span>StateFile()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a94940d5ec293d407443da8b5eea7e480">&#9670;&nbsp;</a></span>StateFile() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -165,6 +204,27 @@ ptime&#160;</td><td class="memItemRight" valign="bottom"><b>closed_at</b></td></
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="afa9ca364c6858e11513448a2449e53eb" name="afa9ca364c6858e11513448a2449e53eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa9ca364c6858e11513448a2449e53eb">&#9670;&nbsp;</a></span>isValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool replication::StateFile::isValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>isValid checks the validity of a state file. A state file is considered valid is it has a not-null timestamp, a path, a frequence and a valid sequence. </p>
+<dl class="section return"><dt>Returns</dt><dd>TRUE if the <a class="el" href="classreplication_1_1StateFile.html" title="Data structure for state.txt files.">StateFile</a> is valid. </dd></dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a56f28b186aca66587eeddd1435ad9eb2" name="a56f28b186aca66587eeddd1435ad9eb2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56f28b186aca66587eeddd1435ad9eb2">&#9670;&nbsp;</a></span>created_at</h2>
@@ -177,7 +237,9 @@ ptime&#160;</td><td class="memItemRight" valign="bottom"><b>closed_at</b></td></
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">        not_a_date_time</div>
+</div><!-- fragment -->
 <p>These two values are updated after the changset is parsed. </p>
 <p >The first timestamp in the changefile </p>
 
@@ -195,6 +257,42 @@ ptime&#160;</td><td class="memItemRight" valign="bottom"><b>closed_at</b></td></
       </table>
 </div><div class="memdoc">
 <p >The time interval of this change file </p>
+
+</div>
+</div>
+<a id="ac13b736e502fd858d607478570358808" name="ac13b736e502fd858d607478570358808"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac13b736e502fd858d607478570358808">&#9670;&nbsp;</a></span>sequence</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long replication::StateFile::sequence</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">        -1</div>
+</div><!-- fragment -->
+<p>The sequence number of the associated changeset/osmchange file. </p>
+
+</div>
+</div>
+<a id="af94b5d6554fa9137f644a86ca9a1bcb4" name="af94b5d6554fa9137f644a86ca9a1bcb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af94b5d6554fa9137f644a86ca9a1bcb4">&#9670;&nbsp;</a></span>timestamp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ptime replication::StateFile::timestamp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">        not_a_date_time</div>
+</div><!-- fragment -->
+<p>The timestamp of the associated changeset file. </p>
 
 </div>
 </div>
