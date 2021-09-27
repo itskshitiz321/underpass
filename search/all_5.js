@@ -6,7 +6,8 @@ var searchData=
   ['fetchdatalast_3',['fetchDataLast',['../classreplication_1_1Planet.html#a0aa60ba2908814914a52fc41a39d35d2',1,'replication::Planet']]],
   ['fetchdatalessthan_4',['fetchDataLessThan',['../classreplication_1_1Planet.html#ada8e52f614c69c9681fffe8107896098',1,'replication::Planet']]],
   ['filename_5',['filename',['../classchangeset_1_1ChangeSetFile.html#a83094b6098735aebabd132c06cb0cda1',1,'changeset::ChangeSetFile']]],
-  ['freq_5ffrom_5fstring_6',['freq_from_string',['../classunderpass_1_1Underpass.html#a0110c122362f45ec2cd64006e3c50209',1,'underpass::Underpass']]],
-  ['freq_5fto_5fstring_7',['freq_to_string',['../classunderpass_1_1Underpass.html#aa2740d15b7b23af700ef2fa663525f16',1,'underpass::Underpass']]],
-  ['frequency_8',['frequency',['../classreplication_1_1StateFile.html#ae25490419512421285a55694e10585e1',1,'replication::StateFile']]]
+  ['final_5fentry_6',['final_entry',['../classosmchange_1_1OsmChange.html#a87e81a871f1fa425211ba61dc32f4df6',1,'osmchange::OsmChange']]],
+  ['freq_5ffrom_5fstring_7',['freq_from_string',['../classunderpass_1_1Underpass.html#a0110c122362f45ec2cd64006e3c50209',1,'underpass::Underpass']]],
+  ['freq_5fto_5fstring_8',['freq_to_string',['../classunderpass_1_1Underpass.html#aa2740d15b7b23af700ef2fa663525f16',1,'underpass::Underpass']]],
+  ['frequency_9',['frequency',['../classreplication_1_1StateFile.html#ae25490419512421285a55694e10585e1',1,'replication::StateFile']]]
 ];
