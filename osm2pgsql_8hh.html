@@ -74,22 +74,36 @@ $(function() {
 
 <p>Manages a osm2pgsql DB.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;boost/date_time/posix_time/posix_time.hpp&quot;</code><br />
+<div class="textblock"><code>#include &lt;regex&gt;</code><br />
+<code>#include &lt;pqxx/nontransaction&gt;</code><br />
+<code>#include &quot;boost/date_time/posix_time/posix_time.hpp&quot;</code><br />
 <code>#include &quot;<a class="el" href="pq_8hh_source.html">pq.hh</a>&quot;</code><br />
 <code>#include &lt;boost/date_time.hpp&gt;</code><br />
+<code>#include &quot;<a class="el" href="osmchange_8hh_source.html">osmstats/osmchange.hh</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for osm2pgsql.hh:</div>
 <div class="dyncontent">
 <div class="center"><img src="osm2pgsql_8hh__incl.png" border="0" usemap="#adata_2osm2pgsql_8hh" alt=""/></div>
 <map name="adata_2osm2pgsql_8hh" id="adata_2osm2pgsql_8hh">
-<area shape="rect" title="Manages a osm2pgsql DB." alt="" coords="140,5,271,32"/>
-<area shape="rect" title=" " alt="" coords="5,80,155,121"/>
-<area shape="rect" href="pq_8hh.html" title="Pq for monitoring the OSM planet server for replication files." alt="" coords="179,87,232,114"/>
-<area shape="rect" title=" " alt="" coords="256,87,395,114"/>
-<area shape="rect" title=" " alt="" coords="24,169,96,196"/>
-<area shape="rect" title=" " alt="" coords="121,169,199,196"/>
-<area shape="rect" title=" " alt="" coords="223,169,278,196"/>
-<area shape="rect" title=" " alt="" coords="303,169,361,196"/>
+<area shape="rect" title="Manages a osm2pgsql DB." alt="" coords="506,5,637,32"/>
+<area shape="rect" title=" " alt="" coords="258,80,311,107"/>
+<area shape="rect" title=" " alt="" coords="336,80,473,107"/>
+<area shape="rect" title=" " alt="" coords="973,229,1122,271"/>
+<area shape="rect" href="pq_8hh.html" title="Pq for monitoring the OSM planet server for replication files." alt="" coords="69,155,122,181"/>
+<area shape="rect" title=" " alt="" coords="722,237,861,263"/>
+<area shape="rect" href="osmchange_8hh.html" title="This file parses a change file in the OsmChange format." alt="" coords="549,80,713,107"/>
+<area shape="rect" title=" " alt="" coords="310,237,382,263"/>
+<area shape="rect" title=" " alt="" coords="5,237,84,263"/>
+<area shape="rect" title=" " alt="" coords="108,237,163,263"/>
+<area shape="rect" title=" " alt="" coords="227,237,286,263"/>
+<area shape="rect" title=" " alt="" coords="383,155,434,181"/>
+<area shape="rect" title=" " alt="" coords="669,155,737,181"/>
+<area shape="rect" title=" " alt="" coords="813,155,852,181"/>
+<area shape="rect" title=" " alt="" coords="565,237,697,263"/>
+<area shape="rect" title=" " alt="" coords="877,155,1010,181"/>
+<area shape="rect" href="osmobjects_8hh.html" title="Data structures for OSM objects." alt="" coords="459,155,593,181"/>
+<area shape="rect" title=" " alt="" coords="147,155,257,181"/>
+<area shape="rect" title=" " alt="" coords="407,237,541,263"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">

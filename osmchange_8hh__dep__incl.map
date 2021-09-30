@@ -1,10 +1,11 @@
 <map id="osmstats/osmchange.hh" name="osmstats/osmchange.hh">
-<area shape="rect" id="node1" title="This file parses a change file in the OsmChange format." alt="" coords="135,6,299,33"/>
-<area shape="rect" id="node2" href="$osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="142,81,293,108"/>
-<area shape="rect" id="node3" href="$geoutil_8hh.html" title="This file parses a data file containing boundaries." alt="" coords="5,156,112,182"/>
-<area shape="rect" id="node4" href="$threads_8hh.html" title="Threads for monitoring/synchronizing various data sources:" alt="" coords="221,454,331,481"/>
-<area shape="rect" id="node5" href="$underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="187,305,315,332"/>
-<area shape="rect" id="node7" href="$changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="255,156,412,182"/>
-<area shape="rect" id="node6" href="$replicatorconfig_8hh_source.html" title=" " alt="" coords="213,380,339,406"/>
-<area shape="rect" id="node8" href="$replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="265,230,421,257"/>
+<area shape="rect" id="node1" title="This file parses a change file in the OsmChange format." alt="" coords="86,6,250,33"/>
+<area shape="rect" id="node2" href="$osm2pgsql_8hh.html" title="Manages a osm2pgsql DB." alt="" coords="5,230,136,257"/>
+<area shape="rect" id="node4" href="$osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="234,81,385,108"/>
+<area shape="rect" id="node3" href="$threads_8hh.html" title="Threads for monitoring/synchronizing various data sources:" alt="" coords="199,454,310,481"/>
+<area shape="rect" id="node5" href="$geoutil_8hh.html" title="This file parses a data file containing boundaries." alt="" coords="211,156,317,182"/>
+<area shape="rect" id="node6" href="$underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="272,305,400,332"/>
+<area shape="rect" id="node8" href="$changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="392,156,549,182"/>
+<area shape="rect" id="node7" href="$replicatorconfig_8hh_source.html" title=" " alt="" coords="273,380,399,406"/>
+<area shape="rect" id="node9" href="$replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="393,230,549,257"/>
 </map>

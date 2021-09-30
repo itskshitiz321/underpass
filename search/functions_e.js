@@ -7,7 +7,7 @@ var searchData=
   ['setlogfilename_4',['setLogFilename',['../classlogger_1_1LogFile.html#a15660ee0a31ec3ab3a7ef6790de96b74',1,'logger::LogFile']]],
   ['setlongitude_5',['setLongitude',['../classosmobjects_1_1OsmNode.html#a0b6178512e3359862d821915590d23c8',1,'osmobjects::OsmNode::setLongitude()'],['../classosmchange_1_1OsmChange.html#ac889dd8af87b0164a8757ffc15e601db',1,'osmchange::OsmChange::setLongitude()']]],
   ['setpoint_6',['setPoint',['../classosmobjects_1_1OsmNode.html#aa38c053414ce201e4d0d439434dcb6d5',1,'osmobjects::OsmNode']]],
-  ['setschema_7',['setSchema',['../classosm2pgsql_1_1Osm2Pgsql.html#a146eb2223e4e99b2517d5214d8b10c1c',1,'osm2pgsql::Osm2Pgsql']]],
+  ['setschema_7',['setSchema',['../classosm2pgsql_1_1Osm2Pgsql.html#a02ba081d906122a22c510128e9ea44ee',1,'osm2pgsql::Osm2Pgsql']]],
   ['settimestamp_8',['setTimestamp',['../classosmchange_1_1OsmChange.html#a95d940cc94791c650a255dee1cc1d781',1,'osmchange::OsmChange']]],
   ['setuid_9',['setUID',['../classosmchange_1_1OsmChange.html#a557a67d042a08aac7c728eb9bc11c2ad',1,'osmchange::OsmChange']]],
   ['setuser_10',['setUser',['../classosmchange_1_1OsmChange.html#a10fde8a7069270a1803b2ceeef953c59',1,'osmchange::OsmChange']]],

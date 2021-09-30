@@ -13,6 +13,6 @@ var searchData=
   ['collectstats_10',['collectStats',['../classosmchange_1_1OsmChangeFile.html#aec2b50d9eb1bb1705f39752ed5428bd8',1,'osmchange::OsmChangeFile']]],
   ['comment_11',['comment',['../classchangeset_1_1ChangeSet.html#a9242071eb18936a46ff760ff172abea5',1,'changeset::ChangeSet']]],
   ['comments_5fcount_12',['comments_count',['../classchangeset_1_1ChangeSet.html#afcf540e20008ffdb7ce777c9556052b8',1,'changeset::ChangeSet']]],
-  ['connect_13',['connect',['../classimport_1_1OSMHandler.html#ac7c09a13bbcb8a5d3dbdbb94c12b67ff',1,'import::OSMHandler::connect()'],['../classtmdb_1_1TaskingManager.html#aded6b4185b9be89b7079fef5e25883f2',1,'tmdb::TaskingManager::connect()']]],
+  ['connect_13',['connect',['../classimport_1_1OSMHandler.html#ac7c09a13bbcb8a5d3dbdbb94c12b67ff',1,'import::OSMHandler::connect()'],['../classosm2pgsql_1_1Osm2Pgsql.html#a7e4175462a98b7423b3d8e16f0d79a61',1,'osm2pgsql::Osm2Pgsql::connect()'],['../classtmdb_1_1TaskingManager.html#aded6b4185b9be89b7079fef5e25883f2',1,'tmdb::TaskingManager::connect()']]],
   ['created_5fat_14',['created_at',['../classchangeset_1_1ChangeSet.html#a27d6b821415087523ded8ffebbfe3596',1,'changeset::ChangeSet::created_at()'],['../classosmchange_1_1ChangeStats.html#a3d03ddf94183da09ee38cd726e8b52a8',1,'osmchange::ChangeStats::created_at()'],['../classosmstats_1_1RawChangeset.html#ae3dada993ed0900616c04b812689eaf3',1,'osmstats::RawChangeset::created_at()'],['../classreplication_1_1StateFile.html#a56f28b186aca66587eeddd1435ad9eb2',1,'replication::StateFile::created_at()']]]
 ];

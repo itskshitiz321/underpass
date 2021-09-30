@@ -67,6 +67,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classosm2pgsql_1_1Osm2Pgsql-members.html">List of all members</a>  </div>
@@ -104,23 +105,41 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a762b25820c90249c776d97dfa0eb9610"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af31b0cd0c457940116080d1bf7bc2e26"><td class="memItemLeft" align="right" valign="top"><a id="af31b0cd0c457940116080d1bf7bc2e26" name="af31b0cd0c457940116080d1bf7bc2e26"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Osm2Pgsql</b> ()=default</td></tr>
-<tr class="memdesc:af31b0cd0c457940116080d1bf7bc2e26"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html" title="The Osm2Pgsql class handles the communication with an osm2pgsql DB.">Osm2Pgsql</a> constructs a default uninitialized <a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html" title="The Osm2Pgsql class handles the communication with an osm2pgsql DB.">Osm2Pgsql</a>. Call connect() and <a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#a146eb2223e4e99b2517d5214d8b10c1c" title="setSchema sets the the schema name for osm2pgsql tables.">setSchema()</a> to initialize. <br /></td></tr>
+<tr class="memdesc:af31b0cd0c457940116080d1bf7bc2e26"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html" title="The Osm2Pgsql class handles the communication with an osm2pgsql DB.">Osm2Pgsql</a> constructs a default uninitialized <a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html" title="The Osm2Pgsql class handles the communication with an osm2pgsql DB.">Osm2Pgsql</a>. Call <a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#a7e4175462a98b7423b3d8e16f0d79a61" title="connects to the DB using dburl">connect()</a> and <a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#a02ba081d906122a22c510128e9ea44ee" title="setSchema sets the the schema name for osm2pgsql tables.">setSchema()</a> to initialize. <br /></td></tr>
 <tr class="separator:af31b0cd0c457940116080d1bf7bc2e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a70f67fac0a754ea9a8f5d86a762f96"><td class="memItemLeft" align="right" valign="top">ptime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#a0a70f67fac0a754ea9a8f5d86a762f96">getLastUpdate</a> ()</td></tr>
 <tr class="memdesc:a0a70f67fac0a754ea9a8f5d86a762f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">getLastUpdate  <a href="classosm2pgsql_1_1Osm2Pgsql.html#a0a70f67fac0a754ea9a8f5d86a762f96">More...</a><br /></td></tr>
 <tr class="separator:a0a70f67fac0a754ea9a8f5d86a762f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5185664362216473c619135363d53e90"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#a5185664362216473c619135363d53e90">updateDatabase</a> (const std::string &amp;osm_changes)</td></tr>
-<tr class="memdesc:a5185664362216473c619135363d53e90"><td class="mdescLeft">&#160;</td><td class="mdescRight">updateDatabase updates the DB with osm changes.  <a href="classosm2pgsql_1_1Osm2Pgsql.html#a5185664362216473c619135363d53e90">More...</a><br /></td></tr>
-<tr class="separator:a5185664362216473c619135363d53e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50ea515090b178e71a36fa50737ae646"><td class="memItemLeft" align="right" valign="top"><a id="a50ea515090b178e71a36fa50737ae646" name="a50ea515090b178e71a36fa50737ae646"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>connect</b> (const std::string &amp;dburl)</td></tr>
-<tr class="separator:a50ea515090b178e71a36fa50737ae646"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61df3e19df3a60eaab6054d1fe74195f"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#a61df3e19df3a60eaab6054d1fe74195f">getSchema</a> () const</td></tr>
-<tr class="memdesc:a61df3e19df3a60eaab6054d1fe74195f"><td class="mdescLeft">&#160;</td><td class="mdescRight">getSchema returns the schema name for osm2pgsql tables.  <a href="classosm2pgsql_1_1Osm2Pgsql.html#a61df3e19df3a60eaab6054d1fe74195f">More...</a><br /></td></tr>
-<tr class="separator:a61df3e19df3a60eaab6054d1fe74195f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a146eb2223e4e99b2517d5214d8b10c1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#a146eb2223e4e99b2517d5214d8b10c1c">setSchema</a> (const std::string &amp;newSchema)</td></tr>
-<tr class="memdesc:a146eb2223e4e99b2517d5214d8b10c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">setSchema sets the the schema name for osm2pgsql tables.  <a href="classosm2pgsql_1_1Osm2Pgsql.html#a146eb2223e4e99b2517d5214d8b10c1c">More...</a><br /></td></tr>
-<tr class="separator:a146eb2223e4e99b2517d5214d8b10c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57527c64873489b74de8fa7b68e0c154"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#a57527c64873489b74de8fa7b68e0c154">updateDatabase</a> (const std::shared_ptr&lt; <a class="el" href="classosmchange_1_1OsmChangeFile.html">OsmChangeFile</a> &gt; &amp;osm_changes) const</td></tr>
+<tr class="memdesc:a57527c64873489b74de8fa7b68e0c154"><td class="mdescLeft">&#160;</td><td class="mdescRight">updateDatabase updates the DB with osm changes.  <a href="classosm2pgsql_1_1Osm2Pgsql.html#a57527c64873489b74de8fa7b68e0c154">More...</a><br /></td></tr>
+<tr class="separator:a57527c64873489b74de8fa7b68e0c154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3522f550f01e000cd6ee51df70f13005"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#a3522f550f01e000cd6ee51df70f13005">upsertWay</a> (const std::shared_ptr&lt; <a class="el" href="classosmobjects_1_1OsmWay.html">osmobjects::OsmWay</a> &gt; &amp;way) const</td></tr>
+<tr class="memdesc:a3522f550f01e000cd6ee51df70f13005"><td class="mdescLeft">&#160;</td><td class="mdescRight">upsertWay inserts or updates a way in the osm2pgsql DB.  <a href="classosm2pgsql_1_1Osm2Pgsql.html#a3522f550f01e000cd6ee51df70f13005">More...</a><br /></td></tr>
+<tr class="separator:a3522f550f01e000cd6ee51df70f13005"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a180947053aa321515f7099b6aef4a23c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#a180947053aa321515f7099b6aef4a23c">upsertNode</a> (const std::shared_ptr&lt; <a class="el" href="classosmobjects_1_1OsmNode.html">osmobjects::OsmNode</a> &gt; &amp;node) const</td></tr>
+<tr class="memdesc:a180947053aa321515f7099b6aef4a23c"><td class="mdescLeft">&#160;</td><td class="mdescRight">upsertNode inserts or updates a node in the osm2pgsql DB.  <a href="classosm2pgsql_1_1Osm2Pgsql.html#a180947053aa321515f7099b6aef4a23c">More...</a><br /></td></tr>
+<tr class="separator:a180947053aa321515f7099b6aef4a23c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a047abfc05b3d7ec4e043ba9c0ed22da2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#a047abfc05b3d7ec4e043ba9c0ed22da2">upsertRelation</a> (const std::shared_ptr&lt; <a class="el" href="classosmobjects_1_1OsmRelation.html">osmobjects::OsmRelation</a> &gt; &amp;relation) const</td></tr>
+<tr class="memdesc:a047abfc05b3d7ec4e043ba9c0ed22da2"><td class="mdescLeft">&#160;</td><td class="mdescRight">upsertRelation inserts or updates a relation in the osm2pgsql DB.  <a href="classosm2pgsql_1_1Osm2Pgsql.html#a047abfc05b3d7ec4e043ba9c0ed22da2">More...</a><br /></td></tr>
+<tr class="separator:a047abfc05b3d7ec4e043ba9c0ed22da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae379eb06aae2c4ac5e35c65d433c9bb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#ae379eb06aae2c4ac5e35c65d433c9bb3">removeWay</a> (const std::shared_ptr&lt; <a class="el" href="classosmobjects_1_1OsmWay.html">osmobjects::OsmWay</a> &gt; &amp;way) const</td></tr>
+<tr class="memdesc:ae379eb06aae2c4ac5e35c65d433c9bb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">removeWay removes a way from the osm2pgsql DB.  <a href="classosm2pgsql_1_1Osm2Pgsql.html#ae379eb06aae2c4ac5e35c65d433c9bb3">More...</a><br /></td></tr>
+<tr class="separator:ae379eb06aae2c4ac5e35c65d433c9bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6913ae07bda24d7815e1159fbde030e7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#a6913ae07bda24d7815e1159fbde030e7">removeNode</a> (const std::shared_ptr&lt; <a class="el" href="classosmobjects_1_1OsmNode.html">osmobjects::OsmNode</a> &gt; &amp;node) const</td></tr>
+<tr class="memdesc:a6913ae07bda24d7815e1159fbde030e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">removeNode removes a node from the osm2pgsql DB.  <a href="classosm2pgsql_1_1Osm2Pgsql.html#a6913ae07bda24d7815e1159fbde030e7">More...</a><br /></td></tr>
+<tr class="separator:a6913ae07bda24d7815e1159fbde030e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a6ed8b60ab40decc520c6787c9b0fa2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#a4a6ed8b60ab40decc520c6787c9b0fa2">removeRelation</a> (const std::shared_ptr&lt; <a class="el" href="classosmobjects_1_1OsmRelation.html">osmobjects::OsmRelation</a> &gt; &amp;relation) const</td></tr>
+<tr class="memdesc:a4a6ed8b60ab40decc520c6787c9b0fa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">removeRelation removes a relation from the osm2pgsql DB.  <a href="classosm2pgsql_1_1Osm2Pgsql.html#a4a6ed8b60ab40decc520c6787c9b0fa2">More...</a><br /></td></tr>
+<tr class="separator:a4a6ed8b60ab40decc520c6787c9b0fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e4175462a98b7423b3d8e16f0d79a61"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#a7e4175462a98b7423b3d8e16f0d79a61">connect</a> (const std::string &amp;dburl)</td></tr>
+<tr class="memdesc:a7e4175462a98b7423b3d8e16f0d79a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">connects to the DB using <em>dburl</em>  <a href="classosm2pgsql_1_1Osm2Pgsql.html#a7e4175462a98b7423b3d8e16f0d79a61">More...</a><br /></td></tr>
+<tr class="separator:a7e4175462a98b7423b3d8e16f0d79a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae01c99ef8382697bc2f4e94b1b8df20d"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#ae01c99ef8382697bc2f4e94b1b8df20d">getSchema</a> () const</td></tr>
+<tr class="memdesc:ae01c99ef8382697bc2f4e94b1b8df20d"><td class="mdescLeft">&#160;</td><td class="mdescRight">getSchema returns the schema name for osm2pgsql tables.  <a href="classosm2pgsql_1_1Osm2Pgsql.html#ae01c99ef8382697bc2f4e94b1b8df20d">More...</a><br /></td></tr>
+<tr class="separator:ae01c99ef8382697bc2f4e94b1b8df20d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02ba081d906122a22c510128e9ea44ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classosm2pgsql_1_1Osm2Pgsql.html#a02ba081d906122a22c510128e9ea44ee">setSchema</a> (const std::string &amp;newSchema)</td></tr>
+<tr class="memdesc:a02ba081d906122a22c510128e9ea44ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">setSchema sets the the schema name for osm2pgsql tables.  <a href="classosm2pgsql_1_1Osm2Pgsql.html#a02ba081d906122a22c510128e9ea44ee">More...</a><br /></td></tr>
+<tr class="separator:a02ba081d906122a22c510128e9ea44ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classpq_1_1Pq"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classpq_1_1Pq')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classpq_1_1Pq.html">pq::Pq</a></td></tr>
 <tr class="memitem:a256551a25e8a6936004fcaeac380862b inherit pub_methods_classpq_1_1Pq"><td class="memItemLeft" align="right" valign="top"><a id="a256551a25e8a6936004fcaeac380862b" name="a256551a25e8a6936004fcaeac380862b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Pq</b> (const std::string &amp;dbname)</td></tr>
@@ -214,6 +233,33 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>dbname</b></td
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7e4175462a98b7423b3d8e16f0d79a61" name="a7e4175462a98b7423b3d8e16f0d79a61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e4175462a98b7423b3d8e16f0d79a61">&#9670;&nbsp;</a></span>connect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Osm2Pgsql::connect </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>dburl</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>connects to the DB using <em>dburl</em> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dburl</td><td>the connection string to the DB. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>TRUE on success. </dd></dl>
+
+</div>
+</div>
 <a id="a0a70f67fac0a754ea9a8f5d86a762f96" name="a0a70f67fac0a754ea9a8f5d86a762f96"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a70f67fac0a754ea9a8f5d86a762f96">&#9670;&nbsp;</a></span>getLastUpdate()</h2>
 
@@ -234,14 +280,14 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>dbname</b></td
 
 </div>
 </div>
-<a id="a61df3e19df3a60eaab6054d1fe74195f" name="a61df3e19df3a60eaab6054d1fe74195f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61df3e19df3a60eaab6054d1fe74195f">&#9670;&nbsp;</a></span>getSchema()</h2>
+<a id="ae01c99ef8382697bc2f4e94b1b8df20d" name="ae01c99ef8382697bc2f4e94b1b8df20d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae01c99ef8382697bc2f4e94b1b8df20d">&#9670;&nbsp;</a></span>getSchema()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string &amp; osm2pgsql::Osm2Pgsql::getSchema </td>
+          <td class="memname">const std::string &amp; Osm2Pgsql::getSchema </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -254,14 +300,95 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>dbname</b></td
 
 </div>
 </div>
-<a id="a146eb2223e4e99b2517d5214d8b10c1c" name="a146eb2223e4e99b2517d5214d8b10c1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a146eb2223e4e99b2517d5214d8b10c1c">&#9670;&nbsp;</a></span>setSchema()</h2>
+<a id="a6913ae07bda24d7815e1159fbde030e7" name="a6913ae07bda24d7815e1159fbde030e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6913ae07bda24d7815e1159fbde030e7">&#9670;&nbsp;</a></span>removeNode()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void osm2pgsql::Osm2Pgsql::setSchema </td>
+          <td class="memname">bool Osm2Pgsql::removeNode </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classosmobjects_1_1OsmNode.html">osmobjects::OsmNode</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>removeNode removes a node from the osm2pgsql DB. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node</td><td>to be removed. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>TRUE on success, errors are logged. </dd></dl>
+
+</div>
+</div>
+<a id="a4a6ed8b60ab40decc520c6787c9b0fa2" name="a4a6ed8b60ab40decc520c6787c9b0fa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a6ed8b60ab40decc520c6787c9b0fa2">&#9670;&nbsp;</a></span>removeRelation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Osm2Pgsql::removeRelation </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classosmobjects_1_1OsmRelation.html">osmobjects::OsmRelation</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>relation</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>removeRelation removes a relation from the osm2pgsql DB. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">relation</td><td>to be removed. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>TRUE on success, errors are logged. </dd></dl>
+
+</div>
+</div>
+<a id="ae379eb06aae2c4ac5e35c65d433c9bb3" name="ae379eb06aae2c4ac5e35c65d433c9bb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae379eb06aae2c4ac5e35c65d433c9bb3">&#9670;&nbsp;</a></span>removeWay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Osm2Pgsql::removeWay </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classosmobjects_1_1OsmWay.html">osmobjects::OsmWay</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>way</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>removeWay removes a way from the osm2pgsql DB. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">way</td><td>to be removed. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>TRUE on success, errors are logged. </dd></dl>
+
+</div>
+</div>
+<a id="a02ba081d906122a22c510128e9ea44ee" name="a02ba081d906122a22c510128e9ea44ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02ba081d906122a22c510128e9ea44ee">&#9670;&nbsp;</a></span>setSchema()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Osm2Pgsql::setSchema </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>newSchema</em></td><td>)</td>
@@ -280,8 +407,8 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>dbname</b></td
 
 </div>
 </div>
-<a id="a5185664362216473c619135363d53e90" name="a5185664362216473c619135363d53e90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5185664362216473c619135363d53e90">&#9670;&nbsp;</a></span>updateDatabase()</h2>
+<a id="a57527c64873489b74de8fa7b68e0c154" name="a57527c64873489b74de8fa7b68e0c154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57527c64873489b74de8fa7b68e0c154">&#9670;&nbsp;</a></span>updateDatabase()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -289,9 +416,9 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>dbname</b></td
         <tr>
           <td class="memname">bool osm2pgsql::Osm2Pgsql::updateDatabase </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classosmchange_1_1OsmChangeFile.html">OsmChangeFile</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>osm_changes</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -299,7 +426,88 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>dbname</b></td
 <p>updateDatabase updates the DB with osm changes. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">osm_changes</td><td>input data (decompressed) from an OSC file. </td></tr>
+    <tr><td class="paramname">osm_changes</td><td>OsmChangeFile (parsed) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>TRUE on success, errors are logged. </dd></dl>
+
+</div>
+</div>
+<a id="a180947053aa321515f7099b6aef4a23c" name="a180947053aa321515f7099b6aef4a23c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a180947053aa321515f7099b6aef4a23c">&#9670;&nbsp;</a></span>upsertNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool osm2pgsql::Osm2Pgsql::upsertNode </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classosmobjects_1_1OsmNode.html">osmobjects::OsmNode</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>upsertNode inserts or updates a node in the osm2pgsql DB. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node</td><td>the node that will be inserted or updated. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>TRUE on success, errors are logged. </dd></dl>
+
+</div>
+</div>
+<a id="a047abfc05b3d7ec4e043ba9c0ed22da2" name="a047abfc05b3d7ec4e043ba9c0ed22da2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a047abfc05b3d7ec4e043ba9c0ed22da2">&#9670;&nbsp;</a></span>upsertRelation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool osm2pgsql::Osm2Pgsql::upsertRelation </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classosmobjects_1_1OsmRelation.html">osmobjects::OsmRelation</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>relation</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>upsertRelation inserts or updates a relation in the osm2pgsql DB. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">relation</td><td>the relation that will be inserted or updated. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>TRUE on success, errors are logged. </dd></dl>
+
+</div>
+</div>
+<a id="a3522f550f01e000cd6ee51df70f13005" name="a3522f550f01e000cd6ee51df70f13005"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3522f550f01e000cd6ee51df70f13005">&#9670;&nbsp;</a></span>upsertWay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool osm2pgsql::Osm2Pgsql::upsertWay </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classosmobjects_1_1OsmWay.html">osmobjects::OsmWay</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>way</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>upsertWay inserts or updates a way in the osm2pgsql DB. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">way</td><td>the way that will be inserted or updated. </td></tr>
   </table>
   </dd>
 </dl>
