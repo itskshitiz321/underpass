@@ -66,7 +66,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p >To distribute binary packages for a variety of potforms of varying versions, it's common to use a <em>chroot</em> to build in. This is to make sure that a the package binary is linked against the right libraries, which is required so the user doesn't have to build anything from source. Unlike docker or Virtualbox, a chroot uses the base running kernel on host machine, but provides a different set of runtime libraries and tools.</p>
-<h1><a class="anchor" id="autotoc_md6"></a>
+<h1><a class="anchor" id="autotoc_md7"></a>
 Creating a Chroot</h1>
 <p >All platforms that use the *.deb* packaging format, like Debian and Ubuntu, can use the <em>debbootstrap</em> program to create the chroot. Debootstrap lets you pick the architect to support, <code>--arch amd64</code> builds files for the X86_64 platform. after that the version of the distribution is specified, followed by the directory to install the files in, and finally the URL to download packages from. Once done, change to the installation directory, and type <code>sudo chroot .</code>. You'll now be in a minimal runtime environment. The first thing I do is create a <code>/etc/debian_chroot</code> file containing the name of the distribution. This puts the this value into the command prompt for the shell, which is very useful when you have multiple chroots.</p>
 <p >As the <em>chroot</em> program requires one to be root, a utility program called <em>schroot</em> can be used to fake root. Once the initial chroot is created, change to the directory containing the downloaded files, and type these shell commands. Some of the programs used to build packages need these, which aren't present in the chroot, as they have to be shared from the host platform.</p>
@@ -80,7 +80,7 @@ Creating a Chroot</h1>
 <div class="line">export LANG=C</div>
 <div class="line">export GPG_TTY=&quot;$(tty)&quot;</div>
 </div><!-- fragment --><p >To create signed packages, you need a <em>GPG</em> key pair setup, so might as well do that now. Type <code>gpg --full-generate-key</code>, and answer the questions. This will only work if you've execute the mount commands as documented above.</p>
-<h2><a class="anchor" id="autotoc_md7"></a>
+<h2><a class="anchor" id="autotoc_md8"></a>
 For Debian</h2>
 <div class="fragment"><div class="line">sudo /usr/sbin/debootstrap --arch amd64 bullseye bullseye/ http://deb.debian.org/debian/</div>
 </div><!-- fragment --><p >Start by installing packages needed to build Underpass.</p>
@@ -88,7 +88,7 @@ For Debian</h2>
 <div class="line">    git gcc g++ pkg-config make debhelper debconf chrpath ccache devscripts gpg \</div>
 <div class="line">    libgdal-dev libosmium2-dev libpq-dev libgumbo-dev \</div>
 <div class="line">    libssl-dev libpq5-dev libxml++2.6-dev libboost-all-dev</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md8"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md9"></a>
 Ubuntu Focal (20.04 LTS)</h2>
 <div class="fragment"><div class="line">sudo /usr/sbin/debootstrap --arch amd64 focal focal/ http://archive.ubuntu.com/ubuntu/</div>
 </div><!-- fragment --><p >Start by installing packages needed to build Underpass.</p>
@@ -98,15 +98,15 @@ Ubuntu Focal (20.04 LTS)</h2>
 <div class="line">    libxml++2.6-dev ccache libssl-dev libzip-dev libbz2-dev \</div>
 <div class="line">    libboost-all-dev libosmium2-dev osmium-tool \</div>
 <div class="line">    doxygen librange-v3-dev libtool-bin libltdl-dev  </div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md9"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md10"></a>
 Ubuntu Groovy (20.10)</h2>
 <div class="fragment"><div class="line">sudo /usr/sbin/debootstrap --arch amd64 groovy groovy/ http://archive.ubuntu.com/ubuntu/</div>
 </div><!-- fragment --><p >Install dependencies as above. Note that the version of boost is 1.74</p>
-<h2><a class="anchor" id="autotoc_md10"></a>
+<h2><a class="anchor" id="autotoc_md11"></a>
 Ubuntu Hirsute (21.04)</h2>
 <div class="fragment"><div class="line">sudo /usr/sbin/debootstrap --arch amd64 hirsute hirsute/ http://archive.ubuntu.com/ubuntu/</div>
 </div><!-- fragment --><p >Install dependencies as above. Note that the version of boost is 1.74</p>
-<h1><a class="anchor" id="autotoc_md11"></a>
+<h1><a class="anchor" id="autotoc_md12"></a>
 Building Libpqxx Packages</h1>
 <p >The version of <em>libpqxx (6.x)</em> that's included in current (Aug 2021) distribution like <em>Debian Bullseye</em> or <em>Unbuntu Hirsute (21.04)</em> has a bug triggered by <em>libxml++</em>. Since Underpass uses libxml++ and libpqxx, we have to build a package of a newer version (7.x). I added Debian packaging files to a git repository to make this easier, Get that fork here:</p>
 <div class="fragment"><div class="line">git clone https://github.com/robsavoye/libpqxx.git</div>
@@ -115,7 +115,7 @@ Building Libpqxx Packages</h1>
 </div><!-- fragment --><p >Then run <code>./autogen.sh</code>, which produces the scripts used for configuring. Now that you have the <code>configure</code> script, configure libpqxx like this:</p>
 <div class="fragment"><div class="line">./configure CXX=&quot;ccache g++&quot; CXXFLAGS=&quot;-std=c++17 -g -O2&quot; --disable-dependency-tracking</div>
 </div><!-- fragment --><p >After that, change to the <em>debian</em> directory, and type <code>make deb -i -k</code>. That'll build the deb packages, and at the end, have you GPG sign them. Once built, install the two packages, and you're all set to go build Underpass.</p>
-<h1><a class="anchor" id="autotoc_md12"></a>
+<h1><a class="anchor" id="autotoc_md13"></a>
 Building Underpass Packages</h1>
 <p >The Underpass git repository is at:</p>
 <p ><a href="https://github.com/hotosm/underpass.git">https://github.com/hotosm/underpass.git</a></p>

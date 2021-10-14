@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['database_20schemas_0',['Database Schemas',['../md_doc_schemas.html',1,'']]]
+  ['continuous_20integration_20scripts_0',['Continuous integration scripts',['../md_ci_README.html',1,'']]]
 ];

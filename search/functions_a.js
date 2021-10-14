@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['osm2pgsql_0',['Osm2Pgsql',['../classosm2pgsql_1_1Osm2Pgsql.html#a762b25820c90249c776d97dfa0eb9610',1,'osm2pgsql::Osm2Pgsql::Osm2Pgsql(const std::string &amp;dburl, const std::string &amp;schema=OSM2PGSQL_DEFAULT_SCHEMA_NAME)'],['../classosm2pgsql_1_1Osm2Pgsql.html#af31b0cd0c457940116080d1bf7bc2e26',1,'osm2pgsql::Osm2Pgsql::Osm2Pgsql()=default']]]
+  ['parse_0',['parse',['../classreplication_1_1RemoteURL.html#ab325070813e69e1f711b27a1393b1f43',1,'replication::RemoteURL']]],
+  ['populate_1',['populate',['../classosmstats_1_1QueryOSMStats.html#a7b10253cbe371d5585a44270946ee536',1,'osmstats::QueryOSMStats']]],
+  ['pq_2',['Pq',['../classpq_1_1Pq.html#a256551a25e8a6936004fcaeac380862b',1,'pq::Pq']]]
 ];

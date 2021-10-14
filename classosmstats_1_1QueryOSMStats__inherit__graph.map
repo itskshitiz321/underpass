@@ -1,4 +1,6 @@
 <map id="osmstats::QueryOSMStats" name="osmstats::QueryOSMStats">
-<area shape="rect" id="node1" title="This handles all direct database access." alt="" coords="5,80,183,107"/>
-<area shape="rect" id="node2" href="$classpq_1_1Pq.html" title=" " alt="" coords="65,5,123,32"/>
+<area shape="rect" id="node1" title="This handles all direct database access." alt="" coords="30,80,207,107"/>
+<area shape="rect" id="node3" href="$classTestOSMStats.html" title=" " alt="" coords="5,155,115,181"/>
+<area shape="rect" id="node4" href="$classTestStats.html" title=" " alt="" coords="139,155,218,181"/>
+<area shape="rect" id="node2" href="$classpq_1_1Pq.html" title=" " alt="" coords="89,5,148,32"/>
 </map>
