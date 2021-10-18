@@ -1,21 +1,11 @@
 var searchData=
 [
-  ['open_0',['open',['../classchangeset_1_1ChangeSet.html#a77a5b6c937061066cff7ed7560572fd0',1,'changeset::ChangeSet']]],
-  ['osm_20stats_1',['OSM Stats',['../md_doc_osmstats.html',1,'']]],
-  ['osm2pgsql_2',['Osm2Pgsql',['../classosm2pgsql_1_1Osm2Pgsql.html#af31b0cd0c457940116080d1bf7bc2e26',1,'osm2pgsql::Osm2Pgsql::Osm2Pgsql()=default'],['../classosm2pgsql_1_1Osm2Pgsql.html#a762b25820c90249c776d97dfa0eb9610',1,'osm2pgsql::Osm2Pgsql::Osm2Pgsql(const std::string &amp;dburl, const std::string &amp;schema=OSM2PGSQL_DEFAULT_SCHEMA_NAME)'],['../classosm2pgsql_1_1Osm2Pgsql.html',1,'osm2pgsql::Osm2Pgsql']]],
-  ['osm2pgsql_2ehh_3',['osm2pgsql.hh',['../osm2pgsql_8hh.html',1,'']]],
-  ['osm2pgsql_5fdefault_5fschema_5fname_4',['OSM2PGSQL_DEFAULT_SCHEMA_NAME',['../classosm2pgsql_1_1Osm2Pgsql.html#a06d08f72de3bedfc4cbb60ccec9bcd51',1,'osm2pgsql::Osm2Pgsql']]],
-  ['osmchange_5',['OsmChange',['../classosmchange_1_1OsmChange.html',1,'osmchange']]],
-  ['osmchange_2ehh_6',['osmchange.hh',['../osmchange_8hh.html',1,'']]],
-  ['osmchangefile_7',['OsmChangeFile',['../classosmchange_1_1OsmChangeFile.html',1,'osmchange']]],
-  ['osmfile_8',['OsmFile',['../classexport_1_1OsmFile.html',1,'export']]],
-  ['osmhandler_9',['OSMHandler',['../classimport_1_1OSMHandler.html',1,'import']]],
-  ['osmnode_10',['OsmNode',['../classosmobjects_1_1OsmNode.html',1,'osmobjects']]],
-  ['osmobject_11',['OsmObject',['../classosmobjects_1_1OsmObject.html',1,'osmobjects']]],
-  ['osmobjects_2ehh_12',['osmobjects.hh',['../osmobjects_8hh.html',1,'']]],
-  ['osmrelation_13',['OsmRelation',['../classosmobjects_1_1OsmRelation.html',1,'osmobjects']]],
-  ['osmrelationmember_14',['OsmRelationMember',['../structosmobjects_1_1OsmRelationMember.html',1,'osmobjects']]],
-  ['osmstats_2ehh_15',['osmstats.hh',['../osmstats_8hh.html',1,'']]],
-  ['osmtype_5ft_16',['osmtype_t',['../osmchange_8hh.html#af02e73fa92b123e0fc4095f07546bae6',1,'osmchange']]],
-  ['osmway_17',['OsmWay',['../classosmobjects_1_1OsmWay.html',1,'osmobjects']]]
+  ['name_0',['name',['../classosmstats_1_1RawUser.html#abd5295df8fd246a742db0b39035c06c5',1,'osmstats::RawUser::name()'],['../classosmstats_1_1RawHashtag.html#ac68532a5733a4d26af1b61f96162a6f3',1,'osmstats::RawHashtag::name()']]],
+  ['newnode_1',['newNode',['../classosmchange_1_1OsmChange.html#a862a225ed5071a45f80787a98132c3af',1,'osmchange::OsmChange']]],
+  ['newrelation_2',['newRelation',['../classosmchange_1_1OsmChange.html#ac33b2c1ff8f68d7a409a4afa600dfa5d',1,'osmchange::OsmChange']]],
+  ['newway_3',['newWay',['../classosmchange_1_1OsmChange.html#ac951be760d993b88d498b078ff05f5d0',1,'osmchange::OsmChange']]],
+  ['node_4',['node',['../classimport_1_1OSMHandler.html#a836ccc7e2aba9bcc78dfaa2947cfedeb',1,'import::OSMHandler']]],
+  ['nodes_5',['nodes',['../classosmchange_1_1OsmChange.html#a1a3d619ff3b46e1679a1b7a9c30a1524',1,'osmchange::OsmChange']]],
+  ['num_5fchanges_6',['num_changes',['../classchangeset_1_1ChangeSet.html#aab16ec2192fb773e699e12d2d6d44f10',1,'changeset::ChangeSet']]],
+  ['numpoints_7',['numPoints',['../classosmobjects_1_1OsmWay.html#a13a0a60bc79d57b265ce9fe628a34eca',1,'osmobjects::OsmWay']]]
 ];

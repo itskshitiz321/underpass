@@ -1,15 +1,21 @@
 var searchData=
 [
-  ['parse_0',['parse',['../classreplication_1_1RemoteURL.html#ab325070813e69e1f711b27a1393b1f43',1,'replication::RemoteURL']]],
-  ['path_1',['path',['../classreplication_1_1StateFile.html#a7a1ebc080d2dc1486e9fb2f516a2fa63',1,'replication::StateFile']]],
-  ['pgsnapshot_2',['PGSnapshot',['../classpgsnapshot_1_1PGSnapshot.html',1,'pgsnapshot']]],
-  ['pgsnapshot_2ehh_3',['pgsnapshot.hh',['../pgsnapshot_8hh.html',1,'']]],
-  ['planet_4',['Planet',['../classreplication_1_1Planet.html',1,'replication']]],
-  ['point_5',['point',['../classosmobjects_1_1OsmNode.html#abac518986f396a13c039c04e0691f011',1,'osmobjects::OsmNode']]],
-  ['polygon_6',['polygon',['../classosmobjects_1_1OsmWay.html#ae785c64e015ea8cafed62c578345e5dc',1,'osmobjects::OsmWay']]],
-  ['populate_7',['populate',['../classosmstats_1_1QueryOSMStats.html#a7b10253cbe371d5585a44270946ee536',1,'osmstats::QueryOSMStats']]],
-  ['port_8',['port',['../classreplication_1_1Planet.html#aa8092ecfd1bd0c555e9c3a3cfc2873e5',1,'replication::Planet']]],
-  ['pq_9',['Pq',['../classpq_1_1Pq.html#a256551a25e8a6936004fcaeac380862b',1,'pq::Pq::Pq()'],['../classpq_1_1Pq.html',1,'pq::Pq']]],
-  ['pq_2ehh_10',['pq.hh',['../pq_8hh.html',1,'']]],
-  ['priority_11',['priority',['../classosmobjects_1_1OsmObject.html#a2e418218766d96cc7bb6ee42a43e46ca',1,'osmobjects::OsmObject']]]
+  ['open_0',['open',['../classchangeset_1_1ChangeSet.html#a77a5b6c937061066cff7ed7560572fd0',1,'changeset::ChangeSet']]],
+  ['osm_20stats_1',['OSM Stats',['../md_doc_osmstats.html',1,'']]],
+  ['osm2pgsql_2',['Osm2Pgsql',['../classosm2pgsql_1_1Osm2Pgsql.html#af31b0cd0c457940116080d1bf7bc2e26',1,'osm2pgsql::Osm2Pgsql::Osm2Pgsql()=default'],['../classosm2pgsql_1_1Osm2Pgsql.html#a762b25820c90249c776d97dfa0eb9610',1,'osm2pgsql::Osm2Pgsql::Osm2Pgsql(const std::string &amp;dburl, const std::string &amp;schema=OSM2PGSQL_DEFAULT_SCHEMA_NAME)'],['../classosm2pgsql_1_1Osm2Pgsql.html',1,'osm2pgsql::Osm2Pgsql']]],
+  ['osm2pgsql_2ehh_3',['osm2pgsql.hh',['../osm2pgsql_8hh.html',1,'']]],
+  ['osm2pgsql_5fdefault_5fschema_5fname_4',['OSM2PGSQL_DEFAULT_SCHEMA_NAME',['../classosm2pgsql_1_1Osm2Pgsql.html#a06d08f72de3bedfc4cbb60ccec9bcd51',1,'osm2pgsql::Osm2Pgsql']]],
+  ['osmchange_5',['OsmChange',['../classosmchange_1_1OsmChange.html',1,'osmchange']]],
+  ['osmchange_2ehh_6',['osmchange.hh',['../osmchange_8hh.html',1,'']]],
+  ['osmchangefile_7',['OsmChangeFile',['../classosmchange_1_1OsmChangeFile.html',1,'osmchange']]],
+  ['osmfile_8',['OsmFile',['../classexport_1_1OsmFile.html',1,'export']]],
+  ['osmhandler_9',['OSMHandler',['../classimport_1_1OSMHandler.html',1,'import']]],
+  ['osmnode_10',['OsmNode',['../classosmobjects_1_1OsmNode.html',1,'osmobjects']]],
+  ['osmobject_11',['OsmObject',['../classosmobjects_1_1OsmObject.html',1,'osmobjects']]],
+  ['osmobjects_2ehh_12',['osmobjects.hh',['../osmobjects_8hh.html',1,'']]],
+  ['osmrelation_13',['OsmRelation',['../classosmobjects_1_1OsmRelation.html',1,'osmobjects']]],
+  ['osmrelationmember_14',['OsmRelationMember',['../structosmobjects_1_1OsmRelationMember.html',1,'osmobjects']]],
+  ['osmstats_2ehh_15',['osmstats.hh',['../osmstats_8hh.html',1,'']]],
+  ['osmtype_5ft_16',['osmtype_t',['../osmchange_8hh.html#af02e73fa92b123e0fc4095f07546bae6',1,'osmchange']]],
+  ['osmway_17',['OsmWay',['../classosmobjects_1_1OsmWay.html',1,'osmobjects']]]
 ];

@@ -1,16 +1,10 @@
 var searchData=
 [
-  ['getfirststate_0',['getFirstState',['../classunderpass_1_1Underpass.html#ab6b35ed2b93bcc0a9aab69924cc1dcb2',1,'underpass::Underpass']]],
-  ['getlaststate_1',['getLastState',['../classunderpass_1_1Underpass.html#a0efa2c1f162aad8ca5025a3e5f753ebf',1,'underpass::Underpass']]],
-  ['getlastupdate_2',['getLastUpdate',['../classosm2pgsql_1_1Osm2Pgsql.html#a0a70f67fac0a754ea9a8f5d86a762f96',1,'osm2pgsql::Osm2Pgsql']]],
-  ['getlength_3',['getLength',['../classosmobjects_1_1OsmWay.html#a83e44ab47e820f80d34c36f2fa4fc55a',1,'osmobjects::OsmWay']]],
-  ['getlinks_4',['getLinks',['../classreplication_1_1Planet.html#a7c9017166218618b376fc8647d80d0f4',1,'replication::Planet']]],
-  ['getmajor_5',['getMajor',['../classreplication_1_1StateFile.html#aa6d87f53607a0cf28ae0339026a5b1ec',1,'replication::StateFile']]],
-  ['getrawchangesets_6',['getRawChangeSets',['../classosmstats_1_1QueryOSMStats.html#a8341ae6ad14261de357a62d6db178ceb',1,'osmstats::QueryOSMStats']]],
-  ['getschema_7',['getSchema',['../classosm2pgsql_1_1Osm2Pgsql.html#ae01c99ef8382697bc2f4e94b1b8df20d',1,'osm2pgsql::Osm2Pgsql']]],
-  ['getstate_8',['getState',['../classunderpass_1_1Underpass.html#a28e4d511cbebe802f8b78cd55a5b735a',1,'underpass::Underpass::getState(replication::frequency_t freq, const std::string &amp;path)'],['../classunderpass_1_1Underpass.html#a752f7571a0c80c181746b724f5c84569',1,'underpass::Underpass::getState(replication::frequency_t freq, long sequence)'],['../classunderpass_1_1Underpass.html#a549ff8f39645334481c236bcc958b3c6',1,'underpass::Underpass::getState(replication::frequency_t freq, ptime &amp;tstamp)']]],
-  ['getstategreaterthan_9',['getStateGreaterThan',['../classunderpass_1_1Underpass.html#ab6409922b43fbe568fbc23c981d276b9',1,'underpass::Underpass::getStateGreaterThan(replication::frequency_t freq, ptime &amp;timestamp)'],['../classunderpass_1_1Underpass.html#aa0ce9ec097c988c972e48aa09db242e7',1,'underpass::Underpass::getStateGreaterThan(replication::frequency_t freq, long sequence)']]],
-  ['getstatelessthan_10',['getStateLessThan',['../classunderpass_1_1Underpass.html#a323d632dd64a3acb19d7389f0e06d438',1,'underpass::Underpass::getStateLessThan(replication::frequency_t freq, ptime &amp;timestamp)'],['../classunderpass_1_1Underpass.html#a2fc34d334ca064299feac088ac3a6608',1,'underpass::Underpass::getStateLessThan(replication::frequency_t freq, long sequence)']]],
-  ['getusers_11',['getUsers',['../classtmdb_1_1TaskingManager.html#aabacf7c76c1f3f41980340420f7f9f9b',1,'tmdb::TaskingManager']]],
-  ['getworker_12',['getWorker',['../classtmdb_1_1TaskingManager.html#a85bc4ac8c4489548f89e3e2f9af695b5',1,'tmdb::TaskingManager']]]
+  ['fetchdata_0',['fetchData',['../classreplication_1_1Planet.html#ad55edf343cfd798e3e8347246420a041',1,'replication::Planet::fetchData(frequency_t freq, const std::string &amp;path, const std::string &amp;underpass_dburl=&quot;&quot;)'],['../classreplication_1_1Planet.html#a71779eb8683816eb49949b6f7f823083',1,'replication::Planet::fetchData(frequency_t freq, ptime timestamp, const std::string &amp;underpass_dburl=&quot;&quot;)']]],
+  ['fetchdatafirst_1',['fetchDataFirst',['../classreplication_1_1Planet.html#a7a59214425278b020020ac8745ebd79f',1,'replication::Planet']]],
+  ['fetchdatagreaterthan_2',['fetchDataGreaterThan',['../classreplication_1_1Planet.html#a2d63d98ff30b638b26f68af1e60ebcb2',1,'replication::Planet::fetchDataGreaterThan(frequency_t freq, long sequence, const std::string &amp;underpass_dburl=&quot;&quot;)'],['../classreplication_1_1Planet.html#a50e3c703a751b9e2c681a1cedb05dc53',1,'replication::Planet::fetchDataGreaterThan(frequency_t freq, ptime timestamp, const std::string &amp;underpass_dburl=&quot;&quot;)']]],
+  ['fetchdatalast_3',['fetchDataLast',['../classreplication_1_1Planet.html#a0aa60ba2908814914a52fc41a39d35d2',1,'replication::Planet']]],
+  ['fetchdatalessthan_4',['fetchDataLessThan',['../classreplication_1_1Planet.html#ada8e52f614c69c9681fffe8107896098',1,'replication::Planet']]],
+  ['freq_5ffrom_5fstring_5',['freq_from_string',['../classunderpass_1_1Underpass.html#a0110c122362f45ec2cd64006e3c50209',1,'underpass::Underpass']]],
+  ['freq_5fto_5fstring_6',['freq_to_string',['../classunderpass_1_1Underpass.html#aa2740d15b7b23af700ef2fa663525f16',1,'underpass::Underpass']]]
 ];

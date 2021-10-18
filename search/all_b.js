@@ -1,11 +1,15 @@
 var searchData=
 [
-  ['name_0',['name',['../classosmstats_1_1RawUser.html#abd5295df8fd246a742db0b39035c06c5',1,'osmstats::RawUser::name()'],['../classosmstats_1_1RawHashtag.html#ac68532a5733a4d26af1b61f96162a6f3',1,'osmstats::RawHashtag::name()']]],
-  ['newnode_1',['newNode',['../classosmchange_1_1OsmChange.html#a862a225ed5071a45f80787a98132c3af',1,'osmchange::OsmChange']]],
-  ['newrelation_2',['newRelation',['../classosmchange_1_1OsmChange.html#ac33b2c1ff8f68d7a409a4afa600dfa5d',1,'osmchange::OsmChange']]],
-  ['newway_3',['newWay',['../classosmchange_1_1OsmChange.html#ac951be760d993b88d498b078ff05f5d0',1,'osmchange::OsmChange']]],
-  ['node_4',['node',['../classimport_1_1OSMHandler.html#a836ccc7e2aba9bcc78dfaa2947cfedeb',1,'import::OSMHandler']]],
-  ['nodes_5',['nodes',['../classosmchange_1_1OsmChange.html#a1a3d619ff3b46e1679a1b7a9c30a1524',1,'osmchange::OsmChange']]],
-  ['num_5fchanges_6',['num_changes',['../classchangeset_1_1ChangeSet.html#aab16ec2192fb773e699e12d2d6d44f10',1,'changeset::ChangeSet']]],
-  ['numpoints_7',['numPoints',['../classosmobjects_1_1OsmWay.html#a13a0a60bc79d57b265ce9fe628a34eca',1,'osmobjects::OsmWay']]]
+  ['mappinglevel_0',['MappingLevel',['../structtmdb_1_1TMUser.html#a84ea327cb3324639a240a7dbebeb6ab2',1,'tmdb::TMUser']]],
+  ['max_5flat_1',['max_lat',['../classchangeset_1_1ChangeSet.html#ab9054b0088fa004b7c9b7e050bf6155b',1,'changeset::ChangeSet']]],
+  ['max_5flon_2',['max_lon',['../classchangeset_1_1ChangeSet.html#aed352df72acda9294c30e1174f05f557',1,'changeset::ChangeSet']]],
+  ['members_3',['members',['../classosmobjects_1_1OsmRelation.html#af76ea04a4d6905a532a3d3e19285742a',1,'osmobjects::OsmRelation']]],
+  ['membuf_4',['membuf',['../structreplication_1_1membuf.html',1,'replication']]],
+  ['merge_5',['Merge',['../classstats2galaxy_1_1Merge.html',1,'stats2galaxy']]],
+  ['mergehashtags_6',['mergeHashtags',['../classstats2galaxy_1_1Merge.html#aa19903bdcd1cf2476da2bd2e0d93fd7c',1,'stats2galaxy::Merge']]],
+  ['mergestatistics_7',['mergeStatistics',['../classstats2galaxy_1_1Merge.html#a55c30609d91ee1dfc0e82773d4b158af',1,'stats2galaxy::Merge']]],
+  ['mergetodb_8',['mergeToDB',['../classreplication_1_1Replication.html#aae8314f23da80adf0e4ac88c92d6c40e',1,'replication::Replication']]],
+  ['mergeusers_9',['mergeUsers',['../classstats2galaxy_1_1Merge.html#a9fd069917c1cdf1bb425216b322ded44',1,'stats2galaxy::Merge']]],
+  ['min_5flat_10',['min_lat',['../classchangeset_1_1ChangeSet.html#a875efd22d7d65cfa1f107dadb6b9ed75',1,'changeset::ChangeSet']]],
+  ['min_5flon_11',['min_lon',['../classchangeset_1_1ChangeSet.html#ad246ee10756cfd1e5f52e8480917dbb6',1,'changeset::ChangeSet']]]
 ];

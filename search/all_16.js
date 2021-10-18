@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['_7equeryosmstats_0',['~QueryOSMStats',['../classosmstats_1_1QueryOSMStats.html#a9494f1b4cd710c975ae888c876653456',1,'osmstats::QueryOSMStats']]]
+  ['yaml_0',['Yaml',['../classyaml_1_1Yaml.html',1,'yaml']]],
+  ['yaml_2ecc_1',['yaml.cc',['../yaml_8cc.html',1,'']]],
+  ['yaml_2ehh_2',['yaml.hh',['../yaml_8hh.html',1,'']]]
 ];

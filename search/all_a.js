@@ -1,11 +1,6 @@
 var searchData=
 [
-  ['mappinglevel_0',['MappingLevel',['../structtmdb_1_1TMUser.html#a84ea327cb3324639a240a7dbebeb6ab2',1,'tmdb::TMUser']]],
-  ['max_5flat_1',['max_lat',['../classchangeset_1_1ChangeSet.html#ab9054b0088fa004b7c9b7e050bf6155b',1,'changeset::ChangeSet']]],
-  ['max_5flon_2',['max_lon',['../classchangeset_1_1ChangeSet.html#aed352df72acda9294c30e1174f05f557',1,'changeset::ChangeSet']]],
-  ['members_3',['members',['../classosmobjects_1_1OsmRelation.html#af76ea04a4d6905a532a3d3e19285742a',1,'osmobjects::OsmRelation']]],
-  ['membuf_4',['membuf',['../structreplication_1_1membuf.html',1,'replication']]],
-  ['mergetodb_5',['mergeToDB',['../classreplication_1_1Replication.html#aae8314f23da80adf0e4ac88c92d6c40e',1,'replication::Replication']]],
-  ['min_5flat_6',['min_lat',['../classchangeset_1_1ChangeSet.html#a875efd22d7d65cfa1f107dadb6b9ed75',1,'changeset::ChangeSet']]],
-  ['min_5flon_7',['min_lon',['../classchangeset_1_1ChangeSet.html#ad246ee10756cfd1e5f52e8480917dbb6',1,'changeset::ChangeSet']]]
+  ['linestring_0',['linestring',['../classosmobjects_1_1OsmWay.html#a2fcd1395cf5fb030d398fce6c8fe9be3',1,'osmobjects::OsmWay']]],
+  ['log_1',['log',['../classlogger_1_1LogFile.html#a6075e8cc2a88de65cb60ad6ec17a72ff',1,'logger::LogFile::log(const std::string &amp;label, const std::string &amp;msg)'],['../classlogger_1_1LogFile.html#aa8e78b528f118e46ec4f20832d478b4c',1,'logger::LogFile::log(const std::string &amp;msg)']]],
+  ['logfile_2',['LogFile',['../classlogger_1_1LogFile.html',1,'logger']]]
 ];
