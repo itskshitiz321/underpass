@@ -7,7 +7,7 @@ var searchData=
   ['membuf_4',['membuf',['../structreplication_1_1membuf.html',1,'replication']]],
   ['merge_5',['Merge',['../classstats2galaxy_1_1Merge.html',1,'stats2galaxy']]],
   ['mergehashtags_6',['mergeHashtags',['../classstats2galaxy_1_1Merge.html#aa19903bdcd1cf2476da2bd2e0d93fd7c',1,'stats2galaxy::Merge']]],
-  ['mergestatistics_7',['mergeStatistics',['../classstats2galaxy_1_1Merge.html#a55c30609d91ee1dfc0e82773d4b158af',1,'stats2galaxy::Merge']]],
+  ['mergestatistics_7',['mergeStatistics',['../classstats2galaxy_1_1Merge.html#a234c3990092801c2c1f7d7069355a28e',1,'stats2galaxy::Merge']]],
   ['mergetodb_8',['mergeToDB',['../classreplication_1_1Replication.html#aae8314f23da80adf0e4ac88c92d6c40e',1,'replication::Replication']]],
   ['mergeusers_9',['mergeUsers',['../classstats2galaxy_1_1Merge.html#a9fd069917c1cdf1bb425216b322ded44',1,'stats2galaxy::Merge']]],
   ['min_5flat_10',['min_lat',['../classchangeset_1_1ChangeSet.html#a875efd22d7d65cfa1f107dadb6b9ed75',1,'changeset::ChangeSet']]],

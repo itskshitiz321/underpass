@@ -102,23 +102,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9fd069917c1cdf1bb425216b322ded44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa19903bdcd1cf2476da2bd2e0d93fd7c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstats2galaxy_1_1Merge.html#aa19903bdcd1cf2476da2bd2e0d93fd7c">mergeHashtags</a> (self)</td></tr>
 <tr class="separator:aa19903bdcd1cf2476da2bd2e0d93fd7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55c30609d91ee1dfc0e82773d4b158af"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstats2galaxy_1_1Merge.html#a55c30609d91ee1dfc0e82773d4b158af">mergeStatistics</a> (self)</td></tr>
-<tr class="separator:a55c30609d91ee1dfc0e82773d4b158af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a234c3990092801c2c1f7d7069355a28e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstats2galaxy_1_1Merge.html#a234c3990092801c2c1f7d7069355a28e">mergeStatistics</a> (self, timestamp)</td></tr>
+<tr class="separator:a234c3990092801c2c1f7d7069355a28e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a968d6d457fa2f3c85498f9032f2cccd8"><td class="memItemLeft" align="right" valign="top"><a id="a968d6d457fa2f3c85498f9032f2cccd8" name="a968d6d457fa2f3c85498f9032f2cccd8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>indb</b></td></tr>
 <tr class="separator:a968d6d457fa2f3c85498f9032f2cccd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83231ab0cfb593d03c1b3c426bf7f79a"><td class="memItemLeft" align="right" valign="top"><a id="a83231ab0cfb593d03c1b3c426bf7f79a" name="a83231ab0cfb593d03c1b3c426bf7f79a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>outdb</b></td></tr>
-<tr class="separator:a83231ab0cfb593d03c1b3c426bf7f79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49bffd4a67044a62a1b319245d0c00d8"><td class="memItemLeft" align="right" valign="top"><a id="a49bffd4a67044a62a1b319245d0c00d8" name="a49bffd4a67044a62a1b319245d0c00d8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>countries</b></td></tr>
 <tr class="separator:a49bffd4a67044a62a1b319245d0c00d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a21defac010d0ea39c70ed5431d2f76"><td class="memItemLeft" align="right" valign="top"><a id="a4a21defac010d0ea39c70ed5431d2f76" name="a4a21defac010d0ea39c70ed5431d2f76"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>timer</b></td></tr>
 <tr class="separator:a4a21defac010d0ea39c70ed5431d2f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83231ab0cfb593d03c1b3c426bf7f79a"><td class="memItemLeft" align="right" valign="top"><a id="a83231ab0cfb593d03c1b3c426bf7f79a" name="a83231ab0cfb593d03c1b3c426bf7f79a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>outdb</b></td></tr>
+<tr class="separator:a83231ab0cfb593d03c1b3c426bf7f79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af7ec37c05cc2057af95cd64ceb705c87" name="af7ec37c05cc2057af95cd64ceb705c87"></a>
@@ -158,8 +158,11 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Load a small bounding box for each country using the geoboundaries in the
-osmstats database.</pre> 
+<pre class="fragment">Load a small bounding box for each country using the modified raw_countries
+table. Included in the source code for osm-stats-workers is a GeoJson file with
+the boundries used to display country boundaries. As those boundaries were only
+used by the front end, the boundaries are not in the database. The modified
+raw_countries table is the same data with a new column added for the geometry.</pre> 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -209,8 +212,8 @@ osmstats database.</pre>
 <pre class="fragment">Merge the raw_hashtags table from the leaderboard into osmstats</pre> 
 </div>
 </div>
-<a id="a55c30609d91ee1dfc0e82773d4b158af" name="a55c30609d91ee1dfc0e82773d4b158af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55c30609d91ee1dfc0e82773d4b158af">&#9670;&nbsp;</a></span>mergeStatistics()</h2>
+<a id="a234c3990092801c2c1f7d7069355a28e" name="a234c3990092801c2c1f7d7069355a28e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a234c3990092801c2c1f7d7069355a28e">&#9670;&nbsp;</a></span>mergeStatistics()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,8 +222,18 @@ osmstats database.</pre>
           <td class="memname">def stats2galaxy.Merge.mergeStatistics </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>timestamp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
