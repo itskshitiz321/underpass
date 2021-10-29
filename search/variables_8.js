@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['name_0',['name',['../classosmstats_1_1RawUser.html#abd5295df8fd246a742db0b39035c06c5',1,'osmstats::RawUser::name()'],['../classosmstats_1_1RawHashtag.html#ac68532a5733a4d26af1b61f96162a6f3',1,'osmstats::RawHashtag::name()']]],
-  ['nodes_1',['nodes',['../classosmchange_1_1OsmChange.html#a1a3d619ff3b46e1679a1b7a9c30a1524',1,'osmchange::OsmChange']]],
-  ['num_5fchanges_2',['num_changes',['../classchangeset_1_1ChangeSet.html#aab16ec2192fb773e699e12d2d6d44f10',1,'changeset::ChangeSet']]]
+  ['max_5flat_0',['max_lat',['../classchangeset_1_1ChangeSet.html#ab9054b0088fa004b7c9b7e050bf6155b',1,'changeset::ChangeSet']]],
+  ['max_5flon_1',['max_lon',['../classchangeset_1_1ChangeSet.html#aed352df72acda9294c30e1174f05f557',1,'changeset::ChangeSet']]],
+  ['members_2',['members',['../classosmobjects_1_1OsmRelation.html#af76ea04a4d6905a532a3d3e19285742a',1,'osmobjects::OsmRelation']]],
+  ['min_5flat_3',['min_lat',['../classchangeset_1_1ChangeSet.html#a875efd22d7d65cfa1f107dadb6b9ed75',1,'changeset::ChangeSet']]],
+  ['min_5flon_4',['min_lon',['../classchangeset_1_1ChangeSet.html#ad246ee10756cfd1e5f52e8480917dbb6',1,'changeset::ChangeSet']]]
 ];

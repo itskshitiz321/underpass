@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['uid_0',['uid',['../classosmobjects_1_1OsmObject.html#a577a617e7567238e03ed3c6d2076cb1b',1,'osmobjects::OsmObject::uid()'],['../classchangeset_1_1ChangeSet.html#a80fda7025a99061c0e16558bb8e058bc',1,'changeset::ChangeSet::uid()']]],
-  ['updated_5fat_1',['updated_at',['../classosmstats_1_1RawChangeset.html#ac790559a21b388d7e2f65a688da9e489',1,'osmstats::RawChangeset']]],
-  ['user_2',['user',['../classosmobjects_1_1OsmObject.html#a99255653df8d0b87a260516f12da70ad',1,'osmobjects::OsmObject::user()'],['../classchangeset_1_1ChangeSet.html#ade2f9267a5d0ea6e5fad544fc0e8bfd5',1,'changeset::ChangeSet::user()']]],
-  ['user_5fid_3',['user_id',['../classosmchange_1_1ChangeStats.html#ad1eb19562d9c34992eb98416c0a5aa47',1,'osmchange::ChangeStats::user_id()'],['../classosmstats_1_1RawChangeset.html#a9539fcf160f677961e2f016ae030b933',1,'osmstats::RawChangeset::user_id()']]],
-  ['username_4',['username',['../classosmchange_1_1ChangeStats.html#aaf234598f14c273c57fa927e733f0763',1,'osmchange::ChangeStats']]],
-  ['users_5',['users',['../classosmstats_1_1QueryOSMStats.html#a18d995590716b944ab7f72849432a19e',1,'osmstats::QueryOSMStats']]],
-  ['userstats_6',['userstats',['../classosmchange_1_1OsmChangeFile.html#a74ff278ed630734cf81f76d142106da9',1,'osmchange::OsmChangeFile']]]
+  ['tags_0',['tags',['../classosmobjects_1_1OsmObject.html#aac60ad217c67064456eee7db507b5590',1,'osmobjects::OsmObject']]],
+  ['taskingmanager_5fusers_5fupdate_5ffrequency_1',['taskingmanager_users_update_frequency',['../structreplicatorconfig_1_1ReplicatorConfig.html#a1c248b386fc9574fa10b8c2d6ec0fed1',1,'replicatorconfig::ReplicatorConfig']]],
+  ['timestamp_2',['timestamp',['../classosmobjects_1_1OsmObject.html#aaaba103457dee463d03a16a1271e05cf',1,'osmobjects::OsmObject::timestamp()'],['../classreplication_1_1StateFile.html#af94b5d6554fa9137f644a86ca9a1bcb4',1,'replication::StateFile::timestamp()']]],
+  ['type_3',['type',['../classosmobjects_1_1OsmObject.html#af0b9c6ecc49a372c80939a3ff0c55892',1,'osmobjects::OsmObject::type()'],['../structosmobjects_1_1OsmRelationMember.html#ae838750829ba511757996834f0dab581',1,'osmobjects::OsmRelationMember::type()'],['../classosmchange_1_1OsmChange.html#a589ee7f0ab48cb8462aa628f13dd7272',1,'osmchange::OsmChange::type()']]]
 ];

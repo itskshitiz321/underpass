@@ -85,6 +85,12 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ReplicatorConfig</b> ()</td></tr>
 <tr class="memdesc:a22bdc01154919d9e55992c4e3ebe91b2"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structreplicatorconfig_1_1ReplicatorConfig.html" title="The ReplicatorConfig struct stores replicator configuration.">ReplicatorConfig</a> constructor: will try to initialize from uppercased same-name environment variables prefixed by REPLICATOR_ (e.g. REPLICATOR_OSMSTATS_DB_URL) <br /></td></tr>
 <tr class="separator:a22bdc01154919d9e55992c4e3ebe91b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e2740088ae9c7dac4e8c1533cc838f9"><td class="memItemLeft" align="right" valign="top"><a id="a2e2740088ae9c7dac4e8c1533cc838f9" name="a2e2740088ae9c7dac4e8c1533cc838f9"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getPlanetServerReplicationUrl</b> () const</td></tr>
+<tr class="memdesc:a2e2740088ae9c7dac4e8c1533cc838f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">getPlanetServer returns either the command line supplied planet server replication URL or the first planet server replication URL from the hardcoded server list. <br /></td></tr>
+<tr class="separator:a2e2740088ae9c7dac4e8c1533cc838f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4344931a1b30c0f2e32ff8e2e313b612"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structreplicatorconfig_1_1PlanetServer.html">PlanetServer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structreplicatorconfig_1_1ReplicatorConfig.html#a4344931a1b30c0f2e32ff8e2e313b612">getPlanetServers</a> (frequency_t frequency) const</td></tr>
+<tr class="separator:a4344931a1b30c0f2e32ff8e2e313b612"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2aee6b3021d6ca1afbe9846005683732"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structreplicatorconfig_1_1ReplicatorConfig.html#a2aee6b3021d6ca1afbe9846005683732">dbConfigHelp</a> () const</td></tr>
 <tr class="memdesc:a2aee6b3021d6ca1afbe9846005683732"><td class="mdescLeft">&#160;</td><td class="mdescRight">dbConfigHelp  <a href="structreplicatorconfig_1_1ReplicatorConfig.html#a2aee6b3021d6ca1afbe9846005683732">More...</a><br /></td></tr>
 <tr class="separator:a2aee6b3021d6ca1afbe9846005683732"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -104,17 +110,31 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>taskingmanager
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>osm2pgsql_db_url</b> = &quot;&quot;</td></tr>
 <tr class="separator:aa10901fb7235e5a32e337a4651196c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab43181145daca2ccab434b2ce59ff501"><td class="memItemLeft" align="right" valign="top"><a id="ab43181145daca2ccab434b2ce59ff501" name="ab43181145daca2ccab434b2ce59ff501"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>planet_server</b> = &quot;https://planet.maps.mail.ru&quot;</td></tr>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>planet_server</b></td></tr>
 <tr class="separator:ab43181145daca2ccab434b2ce59ff501"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a9446f3de03ddd6ca31fe237385e3c4"><td class="memItemLeft" align="right" valign="top"><a id="a2a9446f3de03ddd6ca31fe237385e3c4" name="a2a9446f3de03ddd6ca31fe237385e3c4"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>datadir</b></td></tr>
+<tr class="separator:a2a9446f3de03ddd6ca31fe237385e3c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac292ccfc8f71225b0d8906b9e985b4f4"><td class="memItemLeft" align="right" valign="top"><a id="ac292ccfc8f71225b0d8906b9e985b4f4" name="ac292ccfc8f71225b0d8906b9e985b4f4"></a>
+std::vector&lt; <a class="el" href="structreplicatorconfig_1_1PlanetServer.html">PlanetServer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>planet_servers</b></td></tr>
+<tr class="separator:ac292ccfc8f71225b0d8906b9e985b4f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4679acf54a9f4d99e7b3ad58d6cac74e"><td class="memItemLeft" align="right" valign="top"><a id="a4679acf54a9f4d99e7b3ad58d6cac74e" name="a4679acf54a9f4d99e7b3ad58d6cac74e"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>concurrency</b> = 1</td></tr>
+<tr class="separator:a4679acf54a9f4d99e7b3ad58d6cac74e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8e349541c56f0b82b3993e90291201f"><td class="memItemLeft" align="right" valign="top"><a id="ad8e349541c56f0b82b3993e90291201f" name="ad8e349541c56f0b82b3993e90291201f"></a>
 frequency_t&#160;</td><td class="memItemRight" valign="bottom"><b>frequency</b> = frequency_t::minutely</td></tr>
 <tr class="separator:ad8e349541c56f0b82b3993e90291201f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3488851a879ffb5aaef4f81f8efd16c0"><td class="memItemLeft" align="right" valign="top"><a id="a3488851a879ffb5aaef4f81f8efd16c0" name="a3488851a879ffb5aaef4f81f8efd16c0"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>starting_url_path</b> = &quot;&quot;</td></tr>
-<tr class="memdesc:a3488851a879ffb5aaef4f81f8efd16c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starting URL path (e.g. /000/000/001) <br /></td></tr>
-<tr class="separator:a3488851a879ffb5aaef4f81f8efd16c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c248b386fc9574fa10b8c2d6ec0fed1"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structreplicatorconfig_1_1ReplicatorConfig.html#a1c248b386fc9574fa10b8c2d6ec0fed1">taskingmanager_users_update_frequency</a></td></tr>
-<tr class="memdesc:a1c248b386fc9574fa10b8c2d6ec0fed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Users synchronization: -1 (disabled), 0 (single shot), &gt; 0 (interval in seconds)  <a href="structreplicatorconfig_1_1ReplicatorConfig.html#a1c248b386fc9574fa10b8c2d6ec0fed1">More...</a><br /></td></tr>
+<tr class="memitem:ae237120bf5ab74411cca2b0f89bfdef5"><td class="memItemLeft" align="right" valign="top"><a id="ae237120bf5ab74411cca2b0f89bfdef5" name="ae237120bf5ab74411cca2b0f89bfdef5"></a>
+ptime&#160;</td><td class="memItemRight" valign="bottom"><b>start_time</b> = not_a_date_time</td></tr>
+<tr class="memdesc:ae237120bf5ab74411cca2b0f89bfdef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starting time for changesets and OSM changes import. <br /></td></tr>
+<tr class="separator:ae237120bf5ab74411cca2b0f89bfdef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78bd61105dae2c339319d87e02cd6174"><td class="memItemLeft" align="right" valign="top"><a id="a78bd61105dae2c339319d87e02cd6174" name="a78bd61105dae2c339319d87e02cd6174"></a>
+ptime&#160;</td><td class="memItemRight" valign="bottom"><b>end_time</b> = not_a_date_time</td></tr>
+<tr class="memdesc:a78bd61105dae2c339319d87e02cd6174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ending time for changesets and OSM changes import. <br /></td></tr>
+<tr class="separator:a78bd61105dae2c339319d87e02cd6174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c248b386fc9574fa10b8c2d6ec0fed1"><td class="memItemLeft" align="right" valign="top"><a id="a1c248b386fc9574fa10b8c2d6ec0fed1" name="a1c248b386fc9574fa10b8c2d6ec0fed1"></a>
+long&#160;</td><td class="memItemRight" valign="bottom"><b>taskingmanager_users_update_frequency</b> = -1</td></tr>
+<tr class="memdesc:a1c248b386fc9574fa10b8c2d6ec0fed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Users synchronization: -1 (disabled), 0 (single shot), &gt; 0 (interval in seconds) <br /></td></tr>
 <tr class="separator:a1c248b386fc9574fa10b8c2d6ec0fed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -148,22 +168,30 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>starting_url_p
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a1c248b386fc9574fa10b8c2d6ec0fed1" name="a1c248b386fc9574fa10b8c2d6ec0fed1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c248b386fc9574fa10b8c2d6ec0fed1">&#9670;&nbsp;</a></span>taskingmanager_users_update_frequency</h2>
+<a id="a4344931a1b30c0f2e32ff8e2e313b612" name="a4344931a1b30c0f2e32ff8e2e313b612"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4344931a1b30c0f2e32ff8e2e313b612">&#9670;&nbsp;</a></span>getPlanetServers()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">long replicatorconfig::ReplicatorConfig::taskingmanager_users_update_frequency</td>
+          <td class="memname">std::vector&lt; <a class="el" href="structreplicatorconfig_1_1PlanetServer.html">PlanetServer</a> &gt; replicatorconfig::ReplicatorConfig::getPlanetServers </td>
+          <td>(</td>
+          <td class="paramtype">frequency_t&#160;</td>
+          <td class="paramname"><em>frequency</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">        -1</div>
-</div><!-- fragment -->
-<p>Users synchronization: -1 (disabled), 0 (single shot), &gt; 0 (interval in seconds) </p>
+<p >Returns a list of planet servers that support the given frequency. </p>
 
 </div>
 </div>

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['sequence_0',['sequence',['../classreplication_1_1StateFile.html#ac13b736e502fd858d607478570358808',1,'replication::StateFile']]],
-  ['source_1',['source',['../classchangeset_1_1ChangeSet.html#ab188e4039a5f46f9dafb783bd660fe71',1,'changeset::ChangeSet']]],
-  ['starting_5furl_5fpath_2',['starting_url_path',['../structreplicatorconfig_1_1ReplicatorConfig.html#a3488851a879ffb5aaef4f81f8efd16c0',1,'replicatorconfig::ReplicatorConfig']]],
-  ['states_3',['states',['../classreplication_1_1Replication.html#a1adbd500e517618c7039fd416069394e',1,'replication::Replication']]]
+  ['ref_0',['ref',['../structosmobjects_1_1OsmRelationMember.html#a05bb79a935220c8d51da858174d9caec',1,'osmobjects::OsmRelationMember']]],
+  ['refs_1',['refs',['../classosmobjects_1_1OsmWay.html#a806786ac2a18fda3150e33480b6549cf',1,'osmobjects::OsmWay']]],
+  ['relations_2',['relations',['../classosmchange_1_1OsmChange.html#aad182ff531a015f55db5ca0d1eb6d077',1,'osmchange::OsmChange']]],
+  ['role_3',['role',['../structosmobjects_1_1OsmRelationMember.html#ad894132ec90192b65633bbd34e26076b',1,'osmobjects::OsmRelationMember']]]
 ];

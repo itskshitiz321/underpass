@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['ref_0',['ref',['../structosmobjects_1_1OsmRelationMember.html#a05bb79a935220c8d51da858174d9caec',1,'osmobjects::OsmRelationMember']]],
-  ['refs_1',['refs',['../classosmobjects_1_1OsmWay.html#a806786ac2a18fda3150e33480b6549cf',1,'osmobjects::OsmWay']]],
-  ['relations_2',['relations',['../classosmchange_1_1OsmChange.html#aad182ff531a015f55db5ca0d1eb6d077',1,'osmchange::OsmChange']]],
-  ['role_3',['role',['../structosmobjects_1_1OsmRelationMember.html#ad894132ec90192b65633bbd34e26076b',1,'osmobjects::OsmRelationMember']]]
+  ['parse_5ferror_0',['parse_error',['../classchangeset_1_1ChangeSetFile.html#a627cf040b74d449062cb2b576482942c',1,'changeset::ChangeSetFile']]],
+  ['path_1',['path',['../classreplication_1_1StateFile.html#a7a1ebc080d2dc1486e9fb2f516a2fa63',1,'replication::StateFile']]],
+  ['point_2',['point',['../classosmobjects_1_1OsmNode.html#abac518986f396a13c039c04e0691f011',1,'osmobjects::OsmNode']]],
+  ['polygon_3',['polygon',['../classosmobjects_1_1OsmWay.html#ae785c64e015ea8cafed62c578345e5dc',1,'osmobjects::OsmWay']]],
+  ['port_4',['port',['../classreplication_1_1Planet.html#aa8092ecfd1bd0c555e9c3a3cfc2873e5',1,'replication::Planet']]],
+  ['priority_5',['priority',['../classosmobjects_1_1OsmObject.html#a2e418218766d96cc7bb6ee42a43e46ca',1,'osmobjects::OsmObject']]]
 ];

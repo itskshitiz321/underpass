@@ -9,6 +9,6 @@ var searchData=
   ['addref_6',['addRef',['../classosmobjects_1_1OsmWay.html#a7c08aba02b4b4ca50f9daabcb618a99b',1,'osmobjects::OsmWay::addRef()'],['../classosmchange_1_1OsmChange.html#a17eed3f5cffef24191c3f21b352e5005',1,'osmchange::OsmChange::addRef()']]],
   ['addtag_7',['addTag',['../classosmobjects_1_1OsmObject.html#aff542cf48d9489c6ebcb0ffe339c5346',1,'osmobjects::OsmObject::addTag()'],['../classosmchange_1_1OsmChange.html#ae31047767d68437ad3bec8de0f7fd655',1,'osmchange::OsmChange::addTag()']]],
   ['adduser_8',['addUser',['../classosmstats_1_1QueryOSMStats.html#a44fb42216a8c90b6dcafec62ee97f6dc',1,'osmstats::QueryOSMStats']]],
-  ['applychange_9',['applyChange',['../classosmstats_1_1QueryOSMStats.html#a7992cfc3adbd59a4c2ed467617824f79',1,'osmstats::QueryOSMStats']]],
+  ['applychange_9',['applyChange',['../classosmstats_1_1QueryOSMStats.html#a0409437ad2a8d002acb3f56176b9d2d0',1,'osmstats::QueryOSMStats']]],
   ['augmented_5fdiffs_10',['augmented_diffs',['../classosmstats_1_1RawChangeset.html#a05baa93818d78d6c6a3492fbb44a9e44',1,'osmstats::RawChangeset']]]
 ];
