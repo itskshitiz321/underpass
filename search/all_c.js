@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name_0',['name',['../classosmstats_1_1RawUser.html#abd5295df8fd246a742db0b39035c06c5',1,'osmstats::RawUser::name()'],['../classosmstats_1_1RawHashtag.html#ac68532a5733a4d26af1b61f96162a6f3',1,'osmstats::RawHashtag::name()']]],
+  ['name_0',['name',['../classgalaxy_1_1RawUser.html#aa3d83e048cebf8e659b136d974acf0e0',1,'galaxy::RawUser::name()'],['../classgalaxy_1_1RawHashtag.html#a51bc6afe65a7b7bcae2ea38bc176d5ea',1,'galaxy::RawHashtag::name()']]],
   ['newnode_1',['newNode',['../classosmchange_1_1OsmChange.html#a862a225ed5071a45f80787a98132c3af',1,'osmchange::OsmChange']]],
   ['newrelation_2',['newRelation',['../classosmchange_1_1OsmChange.html#ac33b2c1ff8f68d7a409a4afa600dfa5d',1,'osmchange::OsmChange']]],
   ['newway_3',['newWay',['../classosmchange_1_1OsmChange.html#ac951be760d993b88d498b078ff05f5d0',1,'osmchange::OsmChange']]],

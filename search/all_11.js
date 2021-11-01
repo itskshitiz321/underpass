@@ -18,6 +18,6 @@ var searchData=
   ['statefile_15',['StateFile',['../classreplication_1_1StateFile.html',1,'replication::StateFile'],['../classreplication_1_1StateFile.html#acc9bad0bf7ae87a3c30989d40c3d6c1e',1,'replication::StateFile::StateFile(void)'],['../classreplication_1_1StateFile.html#a94940d5ec293d407443da8b5eea7e480',1,'replication::StateFile::StateFile(const std::string &amp;file, bool memory)']]],
   ['states_16',['states',['../classreplication_1_1Replication.html#a1adbd500e517618c7039fd416069394e',1,'replication::Replication']]],
   ['statistics_20calculations_17',['Statistics Calculations',['../md_doc_statistics.html',1,'']]],
-  ['syncresult_18',['SyncResult',['../structosmstats_1_1QueryOSMStats_1_1SyncResult.html',1,'osmstats::QueryOSMStats']]],
-  ['syncusers_19',['syncUsers',['../classosmstats_1_1QueryOSMStats.html#a498c31fc4fcab144efd774ffe42d735a',1,'osmstats::QueryOSMStats']]]
+  ['syncresult_18',['SyncResult',['../structgalaxy_1_1QueryGalaxy_1_1SyncResult.html',1,'galaxy::QueryGalaxy']]],
+  ['syncusers_19',['syncUsers',['../classgalaxy_1_1QueryGalaxy.html#ae5816c7e12fea8f1c247a4c0c6dd2c7b',1,'galaxy::QueryGalaxy']]]
 ];

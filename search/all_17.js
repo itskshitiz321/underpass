@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_7equeryosmstats_0',['~QueryOSMStats',['../classosmstats_1_1QueryOSMStats.html#a9494f1b4cd710c975ae888c876653456',1,'osmstats::QueryOSMStats']]]
+  ['_7equerygalaxy_0',['~QueryGalaxy',['../classgalaxy_1_1QueryGalaxy.html#a57a6e0ae154c4865ed85bc2ee6f4724b',1,'galaxy::QueryGalaxy']]]
 ];

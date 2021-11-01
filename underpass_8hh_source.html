@@ -127,8 +127,8 @@ $(function() {
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">using</span> tcp = net::ip::tcp;</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#include &quot;<a class="code" href="pq_8hh.html">data/pq.hh</a>&quot;</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#include &quot;<a class="code" href="osmstats_8hh.html">osmstats/osmstats.hh</a>&quot;</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#include &quot;<a class="code" href="replication_8hh.html">osmstats/replication.hh</a>&quot;</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#include &quot;<a class="code" href="galaxy_8hh.html">galaxy/galaxy.hh</a>&quot;</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#include &quot;<a class="code" href="replication_8hh.html">galaxy/replication.hh</a>&quot;</span></div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keyword">namespace </span>replication {</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keyword">class </span>StateFile;</div>
@@ -175,7 +175,7 @@ $(function() {
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    std::shared_ptr&lt;replication::StateFile&gt;</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    <a class="code hl_function" href="classunderpass_1_1Underpass.html#ab6b35ed2b93bcc0a9aab69924cc1dcb2">getFirstState</a>(replication::frequency_t freq);</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    std::shared_ptr&lt;osmstats::RawCountry&gt;</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    std::shared_ptr&lt;galaxy::RawCountry&gt;</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    getCountry(<span class="keywordtype">double</span> max_lat, <span class="keywordtype">double</span> max_lon, <span class="keywordtype">double</span> min_lat, <span class="keywordtype">double</span> min_lon);</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    std::string parsePath(<span class="keyword">const</span> std::string &amp;url)</div>
@@ -211,6 +211,11 @@ $(function() {
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>} <span class="comment">// namespace underpass</span></div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
 <div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span><span class="preprocessor">#endif </span><span class="comment">// EOF __UNDERPASS_HH__</span></div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span><span class="comment">// local Variables:</span></div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span><span class="comment">// mode: C++</span></div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span><span class="comment">// indent-tabs-mode: t</span></div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span><span class="comment">// End:</span></div>
 <div class="ttc" id="aclasspq_1_1Pq_html"><div class="ttname"><a href="classpq_1_1Pq.html">pq::Pq</a></div><div class="ttdef"><b>Definition:</b> pq.hh:43</div></div>
 <div class="ttc" id="aclassreplication_1_1StateFile_html"><div class="ttname"><a href="classreplication_1_1StateFile.html">replication::StateFile</a></div><div class="ttdoc">Data structure for state.txt files.</div><div class="ttdef"><b>Definition:</b> replication.hh:100</div></div>
 <div class="ttc" id="aclassunderpass_1_1Underpass_html"><div class="ttname"><a href="classunderpass_1_1Underpass.html">underpass::Underpass</a></div><div class="ttdef"><b>Definition:</b> underpass.hh:76</div></div>
@@ -224,7 +229,7 @@ $(function() {
 <div class="ttc" id="aclassunderpass_1_1Underpass_html_ab6409922b43fbe568fbc23c981d276b9"><div class="ttname"><a href="classunderpass_1_1Underpass.html#ab6409922b43fbe568fbc23c981d276b9">underpass::Underpass::getStateGreaterThan</a></div><div class="ttdeci">std::shared_ptr&lt; replication::StateFile &gt; getStateGreaterThan(replication::frequency_t freq, ptime &amp;timestamp)</div><div class="ttdoc">Get the state.txt data greater than timestamp.</div><div class="ttdef"><b>Definition:</b> underpass.cc:133</div></div>
 <div class="ttc" id="aclassunderpass_1_1Underpass_html_ab6b35ed2b93bcc0a9aab69924cc1dcb2"><div class="ttname"><a href="classunderpass_1_1Underpass.html#ab6b35ed2b93bcc0a9aab69924cc1dcb2">underpass::Underpass::getFirstState</a></div><div class="ttdeci">std::shared_ptr&lt; replication::StateFile &gt; getFirstState(replication::frequency_t freq)</div><div class="ttdoc">Get the minimum timestamp for the state.txt data.</div><div class="ttdef"><b>Definition:</b> underpass.cc:243</div></div>
 <div class="ttc" id="aclassunderpass_1_1Underpass_html_ab8d3926eda69fe9e37ae5ad1edd24ce4"><div class="ttname"><a href="classunderpass_1_1Underpass.html#ab8d3926eda69fe9e37ae5ad1edd24ce4">underpass::Underpass::writeState</a></div><div class="ttdeci">bool writeState(replication::StateFile &amp;state)</div><div class="ttdef"><b>Definition:</b> underpass.cc:169</div></div>
-<div class="ttc" id="aosmstats_8hh_html"><div class="ttname"><a href="osmstats_8hh.html">osmstats.hh</a></div><div class="ttdoc">This file is used to work with the OSM Stats database.</div></div>
+<div class="ttc" id="agalaxy_8hh_html"><div class="ttname"><a href="galaxy_8hh.html">galaxy.hh</a></div><div class="ttdoc">This file is used to work with the OSM Stats database.</div></div>
 <div class="ttc" id="apq_8hh_html"><div class="ttname"><a href="pq_8hh.html">pq.hh</a></div><div class="ttdoc">Pq for monitoring the OSM planet server for replication files.</div></div>
 <div class="ttc" id="areplication_8hh_html"><div class="ttname"><a href="replication_8hh.html">replication.hh</a></div><div class="ttdoc">This class downloads replication files, and adds them to the database.</div></div>
 </div><!-- fragment --></div><!-- contents -->

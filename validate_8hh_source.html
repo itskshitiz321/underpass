@@ -267,7 +267,7 @@ $(function() {
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    <span class="comment">// This test only applies to buildings, as highways often overlap.</span></div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    <a class="code hl_class" href="classyaml_1_1Yaml.html">yaml::Yaml</a> tests = yamls[<span class="stringliteral">&quot;building&quot;</span>];</div>
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>    <span class="keywordflow">if</span> (tests.getConfig(<span class="stringliteral">&quot;overlaps&quot;</span>) == <span class="stringliteral">&quot;yes&quot;</span>) {</div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="preprocessor">#if TIMING_DEBUG_X</span></div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="preprocessor">#if TIMING_DEBUG</span></div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>        boost::timer::auto_cpu_timer timer(<span class="stringliteral">&quot;validate::overlaps: took %w seconds\n&quot;</span>);</div>
 <div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> nit = std::begin(allways); nit != std::end(allways); ++nit) {</div>

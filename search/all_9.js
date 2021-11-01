@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['id_0',['id',['../classosmobjects_1_1OsmObject.html#ab800a67aa9359b7b2f4bbe2dcd04fe23',1,'osmobjects::OsmObject::id()'],['../classchangeset_1_1ChangeSet.html#a7bfc2b565c25766a73ff46e3bee49af8',1,'changeset::ChangeSet::id()'],['../classosmstats_1_1RawChangeset.html#a373c97ca4b7f5b226c4f3aab89d45c60',1,'osmstats::RawChangeset::id()'],['../classosmstats_1_1RawUser.html#af5621c4d2240ffac60b73af987aed7e2',1,'osmstats::RawUser::id()'],['../classosmstats_1_1RawHashtag.html#a7eb94b6f33ad9415d76a55f18109c8aa',1,'osmstats::RawHashtag::id()']]],
+  ['id_0',['id',['../classosmobjects_1_1OsmObject.html#ab800a67aa9359b7b2f4bbe2dcd04fe23',1,'osmobjects::OsmObject::id()'],['../classchangeset_1_1ChangeSet.html#a7bfc2b565c25766a73ff46e3bee49af8',1,'changeset::ChangeSet::id()'],['../classgalaxy_1_1RawChangeset.html#a11965862379e9f292f85c0916b0db719',1,'galaxy::RawChangeset::id()'],['../classgalaxy_1_1RawUser.html#a9963cf720118f91454a4e1eb6406787a',1,'galaxy::RawUser::id()'],['../classgalaxy_1_1RawHashtag.html#ad752bd691943538d5829e2d2263f94c0',1,'galaxy::RawHashtag::id()']]],
   ['import_2ehh_1',['import.hh',['../import_8hh.html',1,'']]],
   ['importchanges_2',['importChanges',['../classchangeset_1_1ChangeSetFile.html#aa49b23e51eaf4904c3a13ed368046880',1,'changeset::ChangeSetFile']]],
   ['importosm_3',['ImportOSM',['../classimport_1_1ImportOSM.html',1,'import::ImportOSM'],['../classimport_1_1ImportOSM.html#afd1b0aef2bef0f61a345981c86cc5c28',1,'import::ImportOSM::ImportOSM()']]],

@@ -93,7 +93,7 @@ $(function() {
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &quot;<a class="code" href="underpass_8hh.html">data/underpass.hh</a>&quot;</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;<a class="code" href="replication_8hh.html">osmstats/replication.hh</a>&quot;</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;<a class="code" href="replication_8hh.html">galaxy/replication.hh</a>&quot;</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &lt;boost/format.hpp&gt;</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">using namespace </span>replication;</div>
@@ -140,8 +140,8 @@ $(function() {
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="structreplicatorconfig_1_1ReplicatorConfig.html#a22bdc01154919d9e55992c4e3ebe91b2">  100</a></span>    <a class="code hl_function" href="structreplicatorconfig_1_1ReplicatorConfig.html#a22bdc01154919d9e55992c4e3ebe91b2">ReplicatorConfig</a>()</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    {</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        <span class="keywordflow">if</span> (getenv(<span class="stringliteral">&quot;REPLICATOR_OSMSTATS_DB_URL&quot;</span>)) {</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>            osmstats_db_url = getenv(<span class="stringliteral">&quot;REPLICATOR_OSMSTATS_DB_URL&quot;</span>);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        <span class="keywordflow">if</span> (getenv(<span class="stringliteral">&quot;REPLICATOR_GALAXY_DB_URL&quot;</span>)) {</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>            galaxy_db_url = getenv(<span class="stringliteral">&quot;REPLICATOR_GALAXY_DB_URL&quot;</span>);</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>        }</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        <span class="keywordflow">if</span> (getenv(<span class="stringliteral">&quot;REPLICATOR_TASKINGMANAGER_DB_URL&quot;</span>)) {</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>            taskingmanager_db_url = getenv(<span class="stringliteral">&quot;REPLICATOR_TASKINGMANAGER_DB_URL&quot;</span>);</div>
@@ -185,7 +185,7 @@ $(function() {
 <div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    };</div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    std::string underpass_db_url = <span class="stringliteral">&quot;localhost/underpass&quot;</span>;</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    std::string osmstats_db_url = <span class="stringliteral">&quot;localhost/osmstats&quot;</span>;</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    std::string galaxy_db_url = <span class="stringliteral">&quot;localhost/galaxy&quot;</span>;</div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    std::string taskingmanager_db_url = <span class="stringliteral">&quot;localhost/taskingmanager&quot;</span>;</div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    std::string osm2pgsql_db_url = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    std::string planet_server;</div>
@@ -219,13 +219,13 @@ $(function() {
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno"><a class="line" href="structreplicatorconfig_1_1ReplicatorConfig.html#a2aee6b3021d6ca1afbe9846005683732">  190</a></span>    std::string <a class="code hl_function" href="structreplicatorconfig_1_1ReplicatorConfig.html#a2aee6b3021d6ca1afbe9846005683732">dbConfigHelp</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>        <span class="keywordflow">return</span> str(format(R<span class="stringliteral">&quot;raw(</span></div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span><span class="stringliteral">REPLICATOR_OSMSTATS_DB_URL=%1%</span></div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span><span class="stringliteral">REPLICATOR_GALAXY_DB_URL=%1%</span></div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span><span class="stringliteral">REPLICATOR_UNDERPASS_DB_URL=%2%</span></div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span><span class="stringliteral">REPLICATOR_TASKINGMANAGER_DB_URL=%3%</span></div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span><span class="stringliteral">REPLICATOR_OSM2PGSQL_DB_URL=%3%</span></div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span><span class="stringliteral">REPLICATOR_FREQUENCY=%4%</span></div>
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span><span class="stringliteral">REPLICATOR_TASKINGMANAGER_USERS_UPDATE_FREQUENCY=%5%</span></div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span><span class="stringliteral">      )raw&quot;) % osmstats_db_url %</span></div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span><span class="stringliteral">      )raw&quot;) % galaxy_db_url %</span></div>
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span><span class="stringliteral">                   underpass_db_url % taskingmanager_db_url % osm2pgsql_db_url %</span></div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span><span class="stringliteral">                   Underpass::freq_to_string(frequency) % <a class="code hl_variable" href="structreplicatorconfig_1_1ReplicatorConfig.html#a1c248b386fc9574fa10b8c2d6ec0fed1">taskingmanager_users_update_frequency</a>);</span></div>
 <div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span><span class="stringliteral">    };</span></div>
@@ -234,6 +234,11 @@ $(function() {
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span><span class="stringliteral">} </span><span class="comment">// namespace replicatorconfig</span></div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span><span class="preprocessor">#endif </span><span class="comment">// EOF __REPLICATOR_CONFIG_HH__</span></div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span> </div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="comment">// local Variables:</span></div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span><span class="comment">// mode: C++</span></div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span><span class="comment">// indent-tabs-mode: t</span></div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span><span class="comment">// End:</span></div>
 <div class="ttc" id="areplication_8hh_html"><div class="ttname"><a href="replication_8hh.html">replication.hh</a></div><div class="ttdoc">This class downloads replication files, and adds them to the database.</div></div>
 <div class="ttc" id="astructreplicatorconfig_1_1PlanetServer_html"><div class="ttname"><a href="structreplicatorconfig_1_1PlanetServer.html">replicatorconfig::PlanetServer</a></div><div class="ttdoc">The PlanetServer struct represents a planet server.</div><div class="ttdef"><b>Definition:</b> replicatorconfig.hh:40</div></div>
 <div class="ttc" id="astructreplicatorconfig_1_1PlanetServer_html_a352159e0966b04f935b4f34e60a2c984"><div class="ttname"><a href="structreplicatorconfig_1_1PlanetServer.html#a352159e0966b04f935b4f34e60a2c984">replicatorconfig::PlanetServer::replicationUrl</a></div><div class="ttdeci">std::string replicationUrl() const</div><div class="ttdoc">baseUrl returns the full base url including the datadir (e.g. &quot;https://free.nchc.org....</div><div class="ttdef"><b>Definition:</b> replicatorconfig.hh:85</div></div>

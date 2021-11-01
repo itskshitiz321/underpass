@@ -1,0 +1,4 @@
+<map id="galaxy::QueryGalaxy" name="galaxy::QueryGalaxy">
+<area shape="rect" id="node1" title="This handles all direct database access." alt="" coords="5,80,143,107"/>
+<area shape="rect" id="node2" href="$classpq_1_1Pq.html" title=" " alt="" coords="45,5,103,32"/>
+</map>

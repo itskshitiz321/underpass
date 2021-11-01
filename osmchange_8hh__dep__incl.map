@@ -1,11 +1,11 @@
-<map id="osmstats/osmchange.hh" name="osmstats/osmchange.hh">
-<area shape="rect" id="node1" title="This file parses a change file in the OsmChange format." alt="" coords="86,6,250,33"/>
+<map id="galaxy/osmchange.hh" name="galaxy/osmchange.hh">
+<area shape="rect" id="node1" title="This file parses a change file in the OsmChange format." alt="" coords="95,6,241,33"/>
 <area shape="rect" id="node2" href="$osm2pgsql_8hh.html" title="Manages a osm2pgsql DB." alt="" coords="5,230,136,257"/>
-<area shape="rect" id="node4" href="$osmstats_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="234,81,385,108"/>
-<area shape="rect" id="node3" href="$threads_8hh.html" title="Threads for monitoring/synchronizing various data sources:" alt="" coords="199,454,310,481"/>
+<area shape="rect" id="node4" href="$galaxy_8hh.html" title="This file is used to work with the OSM Stats database." alt="" coords="252,81,367,108"/>
+<area shape="rect" id="node3" href="$threads_8hh.html" title="Threads for monitoring/synchronizing various data sources:" alt="" coords="197,454,307,481"/>
 <area shape="rect" id="node5" href="$geoutil_8hh.html" title="This file parses a data file containing boundaries." alt="" coords="211,156,317,182"/>
-<area shape="rect" id="node6" href="$underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="272,305,400,332"/>
-<area shape="rect" id="node8" href="$changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="392,156,549,182"/>
-<area shape="rect" id="node7" href="$replicatorconfig_8hh_source.html" title=" " alt="" coords="273,380,399,406"/>
-<area shape="rect" id="node9" href="$replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="393,230,549,257"/>
+<area shape="rect" id="node6" href="$underpass_8hh.html" title="Underpass for monitoring the OSM planet server for replication files." alt="" coords="268,305,396,332"/>
+<area shape="rect" id="node8" href="$changeset_8hh.html" title="The file is used for processing changeset files." alt="" coords="392,156,531,182"/>
+<area shape="rect" id="node7" href="$replicatorconfig_8hh_source.html" title=" " alt="" coords="269,380,395,406"/>
+<area shape="rect" id="node9" href="$replication_8hh.html" title="This class downloads replication files, and adds them to the database." alt="" coords="392,230,531,257"/>
 </map>

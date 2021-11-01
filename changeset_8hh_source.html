@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Underpass: osmstats/changeset.hh Source File</title>
+<title>Underpass: galaxy/changeset.hh Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,7 +62,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_78e46d8605585e6ddbdd5d7ae8c2e4c7.html">osmstats</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_60db4da4e6f1f6662322ef474b5019af.html">galaxy</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -115,10 +115,10 @@ $(function() {
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">using namespace </span>boost::gregorian;</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#include &quot;<a class="code" href="osmobjects_8hh.html">data/osmobjects.hh</a>&quot;</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#include &quot;<a class="code" href="osmstats_8hh.html">osmstats/osmstats.hh</a>&quot;</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#include &quot;<a class="code" href="galaxy_8hh.html">galaxy/galaxy.hh</a>&quot;</span></div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">// Forward declaration</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">namespace </span>osmstats {</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">namespace </span>galaxy {</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">class </span>RawCountry;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>};</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
@@ -151,7 +151,7 @@ $(function() {
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="classchangeset_1_1ChangeSet.html#ac4ed564f0bef5c8be0c7506c8ad511c0">  105</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classchangeset_1_1ChangeSet.html#ac4ed564f0bef5c8be0c7506c8ad511c0">addEditor</a>(std::string text) { <a class="code hl_variable" href="classchangeset_1_1ChangeSet.html#ac88a56a713214c51b3adb9cc555c8abf">editor</a> = fixString(text); };</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="comment">// osmstats::RawCountry country;</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="comment">// galaxy::RawCountry country;</span></div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keywordtype">int</span> countryid = -1;</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="comment">// protected so testcases can access private data</span></div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="comment">// protected:</span></div>
@@ -234,6 +234,11 @@ $(function() {
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>} <span class="comment">// namespace changeset</span></div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span><span class="preprocessor">#endif </span><span class="comment">// EOF __CHANGESET_HH__</span></div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span> </div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="comment">// local Variables:</span></div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span><span class="comment">// mode: C++</span></div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span><span class="comment">// indent-tabs-mode: t</span></div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span><span class="comment">// End:</span></div>
 <div class="ttc" id="aclasschangeset_1_1ChangeSetFile_html"><div class="ttname"><a href="classchangeset_1_1ChangeSetFile.html">changeset::ChangeSetFile</a></div><div class="ttdoc">This file reads a changeset file.</div><div class="ttdef"><b>Definition:</b> changeset.hh:152</div></div>
 <div class="ttc" id="aclasschangeset_1_1ChangeSetFile_html_a13b28357b5c27785afa3aa52d1fb68a6"><div class="ttname"><a href="classchangeset_1_1ChangeSetFile.html#a13b28357b5c27785afa3aa52d1fb68a6">changeset::ChangeSetFile::changes</a></div><div class="ttdeci">std::list&lt; std::shared_ptr&lt; ChangeSet &gt; &gt; changes</div><div class="ttdoc">Storage of all the changes in this data.</div><div class="ttdef"><b>Definition:</b> changeset.hh:193</div></div>
 <div class="ttc" id="aclasschangeset_1_1ChangeSetFile_html_a5b1292516092e604f092b66520639e4b"><div class="ttname"><a href="classchangeset_1_1ChangeSetFile.html#a5b1292516092e604f092b66520639e4b">changeset::ChangeSetFile::readXML</a></div><div class="ttdeci">bool readXML(std::istream &amp;xml)</div><div class="ttdoc">Read an istream of the data and parse the XML.</div><div class="ttdef"><b>Definition:</b> changeset.cc:325</div></div>
@@ -263,8 +268,8 @@ $(function() {
 <div class="ttc" id="aclasschangeset_1_1ChangeSet_html_afaab3e91d75cabe40cbc599ab91b807d"><div class="ttname"><a href="classchangeset_1_1ChangeSet.html#afaab3e91d75cabe40cbc599ab91b807d">changeset::ChangeSet::addComment</a></div><div class="ttdeci">void addComment(std::string text)</div><div class="ttdoc">Add the comment field, which is often used for hashtags.</div><div class="ttdef"><b>Definition:</b> changeset.hh:102</div></div>
 <div class="ttc" id="aclasschangeset_1_1ChangeSet_html_afcf540e20008ffdb7ce777c9556052b8"><div class="ttname"><a href="classchangeset_1_1ChangeSet.html#afcf540e20008ffdb7ce777c9556052b8">changeset::ChangeSet::comments_count</a></div><div class="ttdeci">int comments_count</div><div class="ttdef"><b>Definition:</b> changeset.hh:128</div></div>
 <div class="ttc" id="aclasschangeset_1_1ChangeSet_html_aff8d2330dc6e5d112298e327557860b1"><div class="ttname"><a href="classchangeset_1_1ChangeSet.html#aff8d2330dc6e5d112298e327557860b1">changeset::ChangeSet::closed_at</a></div><div class="ttdeci">ptime closed_at</div><div class="ttdoc">Creation ending timestamp for this changeset.</div><div class="ttdef"><b>Definition:</b> changeset.hh:114</div></div>
+<div class="ttc" id="agalaxy_8hh_html"><div class="ttname"><a href="galaxy_8hh.html">galaxy.hh</a></div><div class="ttdoc">This file is used to work with the OSM Stats database.</div></div>
 <div class="ttc" id="aosmobjects_8hh_html"><div class="ttname"><a href="osmobjects_8hh.html">osmobjects.hh</a></div><div class="ttdoc">Data structures for OSM objects.</div></div>
-<div class="ttc" id="aosmstats_8hh_html"><div class="ttname"><a href="osmstats_8hh.html">osmstats.hh</a></div><div class="ttdoc">This file is used to work with the OSM Stats database.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

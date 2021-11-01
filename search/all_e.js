@@ -9,7 +9,7 @@ var searchData=
   ['planetserver_6',['PlanetServer',['../structreplicatorconfig_1_1PlanetServer.html#a3c7e29d991e1fda8bc280d173ae02b19',1,'replicatorconfig::PlanetServer::PlanetServer()'],['../structreplicatorconfig_1_1PlanetServer.html',1,'replicatorconfig::PlanetServer']]],
   ['point_7',['point',['../classosmobjects_1_1OsmNode.html#abac518986f396a13c039c04e0691f011',1,'osmobjects::OsmNode']]],
   ['polygon_8',['polygon',['../classosmobjects_1_1OsmWay.html#ae785c64e015ea8cafed62c578345e5dc',1,'osmobjects::OsmWay']]],
-  ['populate_9',['populate',['../classosmstats_1_1QueryOSMStats.html#a7b10253cbe371d5585a44270946ee536',1,'osmstats::QueryOSMStats']]],
+  ['populate_9',['populate',['../classgalaxy_1_1QueryGalaxy.html#aeefc5fd8d83379d734a80635689d894b',1,'galaxy::QueryGalaxy']]],
   ['port_10',['port',['../classreplication_1_1Planet.html#aa8092ecfd1bd0c555e9c3a3cfc2873e5',1,'replication::Planet']]],
   ['pq_11',['Pq',['../classpq_1_1Pq.html#a256551a25e8a6936004fcaeac380862b',1,'pq::Pq::Pq()'],['../classpq_1_1Pq.html',1,'pq::Pq']]],
   ['pq_2ehh_12',['pq.hh',['../pq_8hh.html',1,'']]],

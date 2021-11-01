@@ -1,10 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="node1" href="$classpq_1_1Pq.html" title=" " alt="" coords="5,81,64,108"/>
-<area shape="rect" id="node2" href="$classTestPQ.html" title=" " alt="" coords="167,5,234,32"/>
-<area shape="rect" id="node3" href="$classosm2pgsql_1_1Osm2Pgsql.html" title="The Osm2Pgsql class handles the communication with an osm2pgsql DB." alt="" coords="121,56,280,83"/>
-<area shape="rect" id="node5" href="$classosmstats_1_1QueryOSMStats.html" title="This handles all direct database access." alt="" coords="112,107,289,133"/>
-<area shape="rect" id="node8" href="$classunderpass_1_1Underpass.html" title=" " alt="" coords="125,157,276,184"/>
-<area shape="rect" id="node4" href="$classTestOsm2Pgsql.html" title=" " alt="" coords="337,56,453,83"/>
-<area shape="rect" id="node6" href="$classTestOSMStats.html" title=" " alt="" coords="341,107,450,133"/>
-<area shape="rect" id="node7" href="$classTestStats.html" title=" " alt="" coords="356,157,435,184"/>
+<area shape="rect" id="node2" href="$classTestPQ.html" title=" " alt="" coords="158,5,225,32"/>
+<area shape="rect" id="node3" href="$classgalaxy_1_1QueryGalaxy.html" title="This handles all direct database access." alt="" coords="123,56,260,83"/>
+<area shape="rect" id="node4" href="$classosm2pgsql_1_1Osm2Pgsql.html" title="The Osm2Pgsql class handles the communication with an osm2pgsql DB." alt="" coords="112,107,271,133"/>
+<area shape="rect" id="node6" href="$classunderpass_1_1Underpass.html" title=" " alt="" coords="116,157,267,184"/>
+<area shape="rect" id="node5" href="$classTestOsm2Pgsql.html" title=" " alt="" coords="319,107,435,133"/>
 </map>
