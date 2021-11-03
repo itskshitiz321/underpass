@@ -2,7 +2,8 @@
 <area shape="rect" id="node1" href="$classpq_1_1Pq.html" title=" " alt="" coords="5,81,64,108"/>
 <area shape="rect" id="node2" href="$classTestPQ.html" title=" " alt="" coords="158,5,225,32"/>
 <area shape="rect" id="node3" href="$classgalaxy_1_1QueryGalaxy.html" title="This handles all direct database access." alt="" coords="123,56,260,83"/>
-<area shape="rect" id="node4" href="$classosm2pgsql_1_1Osm2Pgsql.html" title="The Osm2Pgsql class handles the communication with an osm2pgsql DB." alt="" coords="112,107,271,133"/>
-<area shape="rect" id="node6" href="$classunderpass_1_1Underpass.html" title=" " alt="" coords="116,157,267,184"/>
-<area shape="rect" id="node5" href="$classTestOsm2Pgsql.html" title=" " alt="" coords="319,107,435,133"/>
+<area shape="rect" id="node5" href="$classosm2pgsql_1_1Osm2Pgsql.html" title="The Osm2Pgsql class handles the communication with an osm2pgsql DB." alt="" coords="112,107,271,133"/>
+<area shape="rect" id="node7" href="$classunderpass_1_1Underpass.html" title=" " alt="" coords="116,157,267,184"/>
+<area shape="rect" id="node4" href="$classTestOSMStats.html" title=" " alt="" coords="322,56,431,83"/>
+<area shape="rect" id="node6" href="$classTestOsm2Pgsql.html" title=" " alt="" coords="319,107,435,133"/>
 </map>
