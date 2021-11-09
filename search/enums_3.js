@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['role_0',['Role',['../structtmdb_1_1TMUser.html#ad03044a3e1435154fe2555b0198a84bf',1,'tmdb::TMUser']]]
+  ['osmtype_5ft_0',['osmtype_t',['../osmchange_8hh.html#af02e73fa92b123e0fc4095f07546bae6',1,'osmchange']]]
 ];

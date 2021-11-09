@@ -5,7 +5,7 @@ var searchData=
   ['rawuser_2',['RawUser',['../classgalaxy_1_1RawUser.html',1,'galaxy::RawUser'],['../classgalaxy_1_1RawUser.html#a7f049d34761cd2bdd05dea38d5e6b208',1,'galaxy::RawUser::RawUser(pqxx::const_result_iterator &amp;res)'],['../classgalaxy_1_1RawUser.html#a7672ab0ee67b8976b4b74716ff93b8a3',1,'galaxy::RawUser::RawUser(long uid, const std::string &amp;tag)']]],
   ['readchanges_3',['readChanges',['../classreplication_1_1Replication.html#a81153fa11deced6e2ec3a65f2f30146d',1,'replication::Replication::readChanges()'],['../classosmchange_1_1OsmChangeFile.html#a05b82fdc84bfb6bdeb4f001dedf7d6e9',1,'osmchange::OsmChangeFile::readChanges()'],['../classchangeset_1_1ChangeSetFile.html#a5d1560c7e9654659e44931a4ef446276',1,'changeset::ChangeSetFile::readChanges(const std::string &amp;file)'],['../classchangeset_1_1ChangeSetFile.html#aee5dbdec972dcc0e4268786b1d229604',1,'changeset::ChangeSetFile::readChanges(const std::vector&lt; unsigned char &gt; &amp;buffer)']]],
   ['readfile_4',['readFile',['../classgeoutil_1_1GeoUtil.html#a7ad01bf20c59ad9ceed2eb3278e99fb6',1,'geoutil::GeoUtil']]],
-  ['readxml_5',['readXML',['../classosmchange_1_1OsmChangeFile.html#abfeaa6d42a7f2397a9dcf32e34efe222',1,'osmchange::OsmChangeFile::readXML()'],['../classchangeset_1_1ChangeSetFile.html#a5b1292516092e604f092b66520639e4b',1,'changeset::ChangeSetFile::readXML()']]],
+  ['readxml_5',['readXML',['../classchangeset_1_1ChangeSetFile.html#a5b1292516092e604f092b66520639e4b',1,'changeset::ChangeSetFile::readXML()'],['../classosmchange_1_1OsmChangeFile.html#abfeaa6d42a7f2397a9dcf32e34efe222',1,'osmchange::OsmChangeFile::readXML()']]],
   ['ref_6',['ref',['../structosmobjects_1_1OsmRelationMember.html#a05bb79a935220c8d51da858174d9caec',1,'osmobjects::OsmRelationMember']]],
   ['refs_7',['refs',['../classosmobjects_1_1OsmWay.html#a806786ac2a18fda3150e33480b6549cf',1,'osmobjects::OsmWay']]],
   ['relation_8',['relation',['../classimport_1_1OSMHandler.html#a4ae8c2f7c01733b7f68b70edc5a0d0df',1,'import::OSMHandler']]],
@@ -21,6 +21,5 @@ var searchData=
   ['replicationurl_18',['replicationUrl',['../structreplicatorconfig_1_1PlanetServer.html#a352159e0966b04f935b4f34e60a2c984',1,'replicatorconfig::PlanetServer']]],
   ['replicator_19',['Replicator',['../md_doc_replicator.html',1,'(Global Namespace)'],['../classReplicator.html#aaaefceec6c7310eb88e14c57942bfa09',1,'Replicator::Replicator()'],['../classReplicator.html',1,'Replicator']]],
   ['replicatorconfig_20',['ReplicatorConfig',['../structreplicatorconfig_1_1ReplicatorConfig.html#a22bdc01154919d9e55992c4e3ebe91b2',1,'replicatorconfig::ReplicatorConfig::ReplicatorConfig()'],['../structreplicatorconfig_1_1ReplicatorConfig.html',1,'replicatorconfig::ReplicatorConfig']]],
-  ['role_21',['role',['../structosmobjects_1_1OsmRelationMember.html#ad894132ec90192b65633bbd34e26076b',1,'osmobjects::OsmRelationMember']]],
-  ['role_22',['Role',['../structtmdb_1_1TMUser.html#ad03044a3e1435154fe2555b0198a84bf',1,'tmdb::TMUser']]]
+  ['role_21',['role',['../structosmobjects_1_1OsmRelationMember.html#ad894132ec90192b65633bbd34e26076b',1,'osmobjects::OsmRelationMember']]]
 ];
