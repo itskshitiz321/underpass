@@ -252,6 +252,8 @@ users table</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">gender   </td><td class="markdownTableBodyNone">The mappers gender, when available    </td></tr>
 <tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">age   </td><td class="markdownTableBodyNone">The age (optional) of the mapper    </td></tr>
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">home   </td><td class="markdownTableBodyNone">The mappers home location, when available   </td></tr>
 </table>
 <h2><a class="anchor" id="autotoc_md58"></a>
@@ -281,17 +283,13 @@ training data table</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">local   </td><td class="markdownTableBodyNone">Whether it was a local training, or remote    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">organization   </td><td class="markdownTableBodyNone">The organization doing the training    </td></tr>
+<td class="markdownTableBodyNone">oid   </td><td class="markdownTableBodyNone">The ID for the organization doing the training    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">tools   </td><td class="markdownTableBodyNone">The software tools covered in the training    </td></tr>
+<td class="markdownTableBodyNone">topics   </td><td class="markdownTableBodyNone">The topics covered in the training    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">teams   </td><td class="markdownTableBodyNone">The teams the mapper is a member of    </td></tr>
+<td class="markdownTableBodyNone">hours   </td><td class="markdownTableBodyNone">The hours of training (optional)    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">gender   </td><td class="markdownTableBodyNone">The self-defined gender (optional) of the mapper    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">hours   </td><td class="markdownTableBodyNone">The hours of training    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">age   </td><td class="markdownTableBodyNone">The age (optional) of the mapper   </td></tr>
+<td class="markdownTableBodyNone">timestamp   </td><td class="markdownTableBodyNone">When was this training done ?   </td></tr>
 </table>
 <h2><a class="anchor" id="autotoc_md60"></a>
 validation data table</h2>
@@ -299,22 +297,40 @@ validation data table</h2>
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Keyword   </th><th class="markdownTableHeadNone">Description    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">osm_id   </td><td class="markdownTableBodyNone">The OSM ID of this feature    </td></tr>
+<td class="markdownTableBodyNone">name   </td><td class="markdownTableBodyNone">The name of this training session    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">user_id   </td><td class="markdownTableBodyNone">The user ID editing this feature    </td></tr>
+<td class="markdownTableBodyNone">local   </td><td class="markdownTableBodyNone">A flag for ground mapping or remote mapping    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">change_id   </td><td class="markdownTableBodyNone">The Changeset ID of this feature    </td></tr>
+<td class="markdownTableBodyNone">oid   </td><td class="markdownTableBodyNone">The ID of the organization doing the training    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">objtype   </td><td class="markdownTableBodyNone">The type of opbjecct, node, way, or relation    </td></tr>
+<td class="markdownTableBodyNone">tools   </td><td class="markdownTableBodyNone">The tools this class did training on    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">angle   </td><td class="markdownTableBodyNone">The angle of the first corner (current DEBUG only!)    </td></tr>
+<td class="markdownTableBodyNone">hours   </td><td class="markdownTableBodyNone">How many hours was the training    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">status[]   </td><td class="markdownTableBodyNone">An array of flagged issues is the feature    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">timestamp   </td><td class="markdownTableBodyNone">The time of this validation    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">location   </td><td class="markdownTableBodyNone">The centroid of this feature   </td></tr>
+<td class="markdownTableBodyNone">timestamp   </td><td class="markdownTableBodyNone">The time of this training session   </td></tr>
 </table>
+<h2><a class="anchor" id="autotoc_md61"></a>
+Organization data table</h2>
+<p >The organization table requires two defined type fields, which are created first:</p>
+<p >Unit type of the organization:</p>
+<ul>
+<li>country</li>
+<li>region</li>
+<li>microgrant</li>
+<li>organization</li>
+<li>osm</li>
+<li>boundary</li>
+<li>campaign</li>
+<li>hot</li>
+</ul>
+<p >Segment type of the organization:</p>
+<ul>
+<li>new_existing</li>
+<li>youth_mappers</li>
+<li>ngo</li>
+<li>government</li>
+</ul>
+<p >Keyword | Description -----&mdash;|---------&mdash; name text, oid int, unit units, trainee segments </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->

@@ -74,18 +74,18 @@ $(function() {
 </li>
 </ul>
 <p >A pre-built image of <code>underpass-build-deps.dockerfile</code> is available on Docker Hub as <code>elpaso/underpass-build-deps:focal</code>.</p>
-<h1><a class="anchor" id="autotoc_md67"></a>
+<h1><a class="anchor" id="autotoc_md68"></a>
 Build image</h1>
 <p ><code>docker build -t elpaso/underpass-build-deps:focal -f underpass-build-deps.dockerfile .</code></p>
-<h1><a class="anchor" id="autotoc_md68"></a>
+<h1><a class="anchor" id="autotoc_md69"></a>
 Docker compose</h1>
 <p >The docker composition is used in a GH workflow for continuous integration testing.</p>
 <p >Inside the containers, the source code tee is mounted as <code>/code</code>/.</p>
-<h2><a class="anchor" id="autotoc_md69"></a>
+<h2><a class="anchor" id="autotoc_md70"></a>
 Running the composition</h2>
 <div class="fragment"><div class="line">$ cd docker</div>
 <div class="line">$ docker-compose up</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md70"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md71"></a>
 Running commands in the container</h2>
 <p >Commands can be executed from the host in the containers, for example you can open a shell in the container with:</p>
 <div class="fragment"><div class="line">$ docker-compose -f docker/docker-compose.yml exec bash</div>
